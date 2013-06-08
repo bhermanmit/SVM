@@ -1,6 +1,7 @@
 objects = \
 constants.o \
 error.o \
+finalize.o \
 global.o \
 initialize.o \
 input_xml.o \

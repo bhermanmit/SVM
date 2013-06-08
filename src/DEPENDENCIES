@@ -1,5 +1,7 @@
 error.o: global.o
 
+finalize.o: global.o
+
 global.o: constants.o
 global.o: svm_interface.o
 
@@ -15,7 +17,9 @@ input_xml.o: error.o
 input_xml.o: global.o
 input_xml.o: output.o
 input_xml.o: templates/data_t.o
+input_xml.o: templates/settings_t.o
 
+main.o: finalize.o
 main.o: initialize.o
 
 output.o: constants.o

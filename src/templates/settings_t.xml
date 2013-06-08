@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<template>
+
+  <options rootname="settings" />
+
+  <variable name="npts_train_" tag="npts_train" type="integer" />
+
+</template>

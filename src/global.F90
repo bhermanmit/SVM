@@ -13,6 +13,10 @@ module global
   type(svm_problem) :: data_train
   type(svm_problem) :: data_predict
 
+  ! Number of training points, rest are used for predicting
+  integer :: npts
+  integer :: npts_train
+
 contains
 
 !===============================================================================
@@ -21,6 +25,12 @@ contains
 !===============================================================================
 
   subroutine free_memory()
+
+    ! deallocate data points
+    deallocate(data_train % y)
+    deallocate(data_train % x)
+    deallocate(data_predict % y)
+    deallocate(data_predict % x)
  
   end subroutine free_memory
 

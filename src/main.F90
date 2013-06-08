@@ -1,5 +1,6 @@
 program main
 
+  use finalize,    only: finalize_run
   use initialize,  only: initialize_run
 
   implicit none
@@ -7,9 +8,7 @@ program main
   ! initialize program
   call initialize_run() 
 
-  ! call training
-
-  ! call prediction
-
+  ! finalize program
+  call finalize_run() 
 
 end program main
