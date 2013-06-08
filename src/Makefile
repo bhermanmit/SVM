@@ -1,6 +1,11 @@
 program = svm
 prefix = /usr/local
 
+templates = $(wildcard templates/*.o)
+xml_fort = xml-fortran/xmlparse.o \
+           xml-fortran/read_xml_primitives.o \
+           xml-fortran/write_xml_primitives.o
+
 #===============================================================================
 # Object Files
 #===============================================================================
@@ -220,9 +225,29 @@ endif
 # Targets
 #===============================================================================
 
-all: $(program)
+all: xml-fortran $(program)
+xml-fortran:
+	cd xml-fortran; make MACHINE=$(MACHINE) F90=$(F90) F90FLAGS="$(F90FLAGS)"
+	cd templates; make F90=$(F90) F90FLAGS="$(F90FLAGS)"
 $(program): $(objects)
-	$(F90) $(objects) $(LDFLAGS) -o $@
+	$(F90) $(objects) $(templates) $(xml_fort) $(LDFLAGS) -o $@
+install:
+	@install -D $(program) $(DESTDIR)$(prefix)/bin/$(program)
+	@install -D utils/statepoint_cmp.py $(DESTDIR)$(prefix)/bin/statepoint_cmp
+	@install -D utils/statepoint_histogram.py $(DESTDIR)$(prefix)/bin/statepoint_histogram
+	@install -D utils/statepoint_meshplot.py $(DESTDIR)$(prefix)/bin/statepoint_meshplot
+	@install -D ../man/man1/openmc.1 $(DESTDIR)$(prefix)/share/man/man1/openmc.1
+	@install -D ../LICENSE $(DESTDIR)$(prefix)/share/doc/$(program)/copyright
+uninstall:
+	@rm $(DESTDIR)$(prefix)/bin/$(program)
+	@rm $(DESTDIR)$(prefix)/bin/statepoint_cmp
+	@rm $(DESTDIR)$(prefix)/bin/statepoint_histogram
+	@rm $(DESTDIR)$(prefix)/bin/statepoint_meshplot
+	@rm $(DESTDIR)$(prefix)/share/man/man1/openmc.1
+	@rm $(DESTDIR)$(prefix)/share/doc/$(program)/copyright
+distclean: clean
+	cd xml-fortran; make clean
+	cd templates; make clean
 clean:
 	@rm -f *.o *.mod $(program)
 neat:
@@ -233,10 +258,10 @@ neat:
 #===============================================================================
 
 .SUFFIXES: .F90 .o
-.PHONY: all clean neat
+.PHONY: all xml-fortran install uninstall clean neat distclean 
 
 %.o: %.F90
-	$(F90) $(F90FLAGS) -DGIT_SHA1="\"$(GIT_SHA1)\"" -c $<
+	$(F90) $(F90FLAGS) -DGIT_SHA1="\"$(GIT_SHA1)\"" -Ixml-fortran -Itemplates -c $<
 
 #===============================================================================
 # Dependencies

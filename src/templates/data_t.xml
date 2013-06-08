@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<template>
+
+  <!-- This is the template for reading data points for SVM -->
+
+  <options rootname="data" />
+
+  <!-- Type for specifying an x input parameter -->
+
+  <typedef name="xinput_xml">
+    <component name="index" type="integer" />
+    <component name="value" type="double"  />
+  </typedef>
+
+  <!-- Type for specifying an input datapoint -->
+
+  <typedef name="datapt_xml">
+    <component name="yvalue"  type="double" />
+    <component name="xinputs" tag="xinput" type="xinput_xml" dimension="1" />
+  </typedef>
+
+  <variable name="datapt_" tag="datapt" type="datapt_xml" dimension="1" />
+
+</template>

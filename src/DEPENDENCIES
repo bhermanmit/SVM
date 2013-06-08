@@ -1,0 +1,27 @@
+error.o: global.o
+
+global.o: constants.o
+
+initialize.o: constants.o
+initialize.o: error.o
+initialize.o: global.o
+initialize.o: input_xml.o
+initialize.o: output.o
+initialize.o: string.o
+
+input_xml.o: constants.o
+input_xml.o: error.o
+input_xml.o: global.o
+input_xml.o: output.o
+input_xml.o: templates/data_t.o
+
+main.o: initialize.o
+
+output.o: constants.o
+output.o: global.o
+output.o: string.o
+
+string.o: constants.o
+string.o: error.o
+string.o: global.o
+

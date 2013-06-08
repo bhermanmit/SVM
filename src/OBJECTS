@@ -1,2 +1,9 @@
 objects = \
-main.o
+constants.o \
+error.o \
+global.o \
+initialize.o \
+input_xml.o \
+main.o \
+output.o \
+string.o
