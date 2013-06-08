@@ -6,4 +6,5 @@ initialize.o \
 input_xml.o \
 main.o \
 output.o \
-string.o
+string.o \
+svm_interface.o
