@@ -41,5 +41,5 @@ for data in dataList:
 outStr += "</data>"
 
 # write file
-with open(filename+'.xml','w') as fh:
+with open('data.xml','w') as fh:
   fh.write(outStr)
