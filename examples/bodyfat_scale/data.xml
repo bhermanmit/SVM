@@ -1,0 +1,4288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+ <datapt yvalue="1.0708" id="1">
+   <xinput index="1" value="-0.482105" />
+   <xinput index="2" value="-0.966102" />
+   <xinput index="3" value="-0.707746" />
+   <xinput index="4" value="0.585492" />
+   <xinput index="5" value="-0.492537" />
+   <xinput index="6" value="-0.514938" />
+   <xinput index="7" value="-0.598475" />
+   <xinput index="8" value="-0.69697" />
+   <xinput index="9" value="-0.411471" />
+   <xinput index="10" value="-0.465839" />
+   <xinput index="11" value="-0.621622" />
+   <xinput index="12" value="-0.287129" />
+   <xinput index="13" value="-0.0791367" />
+   <xinput index="14" value="-0.535714" />
+ </datapt>
+
+ <datapt yvalue="1.0853" id="2">
+   <xinput index="1" value="-0.743158" />
+   <xinput index="2" value="-1" />
+   <xinput index="3" value="-0.552422" />
+   <xinput index="4" value="0.772021" />
+   <xinput index="5" value="-0.263682" />
+   <xinput index="6" value="-0.497364" />
+   <xinput index="7" value="-0.654384" />
+   <xinput index="8" value="-0.562998" />
+   <xinput index="9" value="-0.426434" />
+   <xinput index="10" value="-0.465839" />
+   <xinput index="11" value="-0.418919" />
+   <xinput index="12" value="-0.435644" />
+   <xinput index="13" value="0.136691" />
+   <xinput index="14" value="-0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0414" id="3">
+   <xinput index="1" value="0.0652632" />
+   <xinput index="2" value="-1" />
+   <xinput index="3" value="-0.709789" />
+   <xinput index="4" value="0.523316" />
+   <xinput index="5" value="-0.711443" />
+   <xinput index="6" value="-0.420035" />
+   <xinput index="7" value="-0.52986" />
+   <xinput index="8" value="-0.547049" />
+   <xinput index="9" value="-0.381546" />
+   <xinput index="10" value="-0.267081" />
+   <xinput index="11" value="-0.337838" />
+   <xinput index="12" value="-0.60396" />
+   <xinput index="13" value="-0.395683" />
+   <xinput index="14" value="-0.714286" />
+ </datapt>
+
+ <datapt yvalue="1.0751" id="4">
+   <xinput index="1" value="-0.562105" />
+   <xinput index="2" value="-0.864407" />
+   <xinput index="3" value="-0.45841" />
+   <xinput index="4" value="0.772021" />
+   <xinput index="5" value="-0.373134" />
+   <xinput index="6" value="-0.209139" />
+   <xinput index="7" value="-0.56798" />
+   <xinput index="8" value="-0.483254" />
+   <xinput index="9" value="-0.356608" />
+   <xinput index="10" value="-0.465839" />
+   <xinput index="11" value="-0.5" />
+   <xinput index="12" value="-0.247525" />
+   <xinput index="13" value="0.208633" />
+   <xinput index="14" value="-0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.034" id="5">
+   <xinput index="1" value="0.208421" />
+   <xinput index="2" value="-0.932203" />
+   <xinput index="3" value="-0.462497" />
+   <xinput index="4" value="0.73057" />
+   <xinput index="5" value="-0.671642" />
+   <xinput index="6" value="-0.367311" />
+   <xinput index="7" value="-0.222363" />
+   <xinput index="8" value="-0.460925" />
+   <xinput index="9" value="-0.201995" />
+   <xinput index="10" value="0.142857" />
+   <xinput index="11" value="-0.337838" />
+   <xinput index="12" value="-0.267327" />
+   <xinput index="13" value="-0.0359712" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0502" id="6">
+   <xinput index="1" value="-0.12" />
+   <xinput index="2" value="-0.932203" />
+   <xinput index="3" value="-0.249949" />
+   <xinput index="4" value="0.875648" />
+   <xinput index="5" value="-0.21393" />
+   <xinput index="6" value="-0.114236" />
+   <xinput index="7" value="-0.364676" />
+   <xinput index="8" value="-0.272727" />
+   <xinput index="9" value="-0.0623441" />
+   <xinput index="10" value="0.118012" />
+   <xinput index="11" value="-0.121622" />
+   <xinput index="12" value="0.0792079" />
+   <xinput index="13" value="0.381295" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0549" id="7">
+   <xinput index="1" value="-0.191579" />
+   <xinput index="2" value="-0.864407" />
+   <xinput index="3" value="-0.489066" />
+   <xinput index="4" value="0.668394" />
+   <xinput index="5" value="-0.472637" />
+   <xinput index="6" value="-0.0931459" />
+   <xinput index="7" value="-0.458704" />
+   <xinput index="8" value="-0.511962" />
+   <xinput index="9" value="-0.441397" />
+   <xinput index="10" value="-0.341615" />
+   <xinput index="11" value="-0.486486" />
+   <xinput index="12" value="-0.29703" />
+   <xinput index="13" value="-0.0215827" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0704" id="8">
+   <xinput index="1" value="-0.477895" />
+   <xinput index="2" value="-0.898305" />
+   <xinput index="3" value="-0.529941" />
+   <xinput index="4" value="0.782383" />
+   <xinput index="5" value="-0.333333" />
+   <xinput index="6" value="-0.286467" />
+   <xinput index="7" value="-0.514612" />
+   <xinput index="8" value="-0.614035" />
+   <xinput index="9" value="-0.361596" />
+   <xinput index="10" value="-0.204969" />
+   <xinput index="11" value="-0.445946" />
+   <xinput index="12" value="-0.435644" />
+   <xinput index="13" value="0.151079" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.09" id="9">
+   <xinput index="1" value="-0.827368" />
+   <xinput index="2" value="-0.898305" />
+   <xinput index="3" value="-0.407317" />
+   <xinput index="4" value="0.84456" />
+   <xinput index="5" value="-0.303483" />
+   <xinput index="6" value="-0.240773" />
+   <xinput index="7" value="-0.66709" />
+   <xinput index="8" value="-0.524721" />
+   <xinput index="9" value="-0.216958" />
+   <xinput index="10" value="-0.341615" />
+   <xinput index="11" value="-0.364865" />
+   <xinput index="12" value="0.0990099" />
+   <xinput index="13" value="0.453237" />
+   <xinput index="14" value="-0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0722" id="10">
+   <xinput index="1" value="-0.507368" />
+   <xinput index="2" value="-0.966102" />
+   <xinput index="3" value="-0.348048" />
+   <xinput index="4" value="0.823834" />
+   <xinput index="5" value="0.0945274" />
+   <xinput index="6" value="-0.286467" />
+   <xinput index="7" value="-0.512071" />
+   <xinput index="8" value="-0.39075" />
+   <xinput index="9" value="-0.206983" />
+   <xinput index="10" value="0.0807453" />
+   <xinput index="11" value="-0.202703" />
+   <xinput index="12" value="0.0693069" />
+   <xinput index="13" value="0.294964" />
+   <xinput index="14" value="0.214286" />
+ </datapt>
+
+ <datapt yvalue="1.083" id="11">
+   <xinput index="1" value="-0.701053" />
+   <xinput index="2" value="-0.864407" />
+   <xinput index="3" value="-0.446148" />
+   <xinput index="4" value="0.865285" />
+   <xinput index="5" value="-0.263682" />
+   <xinput index="6" value="-0.219684" />
+   <xinput index="7" value="-0.639136" />
+   <xinput index="8" value="-0.578947" />
+   <xinput index="9" value="-0.376559" />
+   <xinput index="10" value="-0.167702" />
+   <xinput index="11" value="-0.175676" />
+   <xinput index="12" value="-0.207921" />
+   <xinput index="13" value="0.208633" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0812" id="12">
+   <xinput index="1" value="-0.671579" />
+   <xinput index="2" value="-0.830508" />
+   <xinput index="3" value="-0.202943" />
+   <xinput index="4" value="0.927461" />
+   <xinput index="5" value="-0.174129" />
+   <xinput index="6" value="-0.14587" />
+   <xinput index="7" value="-0.453621" />
+   <xinput index="8" value="-0.275917" />
+   <xinput index="9" value="-0.0523691" />
+   <xinput index="10" value="-0.229814" />
+   <xinput index="11" value="-0.0810811" />
+   <xinput index="12" value="0.227723" />
+   <xinput index="13" value="0.323741" />
+   <xinput index="14" value="0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0513" id="13">
+   <xinput index="1" value="-0.124211" />
+   <xinput index="2" value="-0.661017" />
+   <xinput index="3" value="-0.493153" />
+   <xinput index="4" value="0.658031" />
+   <xinput index="5" value="-0.273632" />
+   <xinput index="6" value="-0.202109" />
+   <xinput index="7" value="-0.435832" />
+   <xinput index="8" value="-0.397129" />
+   <xinput index="9" value="-0.19202" />
+   <xinput index="10" value="-0.341615" />
+   <xinput index="11" value="-0.675676" />
+   <xinput index="12" value="-0.237624" />
+   <xinput index="13" value="0.0935252" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0505" id="14">
+   <xinput index="1" value="-0.107368" />
+   <xinput index="2" value="-0.728814" />
+   <xinput index="3" value="-0.290824" />
+   <xinput index="4" value="0.73057" />
+   <xinput index="5" value="-0.174129" />
+   <xinput index="6" value="-0.128295" />
+   <xinput index="7" value="-0.17662" />
+   <xinput index="8" value="-0.247209" />
+   <xinput index="9" value="-0.0623441" />
+   <xinput index="10" value="0.0559006" />
+   <xinput index="11" value="-0.378378" />
+   <xinput index="12" value="0.19802" />
+   <xinput index="13" value="0.52518" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0484" id="15">
+   <xinput index="1" value="-0.0694737" />
+   <xinput index="2" value="-0.559322" />
+   <xinput index="3" value="-0.433885" />
+   <xinput index="4" value="0.658031" />
+   <xinput index="5" value="-0.0646766" />
+   <xinput index="6" value="-0.226714" />
+   <xinput index="7" value="-0.31385" />
+   <xinput index="8" value="-0.518341" />
+   <xinput index="9" value="0.0872818" />
+   <xinput index="10" value="-0.254658" />
+   <xinput index="11" value="-0.459459" />
+   <xinput index="12" value="0.118812" />
+   <xinput index="13" value="0.366906" />
+   <xinput index="14" value="-0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0512" id="16">
+   <xinput index="1" value="-0.12" />
+   <xinput index="2" value="-0.559322" />
+   <xinput index="3" value="-0.638259" />
+   <xinput index="4" value="0.512953" />
+   <xinput index="5" value="-0.472637" />
+   <xinput index="6" value="-0.304042" />
+   <xinput index="7" value="-0.405337" />
+   <xinput index="8" value="-0.547049" />
+   <xinput index="9" value="-0.206983" />
+   <xinput index="10" value="-0.291925" />
+   <xinput index="11" value="-0.648649" />
+   <xinput index="12" value="-0.376238" />
+   <xinput index="13" value="-0.223022" />
+   <xinput index="14" value="-0.607143" />
+ </datapt>
+
+ <datapt yvalue="1.0333" id="17">
+   <xinput index="1" value="0.221053" />
+   <xinput index="2" value="-0.59322" />
+   <xinput index="3" value="-0.368486" />
+   <xinput index="4" value="0.720207" />
+   <xinput index="5" value="-0.223881" />
+   <xinput index="6" value="-0.205624" />
+   <xinput index="7" value="-0.31385" />
+   <xinput index="8" value="-0.355662" />
+   <xinput index="9" value="-0.122195" />
+   <xinput index="10" value="-0.0310559" />
+   <xinput index="11" value="-0.459459" />
+   <xinput index="12" value="0.128713" />
+   <xinput index="13" value="0.410072" />
+   <xinput index="14" value="-0.464286" />
+ </datapt>
+
+ <datapt yvalue="1.0468" id="18">
+   <xinput index="1" value="-0.0357895" />
+   <xinput index="2" value="-0.661017" />
+   <xinput index="3" value="-0.258124" />
+   <xinput index="4" value="0.720207" />
+   <xinput index="5" value="0.0945274" />
+   <xinput index="6" value="-0.00527241" />
+   <xinput index="7" value="-0.285896" />
+   <xinput index="8" value="-0.298246" />
+   <xinput index="9" value="-0.0174564" />
+   <xinput index="10" value="-0.130435" />
+   <xinput index="11" value="-0.283784" />
+   <xinput index="12" value="0.326733" />
+   <xinput index="13" value="0.52518" />
+   <xinput index="14" value="0.25" />
+ </datapt>
+
+ <datapt yvalue="1.0622" id="19">
+   <xinput index="1" value="-0.326316" />
+   <xinput index="2" value="-0.79661" />
+   <xinput index="3" value="-0.466585" />
+   <xinput index="4" value="0.585492" />
+   <xinput index="5" value="-0.313433" />
+   <xinput index="6" value="-0.0333919" />
+   <xinput index="7" value="-0.486658" />
+   <xinput index="8" value="-0.444976" />
+   <xinput index="9" value="-0.15212" />
+   <xinput index="10" value="-0.291925" />
+   <xinput index="11" value="-0.486486" />
+   <xinput index="12" value="0.227723" />
+   <xinput index="13" value="0.366906" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.061" id="20">
+   <xinput index="1" value="-0.305263" />
+   <xinput index="2" value="-0.627119" />
+   <xinput index="3" value="-0.237686" />
+   <xinput index="4" value="0.823834" />
+   <xinput index="5" value="-0.114428" />
+   <xinput index="6" value="-0.0544815" />
+   <xinput index="7" value="-0.209657" />
+   <xinput index="8" value="-0.23445" />
+   <xinput index="9" value="-0.0723192" />
+   <xinput index="10" value="-0.0559006" />
+   <xinput index="11" value="-0.337838" />
+   <xinput index="12" value="0.217822" />
+   <xinput index="13" value="0.309353" />
+   <xinput index="14" value="-0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0551" id="21">
+   <xinput index="1" value="-0.195789" />
+   <xinput index="2" value="-0.79661" />
+   <xinput index="3" value="-0.505416" />
+   <xinput index="4" value="0.595855" />
+   <xinput index="5" value="-0.20398" />
+   <xinput index="6" value="-0.156415" />
+   <xinput index="7" value="-0.326557" />
+   <xinput index="8" value="-0.365231" />
+   <xinput index="9" value="-0.187032" />
+   <xinput index="10" value="-0.378882" />
+   <xinput index="11" value="-0.594595" />
+   <xinput index="12" value="-0.237624" />
+   <xinput index="13" value="0.338129" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.064" id="22">
+   <xinput index="1" value="-0.36" />
+   <xinput index="2" value="-0.79661" />
+   <xinput index="3" value="-0.329655" />
+   <xinput index="4" value="0.668394" />
+   <xinput index="5" value="0.0149254" />
+   <xinput index="6" value="0.128295" />
+   <xinput index="7" value="-0.252859" />
+   <xinput index="8" value="-0.368421" />
+   <xinput index="9" value="-0.19202" />
+   <xinput index="10" value="-0.0559006" />
+   <xinput index="11" value="-0.256757" />
+   <xinput index="12" value="-0.188119" />
+   <xinput index="13" value="0.697842" />
+   <xinput index="14" value="0.464286" />
+ </datapt>
+
+ <datapt yvalue="1.0631" id="23">
+   <xinput index="1" value="-0.343158" />
+   <xinput index="2" value="-0.694915" />
+   <xinput index="3" value="-0.822195" />
+   <xinput index="4" value="0.606218" />
+   <xinput index="5" value="-0.721393" />
+   <xinput index="6" value="-0.764499" />
+   <xinput index="7" value="-0.822109" />
+   <xinput index="8" value="-0.69378" />
+   <xinput index="9" value="-0.491272" />
+   <xinput index="10" value="-0.714286" />
+   <xinput index="11" value="-0.581081" />
+   <xinput index="12" value="-0.693069" />
+   <xinput index="13" value="-0.294964" />
+   <xinput index="14" value="-0.678571" />
+ </datapt>
+
+ <datapt yvalue="1.0584" id="24">
+   <xinput index="1" value="-0.254737" />
+   <xinput index="2" value="-0.661017" />
+   <xinput index="3" value="-0.752708" />
+   <xinput index="4" value="0.678756" />
+   <xinput index="5" value="-0.562189" />
+   <xinput index="6" value="-0.739895" />
+   <xinput index="7" value="-0.730623" />
+   <xinput index="8" value="-0.732057" />
+   <xinput index="9" value="-0.61596" />
+   <xinput index="10" value="-0.602484" />
+   <xinput index="11" value="-0.594595" />
+   <xinput index="12" value="-0.50495" />
+   <xinput index="13" value="-0.179856" />
+   <xinput index="14" value="-0.535714" />
+ </datapt>
+
+ <datapt yvalue="1.0668" id="25">
+   <xinput index="1" value="-0.410526" />
+   <xinput index="2" value="-0.79661" />
+   <xinput index="3" value="-0.732271" />
+   <xinput index="4" value="0.585492" />
+   <xinput index="5" value="-0.661692" />
+   <xinput index="6" value="-0.616872" />
+   <xinput index="7" value="-0.824651" />
+   <xinput index="8" value="-0.655502" />
+   <xinput index="9" value="-0.441397" />
+   <xinput index="10" value="-0.689441" />
+   <xinput index="11" value="-0.486486" />
+   <xinput index="12" value="-0.376238" />
+   <xinput index="13" value="0.00719424" />
+   <xinput index="14" value="-0.357143" />
+ </datapt>
+
+ <datapt yvalue="1.0911" id="26">
+   <xinput index="1" value="-0.844211" />
+   <xinput index="2" value="-0.830508" />
+   <xinput index="3" value="-0.666871" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="-0.542289" />
+   <xinput index="6" value="-0.637961" />
+   <xinput index="7" value="-0.738247" />
+   <xinput index="8" value="-0.633174" />
+   <xinput index="9" value="-0.610973" />
+   <xinput index="10" value="-0.540373" />
+   <xinput index="11" value="-0.540541" />
+   <xinput index="12" value="-0.49505" />
+   <xinput index="13" value="0.0359712" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0811" id="27">
+   <xinput index="1" value="-0.667368" />
+   <xinput index="2" value="-0.59322" />
+   <xinput index="3" value="-0.893726" />
+   <xinput index="4" value="0.57513" />
+   <xinput index="5" value="-0.492537" />
+   <xinput index="6" value="-0.673111" />
+   <xinput index="7" value="-0.867853" />
+   <xinput index="8" value="-0.990431" />
+   <xinput index="9" value="-0.775561" />
+   <xinput index="10" value="-0.78882" />
+   <xinput index="11" value="-0.689189" />
+   <xinput index="12" value="-0.613861" />
+   <xinput index="13" value="-0.136691" />
+   <xinput index="14" value="-0.75" />
+ </datapt>
+
+ <datapt yvalue="1.0468" id="28">
+   <xinput index="1" value="-0.0357895" />
+   <xinput index="2" value="-0.694915" />
+   <xinput index="3" value="-0.758839" />
+   <xinput index="4" value="0.57513" />
+   <xinput index="5" value="-0.233831" />
+   <xinput index="6" value="-0.363796" />
+   <xinput index="7" value="-0.50953" />
+   <xinput index="8" value="-0.69059" />
+   <xinput index="9" value="-0.486284" />
+   <xinput index="10" value="-0.627329" />
+   <xinput index="11" value="-0.743243" />
+   <xinput index="12" value="-0.564356" />
+   <xinput index="13" value="-0.194245" />
+   <xinput index="14" value="-0.571429" />
+ </datapt>
+
+ <datapt yvalue="1.091" id="29">
+   <xinput index="1" value="-0.844211" />
+   <xinput index="2" value="-0.830508" />
+   <xinput index="3" value="-0.87942" />
+   <xinput index="4" value="0.46114" />
+   <xinput index="5" value="-0.472637" />
+   <xinput index="6" value="-0.500879" />
+   <xinput index="7" value="-0.885642" />
+   <xinput index="8" value="-0.888357" />
+   <xinput index="9" value="-0.855362" />
+   <xinput index="10" value="-0.813665" />
+   <xinput index="11" value="-0.702703" />
+   <xinput index="12" value="-0.435644" />
+   <xinput index="13" value="-0.00719424" />
+   <xinput index="14" value="-0.5" />
+ </datapt>
+
+ <datapt yvalue="1.079" id="30">
+   <xinput index="1" value="-0.629474" />
+   <xinput index="2" value="-0.762712" />
+   <xinput index="3" value="-0.654609" />
+   <xinput index="4" value="0.637306" />
+   <xinput index="5" value="-0.442786" />
+   <xinput index="6" value="-0.363796" />
+   <xinput index="7" value="-0.641677" />
+   <xinput index="8" value="-0.562998" />
+   <xinput index="9" value="-0.416459" />
+   <xinput index="10" value="-0.714286" />
+   <xinput index="11" value="-0.527027" />
+   <xinput index="12" value="-0.475248" />
+   <xinput index="13" value="-0.179856" />
+   <xinput index="14" value="-0.357143" />
+ </datapt>
+
+ <datapt yvalue="1.0716" id="31">
+   <xinput index="1" value="-0.498947" />
+   <xinput index="2" value="-0.661017" />
+   <xinput index="3" value="-0.480891" />
+   <xinput index="4" value="0.834197" />
+   <xinput index="5" value="-0.243781" />
+   <xinput index="6" value="-0.254833" />
+   <xinput index="7" value="-0.50953" />
+   <xinput index="8" value="-0.527911" />
+   <xinput index="9" value="-0.486284" />
+   <xinput index="10" value="-0.291925" />
+   <xinput index="11" value="1" />
+   <xinput index="12" value="-0.237624" />
+   <xinput index="13" value="-0.0359712" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0862" id="32">
+   <xinput index="1" value="-0.76" />
+   <xinput index="2" value="-0.762712" />
+   <xinput index="3" value="-0.658696" />
+   <xinput index="4" value="0.73057" />
+   <xinput index="5" value="-0.383085" />
+   <xinput index="6" value="-0.500879" />
+   <xinput index="7" value="-0.616264" />
+   <xinput index="8" value="-0.502392" />
+   <xinput index="9" value="-0.436409" />
+   <xinput index="10" value="-0.279503" />
+   <xinput index="11" value="-0.675676" />
+   <xinput index="12" value="-0.475248" />
+   <xinput index="13" value="-0.223022" />
+   <xinput index="14" value="-0.25" />
+ </datapt>
+
+ <datapt yvalue="1.0719" id="33">
+   <xinput index="1" value="-0.503158" />
+   <xinput index="2" value="-0.830508" />
+   <xinput index="3" value="-0.59534" />
+   <xinput index="4" value="0.73057" />
+   <xinput index="5" value="-0.303483" />
+   <xinput index="6" value="-0.518453" />
+   <xinput index="7" value="-0.753494" />
+   <xinput index="8" value="-0.69697" />
+   <xinput index="9" value="-0.496259" />
+   <xinput index="10" value="-0.602484" />
+   <xinput index="11" value="-0.27027" />
+   <xinput index="12" value="-0.584158" />
+   <xinput index="13" value="0.294964" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0502" id="34">
+   <xinput index="1" value="-0.103158" />
+   <xinput index="2" value="-0.355932" />
+   <xinput index="3" value="-0.182506" />
+   <xinput index="4" value="0.720207" />
+   <xinput index="5" value="-0.134328" />
+   <xinput index="6" value="0.13884" />
+   <xinput index="7" value="-0.209657" />
+   <xinput index="8" value="-0.256778" />
+   <xinput index="9" value="-0.0074813" />
+   <xinput index="10" value="0.391304" />
+   <xinput index="11" value="-0.175676" />
+   <xinput index="12" value="0.257426" />
+   <xinput index="13" value="0.510791" />
+   <xinput index="14" value="0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0263" id="35">
+   <xinput index="1" value="0.36" />
+   <xinput index="2" value="-0.355932" />
+   <xinput index="3" value="0.052524" />
+   <xinput index="4" value="0.823834" />
+   <xinput index="5" value="0.0945274" />
+   <xinput index="6" value="0.325132" />
+   <xinput index="7" value="0.174079" />
+   <xinput index="8" value="-0.00797448" />
+   <xinput index="9" value="0.197007" />
+   <xinput index="10" value="0.279503" />
+   <xinput index="11" value="-0.027027" />
+   <xinput index="12" value="0.237624" />
+   <xinput index="13" value="0.539568" />
+   <xinput index="14" value="0.392857" />
+ </datapt>
+
+ <datapt yvalue="1.0101" id="36">
+   <xinput index="1" value="0.688421" />
+   <xinput index="2" value="-0.0847458" />
+   <xinput index="3" value="-0.401185" />
+   <xinput index="4" value="0.471503" />
+   <xinput index="5" value="-0.273632" />
+   <xinput index="6" value="0.377856" />
+   <xinput index="7" value="0.110546" />
+   <xinput index="8" value="-0.0813397" />
+   <xinput index="9" value="-0.266833" />
+   <xinput index="10" value="-0.341615" />
+   <xinput index="11" value="-0.621622" />
+   <xinput index="12" value="-0.287129" />
+   <xinput index="13" value="0.266187" />
+   <xinput index="14" value="-0.571429" />
+ </datapt>
+
+ <datapt yvalue="1.0438" id="37">
+   <xinput index="1" value="0.0189474" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.315348" />
+   <xinput index="4" value="0.678756" />
+   <xinput index="5" value="-0.263682" />
+   <xinput index="6" value="-0.0439367" />
+   <xinput index="7" value="-0.199492" />
+   <xinput index="8" value="-0.323764" />
+   <xinput index="9" value="-0.187032" />
+   <xinput index="10" value="-0.142857" />
+   <xinput index="11" value="-0.527027" />
+   <xinput index="12" value="0.019802" />
+   <xinput index="13" value="0.381295" />
+   <xinput index="14" value="0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0346" id="38">
+   <xinput index="1" value="0.195789" />
+   <xinput index="2" value="-0.0508475" />
+   <xinput index="3" value="-0.360311" />
+   <xinput index="4" value="0.606218" />
+   <xinput index="5" value="0.0945274" />
+   <xinput index="6" value="-0.0755712" />
+   <xinput index="7" value="-0.252859" />
+   <xinput index="8" value="-0.368421" />
+   <xinput index="9" value="-0.0623441" />
+   <xinput index="10" value="0.0559006" />
+   <xinput index="11" value="-0.243243" />
+   <xinput index="12" value="-0.168317" />
+   <xinput index="13" value="0.366906" />
+   <xinput index="14" value="0.285714" />
+ </datapt>
+
+ <datapt yvalue="1.0202" id="39">
+   <xinput index="1" value="0.482105" />
+   <xinput index="2" value="-0.186441" />
+   <xinput index="3" value="1" />
+   <xinput index="4" value="0.772021" />
+   <xinput index="5" value="1" />
+   <xinput index="6" value="1" />
+   <xinput index="7" value="1" />
+   <xinput index="8" value="1" />
+   <xinput index="9" value="1" />
+   <xinput index="10" value="1" />
+   <xinput index="11" value="0.418919" />
+   <xinput index="12" value="1" />
+   <xinput index="13" value="0.151079" />
+   <xinput index="14" value="1" />
+ </datapt>
+
+ <datapt yvalue="1.0258" id="40">
+   <xinput index="1" value="0.372632" />
+   <xinput index="2" value="-0.0508475" />
+   <xinput index="3" value="-0.309217" />
+   <xinput index="4" value="0.554404" />
+   <xinput index="5" value="-0.0945274" />
+   <xinput index="6" value="0.247803" />
+   <xinput index="7" value="-0.0165184" />
+   <xinput index="8" value="-0.441786" />
+   <xinput index="9" value="-0.296758" />
+   <xinput index="10" value="0.00621118" />
+   <xinput index="11" value="-0.243243" />
+   <xinput index="12" value="-0.0792079" />
+   <xinput index="13" value="0.438849" />
+   <xinput index="14" value="-0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.0217" id="41">
+   <xinput index="1" value="0.452632" />
+   <xinput index="2" value="-0.220339" />
+   <xinput index="3" value="0.179236" />
+   <xinput index="4" value="0.626943" />
+   <xinput index="5" value="0.20398" />
+   <xinput index="6" value="0.72232" />
+   <xinput index="7" value="0.443456" />
+   <xinput index="8" value="0.295056" />
+   <xinput index="9" value="0.261845" />
+   <xinput index="10" value="-0.180124" />
+   <xinput index="11" value="0.0135135" />
+   <xinput index="12" value="0.148515" />
+   <xinput index="13" value="0.683453" />
+   <xinput index="14" value="1" />
+ </datapt>
+
+ <datapt yvalue="1.025" id="42">
+   <xinput index="1" value="0.385263" />
+   <xinput index="2" value="-0.254237" />
+   <xinput index="3" value="-0.292867" />
+   <xinput index="4" value="-1" />
+   <xinput index="5" value="-0.452736" />
+   <xinput index="6" value="-0.0615114" />
+   <xinput index="7" value="-0.113088" />
+   <xinput index="8" value="-0.0271132" />
+   <xinput index="9" value="0.167082" />
+   <xinput index="10" value="0.180124" />
+   <xinput index="11" value="-0.378378" />
+   <xinput index="12" value="-0.128713" />
+   <xinput index="13" value="0.107914" />
+   <xinput index="14" value="-0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.0279" id="43">
+   <xinput index="1" value="0.330526" />
+   <xinput index="2" value="-0.118644" />
+   <xinput index="3" value="-0.194768" />
+   <xinput index="4" value="0.678756" />
+   <xinput index="5" value="-0.383085" />
+   <xinput index="6" value="0.195079" />
+   <xinput index="7" value="0.0622618" />
+   <xinput index="8" value="-0.0717703" />
+   <xinput index="9" value="0.0224439" />
+   <xinput index="10" value="-0.0186335" />
+   <xinput index="11" value="-0.202703" />
+   <xinput index="12" value="0.178218" />
+   <xinput index="13" value="0.266187" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0269" id="44">
+   <xinput index="1" value="0.347368" />
+   <xinput index="2" value="-0.355932" />
+   <xinput index="3" value="-0.235643" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="0.0348259" />
+   <xinput index="6" value="-0.0404218" />
+   <xinput index="7" value="-0.113088" />
+   <xinput index="8" value="-0.330144" />
+   <xinput index="9" value="-0.112219" />
+   <xinput index="10" value="-0.10559" />
+   <xinput index="11" value="-0.472973" />
+   <xinput index="12" value="0.0891089" />
+   <xinput index="13" value="0.510791" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0814" id="45">
+   <xinput index="1" value="-0.675789" />
+   <xinput index="2" value="-0.423729" />
+   <xinput index="3" value="-0.944819" />
+   <xinput index="4" value="0.595855" />
+   <xinput index="5" value="-0.960199" />
+   <xinput index="6" value="-0.796134" />
+   <xinput index="7" value="-0.832274" />
+   <xinput index="8" value="-0.897927" />
+   <xinput index="9" value="-0.860349" />
+   <xinput index="10" value="-0.78882" />
+   <xinput index="11" value="-0.743243" />
+   <xinput index="12" value="-0.871287" />
+   <xinput index="13" value="-0.697842" />
+   <xinput index="14" value="-0.892857" />
+ </datapt>
+
+ <datapt yvalue="1.067" id="46">
+   <xinput index="1" value="-0.414737" />
+   <xinput index="2" value="-0.288136" />
+   <xinput index="3" value="-0.625996" />
+   <xinput index="4" value="0.813472" />
+   <xinput index="5" value="-0.542289" />
+   <xinput index="6" value="-0.391916" />
+   <xinput index="7" value="-0.692503" />
+   <xinput index="8" value="-0.610845" />
+   <xinput index="9" value="-0.441397" />
+   <xinput index="10" value="-0.354037" />
+   <xinput index="11" value="-0.418919" />
+   <xinput index="12" value="-0.514851" />
+   <xinput index="13" value="-0.0791367" />
+   <xinput index="14" value="-0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.0742" id="47">
+   <xinput index="1" value="-0.545263" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.877376" />
+   <xinput index="4" value="0.57513" />
+   <xinput index="5" value="-0.751244" />
+   <xinput index="6" value="-0.68717" />
+   <xinput index="7" value="-0.890724" />
+   <xinput index="8" value="-0.888357" />
+   <xinput index="9" value="-0.695761" />
+   <xinput index="10" value="-0.813665" />
+   <xinput index="11" value="-0.540541" />
+   <xinput index="12" value="-0.693069" />
+   <xinput index="13" value="-0.251799" />
+   <xinput index="14" value="-0.464286" />
+ </datapt>
+
+ <datapt yvalue="1.0665" id="48">
+   <xinput index="1" value="-0.764211" />
+   <xinput index="2" value="-0.423729" />
+   <xinput index="3" value="-0.754752" />
+   <xinput index="4" value="0.73057" />
+   <xinput index="5" value="-0.651741" />
+   <xinput index="6" value="-0.630931" />
+   <xinput index="7" value="-0.743329" />
+   <xinput index="8" value="-0.754386" />
+   <xinput index="9" value="-0.725686" />
+   <xinput index="10" value="-0.440994" />
+   <xinput index="11" value="-0.621622" />
+   <xinput index="12" value="-0.60396" />
+   <xinput index="13" value="-0.165468" />
+   <xinput index="14" value="-0.25" />
+ </datapt>
+
+ <datapt yvalue="1.0678" id="49">
+   <xinput index="1" value="-0.427368" />
+   <xinput index="2" value="-0.220339" />
+   <xinput index="3" value="-0.858982" />
+   <xinput index="4" value="0.61658" />
+   <xinput index="5" value="-0.830846" />
+   <xinput index="6" value="-0.543058" />
+   <xinput index="7" value="-0.644219" />
+   <xinput index="8" value="-0.827751" />
+   <xinput index="9" value="-0.760599" />
+   <xinput index="10" value="-0.652174" />
+   <xinput index="11" value="-0.797297" />
+   <xinput index="12" value="-0.60396" />
+   <xinput index="13" value="-0.352518" />
+   <xinput index="14" value="-0.821429" />
+ </datapt>
+
+ <datapt yvalue="1.0903" id="50">
+   <xinput index="1" value="-0.831579" />
+   <xinput index="2" value="-0.152542" />
+   <xinput index="3" value="-0.926426" />
+   <xinput index="4" value="0.544041" />
+   <xinput index="5" value="-0.711443" />
+   <xinput index="6" value="-0.855888" />
+   <xinput index="7" value="-0.974587" />
+   <xinput index="8" value="-0.929825" />
+   <xinput index="9" value="-0.830424" />
+   <xinput index="10" value="-0.826087" />
+   <xinput index="11" value="-0.621622" />
+   <xinput index="12" value="-0.80198" />
+   <xinput index="13" value="-0.309353" />
+   <xinput index="14" value="-0.642857" />
+ </datapt>
+
+ <datapt yvalue="1.0756" id="51">
+   <xinput index="1" value="-0.570526" />
+   <xinput index="2" value="-0.152542" />
+   <xinput index="3" value="-0.675046" />
+   <xinput index="4" value="0.772021" />
+   <xinput index="5" value="-0.621891" />
+   <xinput index="6" value="-0.616872" />
+   <xinput index="7" value="-0.560356" />
+   <xinput index="8" value="-0.575758" />
+   <xinput index="9" value="-0.730673" />
+   <xinput index="10" value="-0.478261" />
+   <xinput index="11" value="-0.554054" />
+   <xinput index="12" value="-0.881188" />
+   <xinput index="13" value="-0.309353" />
+   <xinput index="14" value="-0.464286" />
+ </datapt>
+
+ <datapt yvalue="1.084" id="52">
+   <xinput index="1" value="-0.722105" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.83037" />
+   <xinput index="4" value="0.637306" />
+   <xinput index="5" value="-0.681592" />
+   <xinput index="6" value="-0.652021" />
+   <xinput index="7" value="-0.78399" />
+   <xinput index="8" value="-0.808612" />
+   <xinput index="9" value="-0.790524" />
+   <xinput index="10" value="-0.763975" />
+   <xinput index="11" value="-0.743243" />
+   <xinput index="12" value="-0.811881" />
+   <xinput index="13" value="-0.266187" />
+   <xinput index="14" value="-0.5" />
+ </datapt>
+
+ <datapt yvalue="1.0807" id="53">
+   <xinput index="1" value="-0.663158" />
+   <xinput index="2" value="-0.0169492" />
+   <xinput index="3" value="-0.84672" />
+   <xinput index="4" value="0.585492" />
+   <xinput index="5" value="-0.462687" />
+   <xinput index="6" value="-0.634446" />
+   <xinput index="7" value="-0.679797" />
+   <xinput index="8" value="-0.869219" />
+   <xinput index="9" value="-0.895262" />
+   <xinput index="10" value="-0.913043" />
+   <xinput index="11" value="-0.689189" />
+   <xinput index="12" value="-0.524752" />
+   <xinput index="13" value="-0.280576" />
+   <xinput index="14" value="-0.607143" />
+ </datapt>
+
+ <datapt yvalue="1.0848" id="54">
+   <xinput index="1" value="-0.734737" />
+   <xinput index="2" value="-0.0847458" />
+   <xinput index="3" value="-0.720008" />
+   <xinput index="4" value="0.823834" />
+   <xinput index="5" value="-0.60199" />
+   <xinput index="6" value="-0.507909" />
+   <xinput index="7" value="-0.740788" />
+   <xinput index="8" value="-0.789474" />
+   <xinput index="9" value="-0.730673" />
+   <xinput index="10" value="-0.428571" />
+   <xinput index="11" value="-0.527027" />
+   <xinput index="12" value="0.356436" />
+   <xinput index="13" value="-0.0791367" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0906" id="55">
+   <xinput index="1" value="-0.835789" />
+   <xinput index="2" value="-0.322034" />
+   <xinput index="3" value="-0.854895" />
+   <xinput index="4" value="0.57513" />
+   <xinput index="5" value="-0.333333" />
+   <xinput index="6" value="-0.70826" />
+   <xinput index="7" value="-0.791614" />
+   <xinput index="8" value="-0.885167" />
+   <xinput index="9" value="-0.765586" />
+   <xinput index="10" value="-0.763975" />
+   <xinput index="11" value="-0.540541" />
+   <xinput index="12" value="-0.712871" />
+   <xinput index="13" value="-0.0647482" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0473" id="56">
+   <xinput index="1" value="-0.0484211" />
+   <xinput index="2" value="0.0847458" />
+   <xinput index="3" value="-0.350092" />
+   <xinput index="4" value="0.761658" />
+   <xinput index="5" value="-0.124378" />
+   <xinput index="6" value="-0.00527241" />
+   <xinput index="7" value="-0.222363" />
+   <xinput index="8" value="-0.53429" />
+   <xinput index="9" value="-0.501247" />
+   <xinput index="10" value="-0.378882" />
+   <xinput index="11" value="-0.608108" />
+   <xinput index="12" value="0.0990099" />
+   <xinput index="13" value="0.323741" />
+   <xinput index="14" value="0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.0524" id="57">
+   <xinput index="1" value="-0.141053" />
+   <xinput index="2" value="0.220339" />
+   <xinput index="3" value="-0.484979" />
+   <xinput index="4" value="0.595855" />
+   <xinput index="5" value="-0.20398" />
+   <xinput index="6" value="-0.272408" />
+   <xinput index="7" value="-0.227446" />
+   <xinput index="8" value="-0.441786" />
+   <xinput index="9" value="-0.256858" />
+   <xinput index="10" value="-0.180124" />
+   <xinput index="11" value="-0.540541" />
+   <xinput index="12" value="-0.178218" />
+   <xinput index="13" value="0.0503597" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0356" id="58">
+   <xinput index="1" value="0.178947" />
+   <xinput index="2" value="0.355932" />
+   <xinput index="3" value="-0.323523" />
+   <xinput index="4" value="0.658031" />
+   <xinput index="5" value="-0.0646766" />
+   <xinput index="6" value="0.13181" />
+   <xinput index="7" value="-0.115629" />
+   <xinput index="8" value="-0.336523" />
+   <xinput index="9" value="-0.27182" />
+   <xinput index="10" value="-0.15528" />
+   <xinput index="11" value="-0.513514" />
+   <xinput index="12" value="0.277228" />
+   <xinput index="13" value="0.42446" />
+   <xinput index="14" value="0.214286" />
+ </datapt>
+
+ <datapt yvalue="1.028" id="59">
+   <xinput index="1" value="0.326316" />
+   <xinput index="2" value="0.0847458" />
+   <xinput index="3" value="-0.313305" />
+   <xinput index="4" value="0.709845" />
+   <xinput index="5" value="-0.0646766" />
+   <xinput index="6" value="0.268893" />
+   <xinput index="7" value="-0.0876747" />
+   <xinput index="8" value="-0.617225" />
+   <xinput index="9" value="-0.406484" />
+   <xinput index="10" value="-0.378882" />
+   <xinput index="11" value="-0.540541" />
+   <xinput index="12" value="-0.326733" />
+   <xinput index="13" value="0.122302" />
+   <xinput index="14" value="-0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.043" id="60">
+   <xinput index="1" value="0.0357895" />
+   <xinput index="2" value="0.322034" />
+   <xinput index="3" value="-0.499285" />
+   <xinput index="4" value="0.502591" />
+   <xinput index="5" value="-0.273632" />
+   <xinput index="6" value="-0.103691" />
+   <xinput index="7" value="-0.265565" />
+   <xinput index="8" value="-0.53429" />
+   <xinput index="9" value="-0.331671" />
+   <xinput index="10" value="-0.416149" />
+   <xinput index="11" value="-0.486486" />
+   <xinput index="12" value="-0.039604" />
+   <xinput index="13" value="0.23741" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0396" id="61">
+   <xinput index="1" value="0.0989474" />
+   <xinput index="2" value="0.355932" />
+   <xinput index="3" value="-0.202943" />
+   <xinput index="4" value="0.813472" />
+   <xinput index="5" value="0.0248756" />
+   <xinput index="6" value="0.15993" />
+   <xinput index="7" value="-0.100381" />
+   <xinput index="8" value="-0.422648" />
+   <xinput index="9" value="-0.281796" />
+   <xinput index="10" value="-0.0186335" />
+   <xinput index="11" value="-0.459459" />
+   <xinput index="12" value="0.128713" />
+   <xinput index="13" value="0.553957" />
+   <xinput index="14" value="0.571429" />
+ </datapt>
+
+ <datapt yvalue="1.0317" id="62">
+   <xinput index="1" value="0.254737" />
+   <xinput index="2" value="0.152542" />
+   <xinput index="3" value="-0.50746" />
+   <xinput index="4" value="0.61658" />
+   <xinput index="5" value="-0.552239" />
+   <xinput index="6" value="-0.170475" />
+   <xinput index="7" value="-0.357052" />
+   <xinput index="8" value="-0.496013" />
+   <xinput index="9" value="-0.316708" />
+   <xinput index="10" value="-0.378882" />
+   <xinput index="11" value="-0.594595" />
+   <xinput index="12" value="-0.237624" />
+   <xinput index="13" value="0.266187" />
+   <xinput index="14" value="-0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.0298" id="63">
+   <xinput index="1" value="0.292632" />
+   <xinput index="2" value="0.0847458" />
+   <xinput index="3" value="-0.388923" />
+   <xinput index="4" value="0.689119" />
+   <xinput index="5" value="-0.313433" />
+   <xinput index="6" value="-0.00527241" />
+   <xinput index="7" value="-0.161372" />
+   <xinput index="8" value="-0.54067" />
+   <xinput index="9" value="-0.311721" />
+   <xinput index="10" value="-0.204969" />
+   <xinput index="11" value="-0.391892" />
+   <xinput index="12" value="-0.217822" />
+   <xinput index="13" value="0.280576" />
+   <xinput index="14" value="0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.0403" id="64">
+   <xinput index="1" value="0.0863158" />
+   <xinput index="2" value="0.322034" />
+   <xinput index="3" value="-0.513591" />
+   <xinput index="4" value="0.554404" />
+   <xinput index="5" value="-0.373134" />
+   <xinput index="6" value="-0.086116" />
+   <xinput index="7" value="-0.229987" />
+   <xinput index="8" value="-0.5311" />
+   <xinput index="9" value="-0.321696" />
+   <xinput index="10" value="-0.118012" />
+   <xinput index="11" value="-0.513514" />
+   <xinput index="12" value="-0.128713" />
+   <xinput index="13" value="0.151079" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0264" id="65">
+   <xinput index="1" value="0.36" />
+   <xinput index="2" value="0.186441" />
+   <xinput index="3" value="-0.28878" />
+   <xinput index="4" value="0.678756" />
+   <xinput index="5" value="-0.104478" />
+   <xinput index="6" value="-0.086116" />
+   <xinput index="7" value="-0.0825921" />
+   <xinput index="8" value="-0.256778" />
+   <xinput index="9" value="-0.112219" />
+   <xinput index="10" value="0.0186335" />
+   <xinput index="11" value="-0.243243" />
+   <xinput index="12" value="0.039604" />
+   <xinput index="13" value="0.453237" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0313" id="66">
+   <xinput index="1" value="0.263158" />
+   <xinput index="2" value="0.118644" />
+   <xinput index="3" value="-0.468629" />
+   <xinput index="4" value="0.57513" />
+   <xinput index="5" value="-0.0248756" />
+   <xinput index="6" value="-0.16696" />
+   <xinput index="7" value="-0.21474" />
+   <xinput index="8" value="-0.38756" />
+   <xinput index="9" value="-0.122195" />
+   <xinput index="10" value="-0.10559" />
+   <xinput index="11" value="-0.513514" />
+   <xinput index="12" value="-0.00990099" />
+   <xinput index="13" value="0.309353" />
+   <xinput index="14" value="0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0499" id="67">
+   <xinput index="1" value="-0.0947368" />
+   <xinput index="2" value="0.0847458" />
+   <xinput index="3" value="-0.730227" />
+   <xinput index="4" value="0.709845" />
+   <xinput index="5" value="-0.552239" />
+   <xinput index="6" value="-0.623902" />
+   <xinput index="7" value="-0.631512" />
+   <xinput index="8" value="-0.716108" />
+   <xinput index="9" value="-0.610973" />
+   <xinput index="10" value="-0.614907" />
+   <xinput index="11" value="-0.648649" />
+   <xinput index="12" value="-0.524752" />
+   <xinput index="13" value="-0.0791367" />
+   <xinput index="14" value="-0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.0673" id="68">
+   <xinput index="1" value="-0.418947" />
+   <xinput index="2" value="0.118644" />
+   <xinput index="3" value="-0.703658" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="-0.422886" />
+   <xinput index="6" value="-0.434095" />
+   <xinput index="7" value="-0.562897" />
+   <xinput index="8" value="-0.783094" />
+   <xinput index="9" value="-0.645885" />
+   <xinput index="10" value="-0.701863" />
+   <xinput index="11" value="-0.675676" />
+   <xinput index="12" value="-0.207921" />
+   <xinput index="13" value="-0.0791367" />
+   <xinput index="14" value="0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0847" id="69">
+   <xinput index="1" value="-0.734737" />
+   <xinput index="2" value="0.0847458" />
+   <xinput index="3" value="-0.699571" />
+   <xinput index="4" value="0.647668" />
+   <xinput index="5" value="-0.363184" />
+   <xinput index="6" value="-0.648506" />
+   <xinput index="7" value="-0.771283" />
+   <xinput index="8" value="-0.645933" />
+   <xinput index="9" value="-0.561097" />
+   <xinput index="10" value="-0.453416" />
+   <xinput index="11" value="-0.554054" />
+   <xinput index="12" value="-0.227723" />
+   <xinput index="13" value="0.0215827" />
+   <xinput index="14" value="-0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.0693" id="70">
+   <xinput index="1" value="-0.456842" />
+   <xinput index="2" value="0.118644" />
+   <xinput index="3" value="-0.687308" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="-0.482587" />
+   <xinput index="6" value="-0.469244" />
+   <xinput index="7" value="-0.613723" />
+   <xinput index="8" value="-0.703349" />
+   <xinput index="9" value="-0.800499" />
+   <xinput index="10" value="-0.453416" />
+   <xinput index="11" value="-0.662162" />
+   <xinput index="12" value="-0.752475" />
+   <xinput index="13" value="-0.122302" />
+   <xinput index="14" value="-0.464286" />
+ </datapt>
+
+ <datapt yvalue="1.0439" id="71">
+   <xinput index="1" value="0.0231579" />
+   <xinput index="2" value="0.355932" />
+   <xinput index="3" value="-0.599428" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="-0.562189" />
+   <xinput index="6" value="-0.356766" />
+   <xinput index="7" value="-0.438374" />
+   <xinput index="8" value="-0.569378" />
+   <xinput index="9" value="-0.531172" />
+   <xinput index="10" value="-0.304348" />
+   <xinput index="11" value="-0.554054" />
+   <xinput index="12" value="-0.336634" />
+   <xinput index="13" value="-0.0935252" />
+   <xinput index="14" value="6.66134e-16" />
+ </datapt>
+
+ <datapt yvalue="1.0788" id="72">
+   <xinput index="1" value="-0.629474" />
+   <xinput index="2" value="0.118644" />
+   <xinput index="3" value="-0.769058" />
+   <xinput index="4" value="0.626943" />
+   <xinput index="5" value="-0.243781" />
+   <xinput index="6" value="-0.676626" />
+   <xinput index="7" value="-0.659466" />
+   <xinput index="8" value="-0.665072" />
+   <xinput index="9" value="-0.416459" />
+   <xinput index="10" value="-0.428571" />
+   <xinput index="11" value="-0.662162" />
+   <xinput index="12" value="-0.455446" />
+   <xinput index="13" value="-0.0935252" />
+   <xinput index="14" value="-0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.0796" id="73">
+   <xinput index="1" value="-0.642105" />
+   <xinput index="2" value="0.152542" />
+   <xinput index="3" value="-0.654609" />
+   <xinput index="4" value="0.834197" />
+   <xinput index="5" value="-0.472637" />
+   <xinput index="6" value="-0.497364" />
+   <xinput index="7" value="-0.656925" />
+   <xinput index="8" value="-0.639553" />
+   <xinput index="9" value="-0.715711" />
+   <xinput index="10" value="-0.440994" />
+   <xinput index="11" value="-0.459459" />
+   <xinput index="12" value="-0.514851" />
+   <xinput index="13" value="-0.0935252" />
+   <xinput index="14" value="-0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.068" id="74">
+   <xinput index="1" value="-0.431579" />
+   <xinput index="2" value="0.118644" />
+   <xinput index="3" value="-0.946863" />
+   <xinput index="4" value="0.430052" />
+   <xinput index="5" value="-0.791045" />
+   <xinput index="6" value="-0.704745" />
+   <xinput index="7" value="-0.832274" />
+   <xinput index="8" value="-0.885167" />
+   <xinput index="9" value="-0.815461" />
+   <xinput index="10" value="-0.701863" />
+   <xinput index="11" value="-1" />
+   <xinput index="12" value="-0.554455" />
+   <xinput index="13" value="-0.323741" />
+   <xinput index="14" value="-0.607143" />
+ </datapt>
+
+ <datapt yvalue="1.072" id="75">
+   <xinput index="1" value="-0.503158" />
+   <xinput index="2" value="0.322034" />
+   <xinput index="3" value="-0.799714" />
+   <xinput index="4" value="0.502591" />
+   <xinput index="5" value="-0.462687" />
+   <xinput index="6" value="-0.504394" />
+   <xinput index="7" value="-0.64676" />
+   <xinput index="8" value="-0.744817" />
+   <xinput index="9" value="-0.586035" />
+   <xinput index="10" value="-0.726708" />
+   <xinput index="11" value="-0.756757" />
+   <xinput index="12" value="-0.544554" />
+   <xinput index="13" value="-0.136691" />
+   <xinput index="14" value="-0.642857" />
+ </datapt>
+
+ <datapt yvalue="1.0666" id="76">
+   <xinput index="1" value="-0.221053" />
+   <xinput index="2" value="0.322034" />
+   <xinput index="3" value="-0.756795" />
+   <xinput index="4" value="0.57513" />
+   <xinput index="5" value="-0.512438" />
+   <xinput index="6" value="-0.567663" />
+   <xinput index="7" value="-0.684879" />
+   <xinput index="8" value="-0.6874" />
+   <xinput index="9" value="-0.63591" />
+   <xinput index="10" value="-0.503106" />
+   <xinput index="11" value="-0.689189" />
+   <xinput index="12" value="-0.554455" />
+   <xinput index="13" value="-0.136691" />
+   <xinput index="14" value="-0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.079" id="77">
+   <xinput index="1" value="-0.629474" />
+   <xinput index="2" value="0.186441" />
+   <xinput index="3" value="-0.640302" />
+   <xinput index="4" value="0.658031" />
+   <xinput index="5" value="-0.243781" />
+   <xinput index="6" value="-0.567663" />
+   <xinput index="7" value="-0.761118" />
+   <xinput index="8" value="-0.703349" />
+   <xinput index="9" value="-0.526185" />
+   <xinput index="10" value="-0.167702" />
+   <xinput index="11" value="-0.310811" />
+   <xinput index="12" value="-0.465347" />
+   <xinput index="13" value="0.179856" />
+   <xinput index="14" value="-0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.0483" id="78">
+   <xinput index="1" value="-0.0652632" />
+   <xinput index="2" value="0.59322" />
+   <xinput index="3" value="-0.515635" />
+   <xinput index="4" value="0.61658" />
+   <xinput index="5" value="-0.243781" />
+   <xinput index="6" value="-0.202109" />
+   <xinput index="7" value="-0.349428" />
+   <xinput index="8" value="-0.575758" />
+   <xinput index="9" value="-0.610973" />
+   <xinput index="10" value="-0.341615" />
+   <xinput index="11" value="-0.635135" />
+   <xinput index="12" value="-0.405941" />
+   <xinput index="13" value="-0.323741" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0498" id="79">
+   <xinput index="1" value="-0.0947368" />
+   <xinput index="2" value="1" />
+   <xinput index="3" value="-0.650521" />
+   <xinput index="4" value="0.689119" />
+   <xinput index="5" value="-0.333333" />
+   <xinput index="6" value="-0.398946" />
+   <xinput index="7" value="-0.339263" />
+   <xinput index="8" value="-0.54386" />
+   <xinput index="9" value="-0.685786" />
+   <xinput index="10" value="-0.440994" />
+   <xinput index="11" value="-0.675676" />
+   <xinput index="12" value="-0.346535" />
+   <xinput index="13" value="-0.165468" />
+   <xinput index="14" value="-0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.056" id="80">
+   <xinput index="1" value="-0.208421" />
+   <xinput index="2" value="0.491525" />
+   <xinput index="3" value="-0.568772" />
+   <xinput index="4" value="0.647668" />
+   <xinput index="5" value="-0.373134" />
+   <xinput index="6" value="-0.177504" />
+   <xinput index="7" value="-0.257942" />
+   <xinput index="8" value="-0.515152" />
+   <xinput index="9" value="-0.53616" />
+   <xinput index="10" value="-0.217391" />
+   <xinput index="11" value="-0.513514" />
+   <xinput index="12" value="-0.455446" />
+   <xinput index="13" value="0.107914" />
+   <xinput index="14" value="0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0283" id="81">
+   <xinput index="1" value="0.322105" />
+   <xinput index="2" value="0.525424" />
+   <xinput index="3" value="-0.630084" />
+   <xinput index="4" value="0.585492" />
+   <xinput index="5" value="-0.273632" />
+   <xinput index="6" value="-0.353251" />
+   <xinput index="7" value="-0.329098" />
+   <xinput index="8" value="-0.614035" />
+   <xinput index="9" value="-0.620948" />
+   <xinput index="10" value="-0.354037" />
+   <xinput index="11" value="-0.378378" />
+   <xinput index="12" value="-0.544554" />
+   <xinput index="13" value="-0.107914" />
+   <xinput index="14" value="0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0382" id="82">
+   <xinput index="1" value="0.128421" />
+   <xinput index="2" value="0.423729" />
+   <xinput index="3" value="-0.740446" />
+   <xinput index="4" value="0.564767" />
+   <xinput index="5" value="-0.303483" />
+   <xinput index="6" value="-0.374341" />
+   <xinput index="7" value="-0.501906" />
+   <xinput index="8" value="-0.620415" />
+   <xinput index="9" value="-0.620948" />
+   <xinput index="10" value="-0.378882" />
+   <xinput index="11" value="-0.608108" />
+   <xinput index="12" value="-0.49505" />
+   <xinput index="13" value="-0.395683" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0568" id="83">
+   <xinput index="1" value="-0.225263" />
+   <xinput index="2" value="0.423729" />
+   <xinput index="3" value="-0.413448" />
+   <xinput index="4" value="0.792746" />
+   <xinput index="5" value="-0.18408" />
+   <xinput index="6" value="-0.163445" />
+   <xinput index="7" value="-0.278272" />
+   <xinput index="8" value="-0.53429" />
+   <xinput index="9" value="-0.416459" />
+   <xinput index="10" value="-0.254658" />
+   <xinput index="11" value="-0.472973" />
+   <xinput index="12" value="-0.0594059" />
+   <xinput index="13" value="0.23741" />
+   <xinput index="14" value="0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0377" id="84">
+   <xinput index="1" value="0.136842" />
+   <xinput index="2" value="0.627119" />
+   <xinput index="3" value="-0.572859" />
+   <xinput index="4" value="0.678756" />
+   <xinput index="5" value="-0.243781" />
+   <xinput index="6" value="-0.209139" />
+   <xinput index="7" value="-0.35197" />
+   <xinput index="8" value="-0.681021" />
+   <xinput index="9" value="-0.561097" />
+   <xinput index="10" value="-0.565217" />
+   <xinput index="11" value="-0.324324" />
+   <xinput index="12" value="-0.366337" />
+   <xinput index="13" value="-0.0935252" />
+   <xinput index="14" value="0.214286" />
+ </datapt>
+
+ <datapt yvalue="1.0378" id="85">
+   <xinput index="1" value="0.136842" />
+   <xinput index="2" value="0.694915" />
+   <xinput index="3" value="-0.59534" />
+   <xinput index="4" value="0.647668" />
+   <xinput index="5" value="-0.263682" />
+   <xinput index="6" value="-0.223199" />
+   <xinput index="7" value="-0.227446" />
+   <xinput index="8" value="-0.642743" />
+   <xinput index="9" value="-0.546135" />
+   <xinput index="10" value="-0.552795" />
+   <xinput index="11" value="-0.608108" />
+   <xinput index="12" value="-0.514851" />
+   <xinput index="13" value="-0.23741" />
+   <xinput index="14" value="-0.214286" />
+ </datapt>
+
+ <datapt yvalue="1.0386" id="86">
+   <xinput index="1" value="0.12" />
+   <xinput index="2" value="0.525424" />
+   <xinput index="3" value="-0.603515" />
+   <xinput index="4" value="0.57513" />
+   <xinput index="5" value="-0.462687" />
+   <xinput index="6" value="-0.311072" />
+   <xinput index="7" value="-0.484117" />
+   <xinput index="8" value="-0.642743" />
+   <xinput index="9" value="-0.625935" />
+   <xinput index="10" value="-0.403727" />
+   <xinput index="11" value="0.972973" />
+   <xinput index="12" value="-0.247525" />
+   <xinput index="13" value="-0.0359712" />
+   <xinput index="14" value="-0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0648" id="87">
+   <xinput index="1" value="-0.372632" />
+   <xinput index="2" value="0.694915" />
+   <xinput index="3" value="-0.679133" />
+   <xinput index="4" value="0.564767" />
+   <xinput index="5" value="-0.343284" />
+   <xinput index="6" value="-0.360281" />
+   <xinput index="7" value="-0.524778" />
+   <xinput index="8" value="-0.620415" />
+   <xinput index="9" value="-0.501247" />
+   <xinput index="10" value="-0.416149" />
+   <xinput index="11" value="-0.635135" />
+   <xinput index="12" value="-0.227723" />
+   <xinput index="13" value="0.00719424" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0462" id="88">
+   <xinput index="1" value="-0.0273684" />
+   <xinput index="2" value="0.423729" />
+   <xinput index="3" value="-0.66074" />
+   <xinput index="4" value="0.502591" />
+   <xinput index="5" value="-0.462687" />
+   <xinput index="6" value="-0.121265" />
+   <xinput index="7" value="-0.453621" />
+   <xinput index="8" value="-0.719298" />
+   <xinput index="9" value="-0.471322" />
+   <xinput index="10" value="-0.192547" />
+   <xinput index="11" value="-0.432432" />
+   <xinput index="12" value="-0.564356" />
+   <xinput index="13" value="0.0647482" />
+   <xinput index="14" value="-0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.08" id="89">
+   <xinput index="1" value="-0.650526" />
+   <xinput index="2" value="-0.186441" />
+   <xinput index="3" value="-0.52381" />
+   <xinput index="4" value="0.782383" />
+   <xinput index="5" value="-0.313433" />
+   <xinput index="6" value="-0.367311" />
+   <xinput index="7" value="-0.578145" />
+   <xinput index="8" value="-0.54386" />
+   <xinput index="9" value="-0.311721" />
+   <xinput index="10" value="-0.329193" />
+   <xinput index="11" value="-0.364865" />
+   <xinput index="12" value="-0.465347" />
+   <xinput index="13" value="0.194245" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0666" id="90">
+   <xinput index="1" value="-0.406316" />
+   <xinput index="2" value="-0.118644" />
+   <xinput index="3" value="-0.529941" />
+   <xinput index="4" value="0.803109" />
+   <xinput index="5" value="-0.442786" />
+   <xinput index="6" value="-0.388401" />
+   <xinput index="7" value="-0.565438" />
+   <xinput index="8" value="-0.575758" />
+   <xinput index="9" value="-0.341646" />
+   <xinput index="10" value="-0.142857" />
+   <xinput index="11" value="-0.283784" />
+   <xinput index="12" value="-0.60396" />
+   <xinput index="13" value="0.23741" />
+   <xinput index="14" value="0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.052" id="91">
+   <xinput index="1" value="-0.136842" />
+   <xinput index="2" value="-0.186441" />
+   <xinput index="3" value="-0.521766" />
+   <xinput index="4" value="0.678756" />
+   <xinput index="5" value="-0.393035" />
+   <xinput index="6" value="-0.282953" />
+   <xinput index="7" value="-0.33418" />
+   <xinput index="8" value="-0.451356" />
+   <xinput index="9" value="-0.446384" />
+   <xinput index="10" value="-0.354037" />
+   <xinput index="11" value="-0.540541" />
+   <xinput index="12" value="-0.574257" />
+   <xinput index="13" value="-0.0359712" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0573" id="92">
+   <xinput index="1" value="-0.233684" />
+   <xinput index="2" value="-0.254237" />
+   <xinput index="3" value="-0.499285" />
+   <xinput index="4" value="0.658031" />
+   <xinput index="5" value="-0.19403" />
+   <xinput index="6" value="-0.205624" />
+   <xinput index="7" value="-0.395172" />
+   <xinput index="8" value="-0.502392" />
+   <xinput index="9" value="-0.416459" />
+   <xinput index="10" value="-0.167702" />
+   <xinput index="11" value="-0.459459" />
+   <xinput index="12" value="-0.346535" />
+   <xinput index="13" value="0.0647482" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0795" id="93">
+   <xinput index="1" value="-0.642105" />
+   <xinput index="2" value="-0.152542" />
+   <xinput index="3" value="-0.617821" />
+   <xinput index="4" value="0.699482" />
+   <xinput index="5" value="-0.363184" />
+   <xinput index="6" value="-0.370826" />
+   <xinput index="7" value="-0.651842" />
+   <xinput index="8" value="-0.668262" />
+   <xinput index="9" value="-0.516209" />
+   <xinput index="10" value="-0.341615" />
+   <xinput index="11" value="-0.594595" />
+   <xinput index="12" value="-0.475248" />
+   <xinput index="13" value="0.0359712" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0424" id="94">
+   <xinput index="1" value="0.0484211" />
+   <xinput index="2" value="-0.186441" />
+   <xinput index="3" value="-0.395054" />
+   <xinput index="4" value="0.751295" />
+   <xinput index="5" value="-0.313433" />
+   <xinput index="6" value="-0.0404218" />
+   <xinput index="7" value="-0.285896" />
+   <xinput index="8" value="-0.502392" />
+   <xinput index="9" value="-0.416459" />
+   <xinput index="10" value="-0.068323" />
+   <xinput index="11" value="-0.27027" />
+   <xinput index="12" value="-0.158416" />
+   <xinput index="13" value="0.23741" />
+   <xinput index="14" value="0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.0785" id="95">
+   <xinput index="1" value="-0.621053" />
+   <xinput index="2" value="-0.152542" />
+   <xinput index="3" value="-0.462497" />
+   <xinput index="4" value="0.865285" />
+   <xinput index="5" value="-0.383085" />
+   <xinput index="6" value="-0.286467" />
+   <xinput index="7" value="-0.506989" />
+   <xinput index="8" value="-0.476874" />
+   <xinput index="9" value="-0.491272" />
+   <xinput index="10" value="-0.180124" />
+   <xinput index="11" value="-0.256757" />
+   <xinput index="12" value="-0.455446" />
+   <xinput index="13" value="-0.00719424" />
+   <xinput index="14" value="-0.285714" />
+ </datapt>
+
+ <datapt yvalue="1.0991" id="96">
+   <xinput index="1" value="-0.267368" />
+   <xinput index="2" value="0.0508475" />
+   <xinput index="3" value="-0.133456" />
+   <xinput index="4" value="1" />
+   <xinput index="5" value="-0.00497512" />
+   <xinput index="6" value="0.191564" />
+   <xinput index="7" value="-0.242694" />
+   <xinput index="8" value="-0.282297" />
+   <xinput index="9" value="-0.276808" />
+   <xinput index="10" value="0.15528" />
+   <xinput index="11" value="-0.445946" />
+   <xinput index="12" value="-0.19802" />
+   <xinput index="13" value="0.410072" />
+   <xinput index="14" value="0.642857" />
+ </datapt>
+
+ <datapt yvalue="1.077" id="97">
+   <xinput index="1" value="-0.595789" />
+   <xinput index="2" value="-0.457627" />
+   <xinput index="3" value="-0.42571" />
+   <xinput index="4" value="0.813472" />
+   <xinput index="5" value="-0.363184" />
+   <xinput index="6" value="-0.304042" />
+   <xinput index="7" value="-0.435832" />
+   <xinput index="8" value="-0.444976" />
+   <xinput index="9" value="-0.331671" />
+   <xinput index="10" value="-0.204969" />
+   <xinput index="11" value="-0.486486" />
+   <xinput index="12" value="-0.326733" />
+   <xinput index="13" value="0.309353" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.073" id="98">
+   <xinput index="1" value="-0.524211" />
+   <xinput index="2" value="-0.0508475" />
+   <xinput index="3" value="-0.640302" />
+   <xinput index="4" value="0.533679" />
+   <xinput index="5" value="-0.243781" />
+   <xinput index="6" value="-0.293497" />
+   <xinput index="7" value="-0.560356" />
+   <xinput index="8" value="-0.642743" />
+   <xinput index="9" value="-0.256858" />
+   <xinput index="10" value="-0.217391" />
+   <xinput index="11" value="-0.432432" />
+   <xinput index="12" value="-0.425743" />
+   <xinput index="13" value="-0.0215827" />
+   <xinput index="14" value="-0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0582" id="99">
+   <xinput index="1" value="-0.250526" />
+   <xinput index="2" value="-0.186441" />
+   <xinput index="3" value="-0.689352" />
+   <xinput index="4" value="0.606218" />
+   <xinput index="5" value="-0.522388" />
+   <xinput index="6" value="-0.44464" />
+   <xinput index="7" value="-0.522236" />
+   <xinput index="8" value="-0.751196" />
+   <xinput index="9" value="-0.625935" />
+   <xinput index="10" value="-0.465839" />
+   <xinput index="11" value="-0.621622" />
+   <xinput index="12" value="-0.326733" />
+   <xinput index="13" value="-0.0647482" />
+   <xinput index="14" value="-0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0484" id="100">
+   <xinput index="1" value="-0.0652632" />
+   <xinput index="2" value="-0.152542" />
+   <xinput index="3" value="-0.358267" />
+   <xinput index="4" value="0.761658" />
+   <xinput index="5" value="-0.114428" />
+   <xinput index="6" value="-0.00878735" />
+   <xinput index="7" value="-0.374841" />
+   <xinput index="8" value="-0.403509" />
+   <xinput index="9" value="-0.226933" />
+   <xinput index="10" value="-0.254658" />
+   <xinput index="11" value="-0.567568" />
+   <xinput index="12" value="0.039604" />
+   <xinput index="13" value="0.42446" />
+   <xinput index="14" value="-0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.0506" id="101">
+   <xinput index="1" value="-0.107368" />
+   <xinput index="2" value="-0.0847458" />
+   <xinput index="3" value="-0.346004" />
+   <xinput index="4" value="0.823834" />
+   <xinput index="5" value="-0.104478" />
+   <xinput index="6" value="-0.0439367" />
+   <xinput index="7" value="-0.349428" />
+   <xinput index="8" value="-0.467305" />
+   <xinput index="9" value="-0.411471" />
+   <xinput index="10" value="-0.204969" />
+   <xinput index="11" value="-0.567568" />
+   <xinput index="12" value="-0.267327" />
+   <xinput index="13" value="0.438849" />
+   <xinput index="14" value="6.66134e-16" />
+ </datapt>
+
+ <datapt yvalue="1.0524" id="102">
+   <xinput index="1" value="-0.141053" />
+   <xinput index="2" value="-0.118644" />
+   <xinput index="3" value="-0.548334" />
+   <xinput index="4" value="0.761658" />
+   <xinput index="5" value="-0.412935" />
+   <xinput index="6" value="-0.304042" />
+   <xinput index="7" value="-0.425667" />
+   <xinput index="8" value="-0.575758" />
+   <xinput index="9" value="-0.396509" />
+   <xinput index="10" value="-0.329193" />
+   <xinput index="11" value="-0.554054" />
+   <xinput index="12" value="-0.693069" />
+   <xinput index="13" value="-0.251799" />
+   <xinput index="14" value="-0.571429" />
+ </datapt>
+
+ <datapt yvalue="1.053" id="103">
+   <xinput index="1" value="-0.153684" />
+   <xinput index="2" value="-0.355932" />
+   <xinput index="3" value="-0.556509" />
+   <xinput index="4" value="0.73057" />
+   <xinput index="5" value="-0.482587" />
+   <xinput index="6" value="-0.388401" />
+   <xinput index="7" value="-0.496823" />
+   <xinput index="8" value="-0.575758" />
+   <xinput index="9" value="-0.361596" />
+   <xinput index="10" value="-0.329193" />
+   <xinput index="11" value="-0.445946" />
+   <xinput index="12" value="-0.386139" />
+   <xinput index="13" value="0.179856" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.048" id="104">
+   <xinput index="1" value="-0.0610526" />
+   <xinput index="2" value="-0.0847458" />
+   <xinput index="3" value="-0.360311" />
+   <xinput index="4" value="0.834197" />
+   <xinput index="5" value="-0.0447761" />
+   <xinput index="6" value="-0.149385" />
+   <xinput index="7" value="-0.336722" />
+   <xinput index="8" value="-0.470494" />
+   <xinput index="9" value="-0.406484" />
+   <xinput index="10" value="-0.15528" />
+   <xinput index="11" value="-0.148649" />
+   <xinput index="12" value="-0.386139" />
+   <xinput index="13" value="0.338129" />
+   <xinput index="14" value="0.392857" />
+ </datapt>
+
+ <datapt yvalue="1.0412" id="105">
+   <xinput index="1" value="0.0694737" />
+   <xinput index="2" value="-0.288136" />
+   <xinput index="3" value="-0.521766" />
+   <xinput index="4" value="0.647668" />
+   <xinput index="5" value="-0.154229" />
+   <xinput index="6" value="-0.13181" />
+   <xinput index="7" value="-0.257942" />
+   <xinput index="8" value="-0.53748" />
+   <xinput index="9" value="-0.386534" />
+   <xinput index="10" value="-0.614907" />
+   <xinput index="11" value="-0.608108" />
+   <xinput index="12" value="-0.475248" />
+   <xinput index="13" value="-0.107914" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0578" id="106">
+   <xinput index="1" value="-0.242105" />
+   <xinput index="2" value="-0.288136" />
+   <xinput index="3" value="-0.615778" />
+   <xinput index="4" value="0.61658" />
+   <xinput index="5" value="-1" />
+   <xinput index="6" value="-0.514938" />
+   <xinput index="7" value="-0.545108" />
+   <xinput index="8" value="-0.629984" />
+   <xinput index="9" value="-0.625935" />
+   <xinput index="10" value="-0.254658" />
+   <xinput index="11" value="-0.22973" />
+   <xinput index="12" value="-0.386139" />
+   <xinput index="13" value="0.208633" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0547" id="107">
+   <xinput index="1" value="-0.187368" />
+   <xinput index="2" value="-0.288136" />
+   <xinput index="3" value="-0.331698" />
+   <xinput index="4" value="0.823834" />
+   <xinput index="5" value="-0.253731" />
+   <xinput index="6" value="-0.0896309" />
+   <xinput index="7" value="-0.151207" />
+   <xinput index="8" value="-0.406699" />
+   <xinput index="9" value="-0.301746" />
+   <xinput index="10" value="-0.217391" />
+   <xinput index="11" value="-0.405405" />
+   <xinput index="12" value="-0.435644" />
+   <xinput index="13" value="0.0791367" />
+   <xinput index="14" value="-0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.0569" id="108">
+   <xinput index="1" value="-0.229474" />
+   <xinput index="2" value="0.0169492" />
+   <xinput index="3" value="-0.307174" />
+   <xinput index="4" value="0.854922" />
+   <xinput index="5" value="0.0845771" />
+   <xinput index="6" value="0.0790861" />
+   <xinput index="7" value="-0.181703" />
+   <xinput index="8" value="-0.499203" />
+   <xinput index="9" value="-0.571072" />
+   <xinput index="10" value="-0.291925" />
+   <xinput index="11" value="-0.418919" />
+   <xinput index="12" value="0.019802" />
+   <xinput index="13" value="0.23741" />
+   <xinput index="14" value="0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.0593" id="109">
+   <xinput index="1" value="-0.271579" />
+   <xinput index="2" value="-0.288136" />
+   <xinput index="3" value="-0.382792" />
+   <xinput index="4" value="0.906736" />
+   <xinput index="5" value="-0.263682" />
+   <xinput index="6" value="0.0826011" />
+   <xinput index="7" value="-0.50953" />
+   <xinput index="8" value="-0.454545" />
+   <xinput index="9" value="-0.486284" />
+   <xinput index="10" value="-0.130435" />
+   <xinput index="11" value="-0.22973" />
+   <xinput index="12" value="0.019802" />
+   <xinput index="13" value="0.395683" />
+   <xinput index="14" value="0.214286" />
+ </datapt>
+
+ <datapt yvalue="1.05" id="110">
+   <xinput index="1" value="-0.0989474" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.591253" />
+   <xinput index="4" value="0.647668" />
+   <xinput index="5" value="-0.691542" />
+   <xinput index="6" value="-0.349736" />
+   <xinput index="7" value="-0.418043" />
+   <xinput index="8" value="-0.502392" />
+   <xinput index="9" value="-0.486284" />
+   <xinput index="10" value="-0.52795" />
+   <xinput index="11" value="-0.5" />
+   <xinput index="12" value="-0.277228" />
+   <xinput index="13" value="-0.280576" />
+   <xinput index="14" value="-0.464286" />
+ </datapt>
+
+ <datapt yvalue="1.0538" id="111">
+   <xinput index="1" value="-0.170526" />
+   <xinput index="2" value="-0.288136" />
+   <xinput index="3" value="-0.572859" />
+   <xinput index="4" value="0.61658" />
+   <xinput index="5" value="-0.393035" />
+   <xinput index="6" value="-0.40246" />
+   <xinput index="7" value="-0.461245" />
+   <xinput index="8" value="-0.54386" />
+   <xinput index="9" value="-0.266833" />
+   <xinput index="10" value="-0.378882" />
+   <xinput index="11" value="-0.567568" />
+   <xinput index="12" value="-0.158416" />
+   <xinput index="13" value="0.0359712" />
+   <xinput index="14" value="-0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.0355" id="112">
+   <xinput index="1" value="0.178947" />
+   <xinput index="2" value="-0.288136" />
+   <xinput index="3" value="-0.470672" />
+   <xinput index="4" value="0.678756" />
+   <xinput index="5" value="-0.402985" />
+   <xinput index="6" value="0.00878735" />
+   <xinput index="7" value="-0.0952986" />
+   <xinput index="8" value="-0.425837" />
+   <xinput index="9" value="-0.177057" />
+   <xinput index="10" value="-0.130435" />
+   <xinput index="11" value="-0.391892" />
+   <xinput index="12" value="-0.138614" />
+   <xinput index="13" value="-0.0215827" />
+   <xinput index="14" value="-0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.0486" id="113">
+   <xinput index="1" value="-0.0694737" />
+   <xinput index="2" value="-0.152542" />
+   <xinput index="3" value="-0.511547" />
+   <xinput index="4" value="0.678756" />
+   <xinput index="5" value="-0.0945274" />
+   <xinput index="6" value="-0.282953" />
+   <xinput index="7" value="-0.349428" />
+   <xinput index="8" value="-0.566188" />
+   <xinput index="9" value="-0.246883" />
+   <xinput index="10" value="-0.36646" />
+   <xinput index="11" value="-0.351351" />
+   <xinput index="12" value="0.039604" />
+   <xinput index="13" value="0.453237" />
+   <xinput index="14" value="0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.0503" id="114">
+   <xinput index="1" value="-0.103158" />
+   <xinput index="2" value="-0.322034" />
+   <xinput index="3" value="-0.636215" />
+   <xinput index="4" value="0.689119" />
+   <xinput index="5" value="-0.58209" />
+   <xinput index="6" value="-0.500879" />
+   <xinput index="7" value="-0.486658" />
+   <xinput index="8" value="-0.527911" />
+   <xinput index="9" value="-0.286783" />
+   <xinput index="10" value="-0.403727" />
+   <xinput index="11" value="-0.621622" />
+   <xinput index="12" value="-0.415842" />
+   <xinput index="13" value="-0.0503597" />
+   <xinput index="14" value="-0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.0384" id="115">
+   <xinput index="1" value="0.124211" />
+   <xinput index="2" value="-0.118644" />
+   <xinput index="3" value="-0.536072" />
+   <xinput index="4" value="0.751295" />
+   <xinput index="5" value="-0.313433" />
+   <xinput index="6" value="-0.247803" />
+   <xinput index="7" value="-0.415502" />
+   <xinput index="8" value="-0.601276" />
+   <xinput index="9" value="-0.396509" />
+   <xinput index="10" value="-0.36646" />
+   <xinput index="11" value="-0.635135" />
+   <xinput index="12" value="-0.306931" />
+   <xinput index="13" value="-0.0935252" />
+   <xinput index="14" value="-0.392857" />
+ </datapt>
+
+ <datapt yvalue="1.0607" id="116">
+   <xinput index="1" value="-0.296842" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.67709" />
+   <xinput index="4" value="0.647668" />
+   <xinput index="5" value="-0.482587" />
+   <xinput index="6" value="-0.377856" />
+   <xinput index="7" value="-0.562897" />
+   <xinput index="8" value="-0.757576" />
+   <xinput index="9" value="-0.566085" />
+   <xinput index="10" value="-0.590062" />
+   <xinput index="11" value="-0.594595" />
+   <xinput index="12" value="-0.50495" />
+   <xinput index="13" value="-0.23741" />
+   <xinput index="14" value="-0.464286" />
+ </datapt>
+
+ <datapt yvalue="1.0529" id="117">
+   <xinput index="1" value="-0.153684" />
+   <xinput index="2" value="-0.118644" />
+   <xinput index="3" value="-0.519722" />
+   <xinput index="4" value="0.792746" />
+   <xinput index="5" value="-0.432836" />
+   <xinput index="6" value="-0.413005" />
+   <xinput index="7" value="-0.476493" />
+   <xinput index="8" value="-0.5311" />
+   <xinput index="9" value="-0.421446" />
+   <xinput index="10" value="-0.329193" />
+   <xinput index="11" value="-0.5" />
+   <xinput index="12" value="-0.49505" />
+   <xinput index="13" value="0.00719424" />
+   <xinput index="14" value="-0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.0671" id="118">
+   <xinput index="1" value="-0.414737" />
+   <xinput index="2" value="-0.0169492" />
+   <xinput index="3" value="-0.505416" />
+   <xinput index="4" value="0.761658" />
+   <xinput index="5" value="-0.0149254" />
+   <xinput index="6" value="-0.300527" />
+   <xinput index="7" value="-0.476493" />
+   <xinput index="8" value="-0.636364" />
+   <xinput index="9" value="-0.521197" />
+   <xinput index="10" value="-0.279503" />
+   <xinput index="11" value="-0.432432" />
+   <xinput index="12" value="-0.148515" />
+   <xinput index="13" value="0.266187" />
+   <xinput index="14" value="0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0404" id="119">
+   <xinput index="1" value="0.0863158" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.407317" />
+   <xinput index="4" value="0.84456" />
+   <xinput index="5" value="-0.283582" />
+   <xinput index="6" value="-0.434095" />
+   <xinput index="7" value="-0.415502" />
+   <xinput index="8" value="-0.38437" />
+   <xinput index="9" value="-0.13217" />
+   <xinput index="10" value="0.00621118" />
+   <xinput index="11" value="-0.22973" />
+   <xinput index="12" value="-0.128713" />
+   <xinput index="13" value="0.223022" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0575" id="120">
+   <xinput index="1" value="-0.237895" />
+   <xinput index="2" value="-0.254237" />
+   <xinput index="3" value="-0.435929" />
+   <xinput index="4" value="0.772021" />
+   <xinput index="5" value="-0.313433" />
+   <xinput index="6" value="-0.209139" />
+   <xinput index="7" value="-0.540025" />
+   <xinput index="8" value="-0.489633" />
+   <xinput index="9" value="-0.436409" />
+   <xinput index="10" value="-0.229814" />
+   <xinput index="11" value="-0.27027" />
+   <xinput index="12" value="-0.277228" />
+   <xinput index="13" value="0.0935252" />
+   <xinput index="14" value="-0.214286" />
+ </datapt>
+
+ <datapt yvalue="1.0358" id="121">
+   <xinput index="1" value="0.174737" />
+   <xinput index="2" value="0.0169492" />
+   <xinput index="3" value="-0.280605" />
+   <xinput index="4" value="0.865285" />
+   <xinput index="5" value="-0.0348259" />
+   <xinput index="6" value="-0.121265" />
+   <xinput index="7" value="-0.242694" />
+   <xinput index="8" value="-0.39075" />
+   <xinput index="9" value="-0.436409" />
+   <xinput index="10" value="-0.217391" />
+   <xinput index="11" value="-0.256757" />
+   <xinput index="12" value="-0.0990099" />
+   <xinput index="13" value="0.467626" />
+   <xinput index="14" value="0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0414" id="122">
+   <xinput index="1" value="0.0652632" />
+   <xinput index="2" value="-0.254237" />
+   <xinput index="3" value="-0.454323" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="-0.164179" />
+   <xinput index="6" value="-0.300527" />
+   <xinput index="7" value="-0.270648" />
+   <xinput index="8" value="-0.476874" />
+   <xinput index="9" value="-0.506234" />
+   <xinput index="10" value="-0.068323" />
+   <xinput index="11" value="-0.445946" />
+   <xinput index="12" value="-0.188119" />
+   <xinput index="13" value="0.23741" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0652" id="123">
+   <xinput index="1" value="-0.381053" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.658696" />
+   <xinput index="4" value="0.626943" />
+   <xinput index="5" value="-0.422886" />
+   <xinput index="6" value="-0.297012" />
+   <xinput index="7" value="-0.64676" />
+   <xinput index="8" value="-0.601276" />
+   <xinput index="9" value="-0.336658" />
+   <xinput index="10" value="-0.291925" />
+   <xinput index="11" value="-0.527027" />
+   <xinput index="12" value="-0.049505" />
+   <xinput index="13" value="0.00719424" />
+   <xinput index="14" value="-0.357143" />
+ </datapt>
+
+ <datapt yvalue="1.0623" id="124">
+   <xinput index="1" value="-0.326316" />
+   <xinput index="2" value="-0.152542" />
+   <xinput index="3" value="-0.730227" />
+   <xinput index="4" value="0.544041" />
+   <xinput index="5" value="-0.422886" />
+   <xinput index="6" value="-0.483304" />
+   <xinput index="7" value="-0.575604" />
+   <xinput index="8" value="-0.674641" />
+   <xinput index="9" value="-0.456359" />
+   <xinput index="10" value="-0.565217" />
+   <xinput index="11" value="-0.594595" />
+   <xinput index="12" value="-0.425743" />
+   <xinput index="13" value="-0.0647482" />
+   <xinput index="14" value="-0.357143" />
+ </datapt>
+
+ <datapt yvalue="1.0674" id="125">
+   <xinput index="1" value="-0.418947" />
+   <xinput index="2" value="-0.0508475" />
+   <xinput index="3" value="-0.652565" />
+   <xinput index="4" value="0.533679" />
+   <xinput index="5" value="-0.343284" />
+   <xinput index="6" value="-0.311072" />
+   <xinput index="7" value="-0.626429" />
+   <xinput index="8" value="-0.712919" />
+   <xinput index="9" value="-0.436409" />
+   <xinput index="10" value="-0.552795" />
+   <xinput index="11" value="-0.405405" />
+   <xinput index="12" value="-0.049505" />
+   <xinput index="13" value="0.179856" />
+   <xinput index="14" value="-0.214286" />
+ </datapt>
+
+ <datapt yvalue="1.0587" id="126">
+   <xinput index="1" value="-0.263158" />
+   <xinput index="2" value="-0.186441" />
+   <xinput index="3" value="-0.603515" />
+   <xinput index="4" value="0.554404" />
+   <xinput index="5" value="-0.452736" />
+   <xinput index="6" value="-0.237258" />
+   <xinput index="7" value="-0.479034" />
+   <xinput index="8" value="-0.521531" />
+   <xinput index="9" value="-0.326683" />
+   <xinput index="10" value="-0.627329" />
+   <xinput index="11" value="-0.621622" />
+   <xinput index="12" value="0.0693069" />
+   <xinput index="13" value="0.323741" />
+   <xinput index="14" value="-0.357143" />
+ </datapt>
+
+ <datapt yvalue="1.0373" id="127">
+   <xinput index="1" value="0.145263" />
+   <xinput index="2" value="-0.322034" />
+   <xinput index="3" value="-0.517678" />
+   <xinput index="4" value="0.626943" />
+   <xinput index="5" value="-0.223881" />
+   <xinput index="6" value="-0.318102" />
+   <xinput index="7" value="-0.423126" />
+   <xinput index="8" value="-0.569378" />
+   <xinput index="9" value="-0.326683" />
+   <xinput index="10" value="-0.52795" />
+   <xinput index="11" value="-0.581081" />
+   <xinput index="12" value="-0.108911" />
+   <xinput index="13" value="0.338129" />
+   <xinput index="14" value="-0.5" />
+ </datapt>
+
+ <datapt yvalue="1.059" id="128">
+   <xinput index="1" value="-0.267368" />
+   <xinput index="2" value="-0.288136" />
+   <xinput index="3" value="-0.724096" />
+   <xinput index="4" value="0.585492" />
+   <xinput index="5" value="-0.363184" />
+   <xinput index="6" value="-0.41652" />
+   <xinput index="7" value="-0.781449" />
+   <xinput index="8" value="-0.738437" />
+   <xinput index="9" value="-0.685786" />
+   <xinput index="10" value="-0.652174" />
+   <xinput index="11" value="-0.77027" />
+   <xinput index="12" value="-0.0990099" />
+   <xinput index="13" value="0.0359712" />
+   <xinput index="14" value="-0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.0515" id="129">
+   <xinput index="1" value="-0.124211" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.397098" />
+   <xinput index="4" value="0.813472" />
+   <xinput index="5" value="-0.134328" />
+   <xinput index="6" value="-0.135325" />
+   <xinput index="7" value="-0.387548" />
+   <xinput index="8" value="-0.53748" />
+   <xinput index="9" value="-0.276808" />
+   <xinput index="10" value="-0.254658" />
+   <xinput index="11" value="-0.635135" />
+   <xinput index="12" value="-0.158416" />
+   <xinput index="13" value="0.23741" />
+   <xinput index="14" value="-0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.0648" id="130">
+   <xinput index="1" value="-0.372632" />
+   <xinput index="2" value="-0.322034" />
+   <xinput index="3" value="-0.617821" />
+   <xinput index="4" value="0.668394" />
+   <xinput index="5" value="-0.283582" />
+   <xinput index="6" value="-0.405975" />
+   <xinput index="7" value="-0.552732" />
+   <xinput index="8" value="-0.591707" />
+   <xinput index="9" value="-0.491272" />
+   <xinput index="10" value="-0.515528" />
+   <xinput index="11" value="-0.581081" />
+   <xinput index="12" value="-0.326733" />
+   <xinput index="13" value="-0.0215827" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0575" id="131">
+   <xinput index="1" value="-0.237895" />
+   <xinput index="2" value="-0.0847458" />
+   <xinput index="3" value="-0.564684" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="-0.562189" />
+   <xinput index="6" value="-0.349736" />
+   <xinput index="7" value="-0.473952" />
+   <xinput index="8" value="-0.655502" />
+   <xinput index="9" value="-0.511222" />
+   <xinput index="10" value="-0.291925" />
+   <xinput index="11" value="-0.445946" />
+   <xinput index="12" value="-0.732673" />
+   <xinput index="13" value="-0.208633" />
+   <xinput index="14" value="-0.357143" />
+ </datapt>
+
+ <datapt yvalue="1.0472" id="132">
+   <xinput index="1" value="-0.0442105" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.568772" />
+   <xinput index="4" value="0.699482" />
+   <xinput index="5" value="-0.482587" />
+   <xinput index="6" value="-0.462214" />
+   <xinput index="7" value="-0.468869" />
+   <xinput index="8" value="-0.550239" />
+   <xinput index="9" value="-0.346633" />
+   <xinput index="10" value="-0.31677" />
+   <xinput index="11" value="-0.472973" />
+   <xinput index="12" value="-0.366337" />
+   <xinput index="13" value="0.0647482" />
+   <xinput index="14" value="-0.535714" />
+ </datapt>
+
+ <datapt yvalue="1.0452" id="133">
+   <xinput index="1" value="-0.00631579" />
+   <xinput index="2" value="-0.152542" />
+   <xinput index="3" value="-0.358267" />
+   <xinput index="4" value="0.813472" />
+   <xinput index="5" value="-0.333333" />
+   <xinput index="6" value="-0.14587" />
+   <xinput index="7" value="-0.227446" />
+   <xinput index="8" value="-0.419458" />
+   <xinput index="9" value="-0.301746" />
+   <xinput index="10" value="-0.36646" />
+   <xinput index="11" value="-0.527027" />
+   <xinput index="12" value="-0.138614" />
+   <xinput index="13" value="0.0935252" />
+   <xinput index="14" value="-0.25" />
+ </datapt>
+
+ <datapt yvalue="1.0398" id="134">
+   <xinput index="1" value="0.0989474" />
+   <xinput index="2" value="-0.0508475" />
+   <xinput index="3" value="-0.685265" />
+   <xinput index="4" value="0.544041" />
+   <xinput index="5" value="-0.333333" />
+   <xinput index="6" value="-0.258348" />
+   <xinput index="7" value="-0.491741" />
+   <xinput index="8" value="-0.767145" />
+   <xinput index="9" value="-0.55611" />
+   <xinput index="10" value="-0.677019" />
+   <xinput index="11" value="-0.810811" />
+   <xinput index="12" value="-0.128713" />
+   <xinput index="13" value="0.194245" />
+   <xinput index="14" value="-0.464286" />
+ </datapt>
+
+ <datapt yvalue="1.0435" id="135">
+   <xinput index="1" value="0.0273684" />
+   <xinput index="2" value="-0.355932" />
+   <xinput index="3" value="-0.593297" />
+   <xinput index="4" value="0.658031" />
+   <xinput index="5" value="-0.462687" />
+   <xinput index="6" value="-0.328647" />
+   <xinput index="7" value="-0.547649" />
+   <xinput index="8" value="-0.572568" />
+   <xinput index="9" value="-0.561097" />
+   <xinput index="10" value="-0.515528" />
+   <xinput index="11" value="-0.472973" />
+   <xinput index="12" value="-0.0891089" />
+   <xinput index="13" value="0.266187" />
+   <xinput index="14" value="-0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.0374" id="136">
+   <xinput index="1" value="0.141053" />
+   <xinput index="2" value="-0.254237" />
+   <xinput index="3" value="-0.448191" />
+   <xinput index="4" value="0.668394" />
+   <xinput index="5" value="-0.333333" />
+   <xinput index="6" value="-0.110721" />
+   <xinput index="7" value="-0.194409" />
+   <xinput index="8" value="-0.454545" />
+   <xinput index="9" value="-0.416459" />
+   <xinput index="10" value="-0.391304" />
+   <xinput index="11" value="-0.513514" />
+   <xinput index="12" value="-0.39604" />
+   <xinput index="13" value="0.122302" />
+   <xinput index="14" value="-0.357143" />
+ </datapt>
+
+ <datapt yvalue="1.0491" id="137">
+   <xinput index="1" value="-0.0821053" />
+   <xinput index="2" value="-0.423729" />
+   <xinput index="3" value="-0.605559" />
+   <xinput index="4" value="0.709845" />
+   <xinput index="5" value="-0.412935" />
+   <xinput index="6" value="-0.521968" />
+   <xinput index="7" value="-0.575604" />
+   <xinput index="8" value="-0.661882" />
+   <xinput index="9" value="-0.421446" />
+   <xinput index="10" value="-0.614907" />
+   <xinput index="11" value="-0.554054" />
+   <xinput index="12" value="-0.217822" />
+   <xinput index="13" value="0.0503597" />
+   <xinput index="14" value="-0.535714" />
+ </datapt>
+
+ <datapt yvalue="1.0325" id="138">
+   <xinput index="1" value="0.237895" />
+   <xinput index="2" value="-0.288136" />
+   <xinput index="3" value="-0.433885" />
+   <xinput index="4" value="0.84456" />
+   <xinput index="5" value="-0.343284" />
+   <xinput index="6" value="-0.349736" />
+   <xinput index="7" value="-0.257942" />
+   <xinput index="8" value="-0.502392" />
+   <xinput index="9" value="-0.182045" />
+   <xinput index="10" value="-0.229814" />
+   <xinput index="11" value="-0.364865" />
+   <xinput index="12" value="-0.0594059" />
+   <xinput index="13" value="0.0647482" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0481" id="139">
+   <xinput index="1" value="-0.0568421" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.593297" />
+   <xinput index="4" value="0.73057" />
+   <xinput index="5" value="-0.681592" />
+   <xinput index="6" value="-0.332162" />
+   <xinput index="7" value="-0.514612" />
+   <xinput index="8" value="-0.575758" />
+   <xinput index="9" value="-0.456359" />
+   <xinput index="10" value="-0.329193" />
+   <xinput index="11" value="-0.540541" />
+   <xinput index="12" value="-0.316832" />
+   <xinput index="13" value="-0.0791367" />
+   <xinput index="14" value="-0.357143" />
+ </datapt>
+
+ <datapt yvalue="1.0522" id="140">
+   <xinput index="1" value="-0.141053" />
+   <xinput index="2" value="-0.0847458" />
+   <xinput index="3" value="-0.229512" />
+   <xinput index="4" value="0.88601" />
+   <xinput index="5" value="-0.0348259" />
+   <xinput index="6" value="-0.107206" />
+   <xinput index="7" value="-0.0546379" />
+   <xinput index="8" value="-0.275917" />
+   <xinput index="9" value="-0.0374065" />
+   <xinput index="10" value="0.180124" />
+   <xinput index="11" value="-0.27027" />
+   <xinput index="12" value="0.0594059" />
+   <xinput index="13" value="0.266187" />
+   <xinput index="14" value="0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0422" id="141">
+   <xinput index="1" value="0.0484211" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.52381" />
+   <xinput index="4" value="0.720207" />
+   <xinput index="5" value="-0.373134" />
+   <xinput index="6" value="-0.321617" />
+   <xinput index="7" value="-0.397713" />
+   <xinput index="8" value="-0.470494" />
+   <xinput index="9" value="-0.406484" />
+   <xinput index="10" value="-0.180124" />
+   <xinput index="11" value="-0.662162" />
+   <xinput index="12" value="-0.405941" />
+   <xinput index="13" value="-0.00719424" />
+   <xinput index="14" value="-0.714286" />
+ </datapt>
+
+ <datapt yvalue="1.0571" id="142">
+   <xinput index="1" value="-0.229474" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.552422" />
+   <xinput index="4" value="0.658031" />
+   <xinput index="5" value="-0.462687" />
+   <xinput index="6" value="-0.289982" />
+   <xinput index="7" value="-0.400254" />
+   <xinput index="8" value="-0.54386" />
+   <xinput index="9" value="-0.341646" />
+   <xinput index="10" value="-0.354037" />
+   <xinput index="11" value="-0.608108" />
+   <xinput index="12" value="-0.287129" />
+   <xinput index="13" value="0.0791367" />
+   <xinput index="14" value="-0.285714" />
+ </datapt>
+
+ <datapt yvalue="1.0459" id="143">
+   <xinput index="1" value="-0.0189474" />
+   <xinput index="2" value="0.0169492" />
+   <xinput index="3" value="-0.603515" />
+   <xinput index="4" value="0.585492" />
+   <xinput index="5" value="-0.363184" />
+   <xinput index="6" value="-0.177504" />
+   <xinput index="7" value="-0.45108" />
+   <xinput index="8" value="-0.556619" />
+   <xinput index="9" value="-0.506234" />
+   <xinput index="10" value="-0.540373" />
+   <xinput index="11" value="-0.567568" />
+   <xinput index="12" value="-0.326733" />
+   <xinput index="13" value="-0.0647482" />
+   <xinput index="14" value="-0.25" />
+ </datapt>
+
+ <datapt yvalue="1.0775" id="144">
+   <xinput index="1" value="-0.604211" />
+   <xinput index="2" value="-0.966102" />
+   <xinput index="3" value="-0.662784" />
+   <xinput index="4" value="0.772021" />
+   <xinput index="5" value="-0.562189" />
+   <xinput index="6" value="-0.550088" />
+   <xinput index="7" value="-0.80432" />
+   <xinput index="8" value="-0.716108" />
+   <xinput index="9" value="-0.55611" />
+   <xinput index="10" value="-0.614907" />
+   <xinput index="11" value="-0.513514" />
+   <xinput index="12" value="-0.435644" />
+   <xinput index="13" value="-0.107914" />
+   <xinput index="14" value="-0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0754" id="145">
+   <xinput index="1" value="-0.566316" />
+   <xinput index="2" value="-0.966102" />
+   <xinput index="3" value="-0.430615" />
+   <xinput index="4" value="0.989637" />
+   <xinput index="5" value="-0.313433" />
+   <xinput index="6" value="-0.391916" />
+   <xinput index="7" value="-0.595934" />
+   <xinput index="8" value="-0.441786" />
+   <xinput index="9" value="-0.406484" />
+   <xinput index="10" value="-0.428571" />
+   <xinput index="11" value="-0.445946" />
+   <xinput index="12" value="-0.306931" />
+   <xinput index="13" value="0.251799" />
+   <xinput index="14" value="-0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.0664" id="146">
+   <xinput index="1" value="-0.402105" />
+   <xinput index="2" value="-0.932203" />
+   <xinput index="3" value="-0.69344" />
+   <xinput index="4" value="0.709845" />
+   <xinput index="5" value="-0.542289" />
+   <xinput index="6" value="-0.528998" />
+   <xinput index="7" value="-0.682338" />
+   <xinput index="8" value="-0.671451" />
+   <xinput index="9" value="-0.541147" />
+   <xinput index="10" value="-0.565217" />
+   <xinput index="11" value="-0.608108" />
+   <xinput index="12" value="-0.138614" />
+   <xinput index="13" value="0.0503597" />
+   <xinput index="14" value="-0.464286" />
+ </datapt>
+
+ <datapt yvalue="1.055" id="147">
+   <xinput index="1" value="-0.191579" />
+   <xinput index="2" value="-0.932203" />
+   <xinput index="3" value="-0.264255" />
+   <xinput index="4" value="0.792746" />
+   <xinput index="5" value="-0.19403" />
+   <xinput index="6" value="-0.202109" />
+   <xinput index="7" value="-0.245235" />
+   <xinput index="8" value="-0.199362" />
+   <xinput index="9" value="0.197007" />
+   <xinput index="10" value="0.304348" />
+   <xinput index="11" value="-0.175676" />
+   <xinput index="12" value="0.118812" />
+   <xinput index="13" value="0.338129" />
+   <xinput index="14" value="0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0322" id="148">
+   <xinput index="1" value="0.246316" />
+   <xinput index="2" value="-0.898305" />
+   <xinput index="3" value="-0.280605" />
+   <xinput index="4" value="0.668394" />
+   <xinput index="5" value="-0.0248756" />
+   <xinput index="6" value="0.110721" />
+   <xinput index="7" value="-0.209657" />
+   <xinput index="8" value="-0.323764" />
+   <xinput index="9" value="0.0573566" />
+   <xinput index="10" value="-0.0310559" />
+   <xinput index="11" value="-0.256757" />
+   <xinput index="12" value="-0.158416" />
+   <xinput index="13" value="0.251799" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0873" id="149">
+   <xinput index="1" value="-0.776842" />
+   <xinput index="2" value="-0.898305" />
+   <xinput index="3" value="-0.793583" />
+   <xinput index="4" value="0.782383" />
+   <xinput index="5" value="-0.59204" />
+   <xinput index="6" value="-0.543058" />
+   <xinput index="7" value="-0.819568" />
+   <xinput index="8" value="-0.773525" />
+   <xinput index="9" value="-0.765586" />
+   <xinput index="10" value="-0.664596" />
+   <xinput index="11" value="-0.608108" />
+   <xinput index="12" value="-0.90099" />
+   <xinput index="13" value="-0.395683" />
+   <xinput index="14" value="-0.607143" />
+ </datapt>
+
+ <datapt yvalue="1.0416" id="150">
+   <xinput index="1" value="0.0610526" />
+   <xinput index="2" value="-0.864407" />
+   <xinput index="3" value="-0.145718" />
+   <xinput index="4" value="0.689119" />
+   <xinput index="5" value="-0.0547264" />
+   <xinput index="6" value="0.223199" />
+   <xinput index="7" value="-0.0495553" />
+   <xinput index="8" value="-0.0781499" />
+   <xinput index="9" value="0.0174564" />
+   <xinput index="10" value="0.204969" />
+   <xinput index="11" value="-0.243243" />
+   <xinput index="12" value="0.108911" />
+   <xinput index="13" value="0.352518" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0776" id="151">
+   <xinput index="1" value="-0.604211" />
+   <xinput index="2" value="-0.864407" />
+   <xinput index="3" value="-0.724096" />
+   <xinput index="4" value="0.637306" />
+   <xinput index="5" value="-0.572139" />
+   <xinput index="6" value="-0.521968" />
+   <xinput index="7" value="-0.791614" />
+   <xinput index="8" value="-0.728868" />
+   <xinput index="9" value="-0.516209" />
+   <xinput index="10" value="-0.639752" />
+   <xinput index="11" value="-0.824324" />
+   <xinput index="12" value="-0.326733" />
+   <xinput index="13" value="0.151079" />
+   <xinput index="14" value="-0.285714" />
+ </datapt>
+
+ <datapt yvalue="1.0542" id="152">
+   <xinput index="1" value="-0.174737" />
+   <xinput index="2" value="-0.864407" />
+   <xinput index="3" value="0.00756182" />
+   <xinput index="4" value="0.865285" />
+   <xinput index="5" value="0.0646766" />
+   <xinput index="6" value="0.0193322" />
+   <xinput index="7" value="-0.148666" />
+   <xinput index="8" value="-0.062201" />
+   <xinput index="9" value="0.281796" />
+   <xinput index="10" value="0.304348" />
+   <xinput index="11" value="-0.189189" />
+   <xinput index="12" value="0.356436" />
+   <xinput index="13" value="0.841727" />
+   <xinput index="14" value="0.357143" />
+ </datapt>
+
+ <datapt yvalue="1.0758" id="153">
+   <xinput index="1" value="-0.574737" />
+   <xinput index="2" value="-0.830508" />
+   <xinput index="3" value="-0.775189" />
+   <xinput index="4" value="0.772021" />
+   <xinput index="5" value="-0.701493" />
+   <xinput index="6" value="-0.676626" />
+   <xinput index="7" value="-0.913596" />
+   <xinput index="8" value="-0.805423" />
+   <xinput index="9" value="-0.680798" />
+   <xinput index="10" value="-0.52795" />
+   <xinput index="11" value="-0.364865" />
+   <xinput index="12" value="-0.70297" />
+   <xinput index="13" value="-0.23741" />
+   <xinput index="14" value="-0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.061" id="154">
+   <xinput index="1" value="-0.305263" />
+   <xinput index="2" value="-0.830508" />
+   <xinput index="3" value="-0.687308" />
+   <xinput index="4" value="0.564767" />
+   <xinput index="5" value="-0.323383" />
+   <xinput index="6" value="-0.483304" />
+   <xinput index="7" value="-0.522236" />
+   <xinput index="8" value="-0.674641" />
+   <xinput index="9" value="-0.521197" />
+   <xinput index="10" value="-0.453416" />
+   <xinput index="11" value="-0.5" />
+   <xinput index="12" value="-0.425743" />
+   <xinput index="13" value="0.0503597" />
+   <xinput index="14" value="-0.25" />
+ </datapt>
+
+ <datapt yvalue="1.051" id="155">
+   <xinput index="1" value="-0.115789" />
+   <xinput index="2" value="-0.830508" />
+   <xinput index="3" value="-0.331698" />
+   <xinput index="4" value="0.823834" />
+   <xinput index="5" value="-0.293532" />
+   <xinput index="6" value="-0.233743" />
+   <xinput index="7" value="-0.219822" />
+   <xinput index="8" value="-0.362041" />
+   <xinput index="9" value="-0.256858" />
+   <xinput index="10" value="-0.130435" />
+   <xinput index="11" value="-0.216216" />
+   <xinput index="12" value="-0.118812" />
+   <xinput index="13" value="0.179856" />
+   <xinput index="14" value="0.285714" />
+ </datapt>
+
+ <datapt yvalue="1.0594" id="156">
+   <xinput index="1" value="-0.271579" />
+   <xinput index="2" value="-0.79661" />
+   <xinput index="3" value="-0.566728" />
+   <xinput index="4" value="0.896373" />
+   <xinput index="5" value="-0.552239" />
+   <xinput index="6" value="-0.550088" />
+   <xinput index="7" value="-0.641677" />
+   <xinput index="8" value="-0.575758" />
+   <xinput index="9" value="-0.496259" />
+   <xinput index="10" value="-0.403727" />
+   <xinput index="11" value="-0.648649" />
+   <xinput index="12" value="-0.267327" />
+   <xinput index="13" value="-0.0359712" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0287" id="157">
+   <xinput index="1" value="0.313684" />
+   <xinput index="2" value="-0.79661" />
+   <xinput index="3" value="-0.286736" />
+   <xinput index="4" value="0.637306" />
+   <xinput index="5" value="-0.263682" />
+   <xinput index="6" value="-0.0755712" />
+   <xinput index="7" value="-0.0952986" />
+   <xinput index="8" value="-0.317384" />
+   <xinput index="9" value="0.0673317" />
+   <xinput index="10" value="-0.130435" />
+   <xinput index="11" value="-0.175676" />
+   <xinput index="12" value="0.029703" />
+   <xinput index="13" value="0.395683" />
+   <xinput index="14" value="0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.0761" id="158">
+   <xinput index="1" value="-0.578947" />
+   <xinput index="2" value="-0.79661" />
+   <xinput index="3" value="-0.476804" />
+   <xinput index="4" value="0.772021" />
+   <xinput index="5" value="-0.412935" />
+   <xinput index="6" value="-0.325132" />
+   <xinput index="7" value="-0.456163" />
+   <xinput index="8" value="-0.441786" />
+   <xinput index="9" value="-0.321696" />
+   <xinput index="10" value="-0.31677" />
+   <xinput index="11" value="-0.202703" />
+   <xinput index="12" value="-0.326733" />
+   <xinput index="13" value="0.00719424" />
+   <xinput index="14" value="6.66134e-16" />
+ </datapt>
+
+ <datapt yvalue="1.0704" id="159">
+   <xinput index="1" value="-0.473684" />
+   <xinput index="2" value="-0.728814" />
+   <xinput index="3" value="-0.852851" />
+   <xinput index="4" value="0.626943" />
+   <xinput index="5" value="-0.522388" />
+   <xinput index="6" value="-0.669596" />
+   <xinput index="7" value="-0.817027" />
+   <xinput index="8" value="-0.84689" />
+   <xinput index="9" value="-0.855362" />
+   <xinput index="10" value="-0.776398" />
+   <xinput index="11" value="-0.635135" />
+   <xinput index="12" value="-0.782178" />
+   <xinput index="13" value="1" />
+   <xinput index="14" value="-0.607143" />
+ </datapt>
+
+ <datapt yvalue="1.0477" id="160">
+   <xinput index="1" value="-0.0526316" />
+   <xinput index="2" value="-0.694915" />
+   <xinput index="3" value="-0.519722" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="-0.492537" />
+   <xinput index="6" value="-0.233743" />
+   <xinput index="7" value="-0.415502" />
+   <xinput index="8" value="-0.54386" />
+   <xinput index="9" value="-0.391521" />
+   <xinput index="10" value="-0.254658" />
+   <xinput index="11" value="-0.256757" />
+   <xinput index="12" value="-0.475248" />
+   <xinput index="13" value="0.0359712" />
+   <xinput index="14" value="-0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0775" id="161">
+   <xinput index="1" value="-0.604211" />
+   <xinput index="2" value="-0.694915" />
+   <xinput index="3" value="-0.732271" />
+   <xinput index="4" value="0.772021" />
+   <xinput index="5" value="-0.61194" />
+   <xinput index="6" value="-0.483304" />
+   <xinput index="7" value="-0.700127" />
+   <xinput index="8" value="-0.792663" />
+   <xinput index="9" value="-0.735661" />
+   <xinput index="10" value="-0.552795" />
+   <xinput index="11" value="-0.743243" />
+   <xinput index="12" value="-0.782178" />
+   <xinput index="13" value="-0.23741" />
+   <xinput index="14" value="-0.75" />
+ </datapt>
+
+ <datapt yvalue="1.0653" id="162">
+   <xinput index="1" value="-0.385263" />
+   <xinput index="2" value="-0.627119" />
+   <xinput index="3" value="-0.366442" />
+   <xinput index="4" value="0.803109" />
+   <xinput index="5" value="-0.263682" />
+   <xinput index="6" value="-0.13884" />
+   <xinput index="7" value="-0.33418" />
+   <xinput index="8" value="-0.358852" />
+   <xinput index="9" value="-0.291771" />
+   <xinput index="10" value="-0.0559006" />
+   <xinput index="11" value="-0.202703" />
+   <xinput index="12" value="-0.356436" />
+   <xinput index="13" value="0.179856" />
+   <xinput index="14" value="0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.069" id="163">
+   <xinput index="1" value="-0.452632" />
+   <xinput index="2" value="-0.627119" />
+   <xinput index="3" value="-0.462497" />
+   <xinput index="4" value="0.626943" />
+   <xinput index="5" value="-0.0447761" />
+   <xinput index="6" value="-0.311072" />
+   <xinput index="7" value="-0.423126" />
+   <xinput index="8" value="-0.409888" />
+   <xinput index="9" value="-0.162095" />
+   <xinput index="10" value="-0.465839" />
+   <xinput index="11" value="-0.405405" />
+   <xinput index="12" value="-0.138614" />
+   <xinput index="13" value="0.381295" />
+   <xinput index="14" value="0.392857" />
+ </datapt>
+
+ <datapt yvalue="1.0644" id="164">
+   <xinput index="1" value="-0.364211" />
+   <xinput index="2" value="-0.59322" />
+   <xinput index="3" value="-0.824239" />
+   <xinput index="4" value="0.699482" />
+   <xinput index="5" value="-0.512438" />
+   <xinput index="6" value="-0.652021" />
+   <xinput index="7" value="-0.644219" />
+   <xinput index="8" value="-0.85327" />
+   <xinput index="9" value="-0.740648" />
+   <xinput index="10" value="-0.677019" />
+   <xinput index="11" value="-0.824324" />
+   <xinput index="12" value="-0.653465" />
+   <xinput index="13" value="-0.251799" />
+   <xinput index="14" value="-0.75" />
+ </datapt>
+
+ <datapt yvalue="1.037" id="165">
+   <xinput index="1" value="0.149474" />
+   <xinput index="2" value="-0.59322" />
+   <xinput index="3" value="-0.180462" />
+   <xinput index="4" value="0.761658" />
+   <xinput index="5" value="-0.164179" />
+   <xinput index="6" value="0.128295" />
+   <xinput index="7" value="-0.0698856" />
+   <xinput index="8" value="-0.240829" />
+   <xinput index="9" value="-0.17207" />
+   <xinput index="10" value="0.118012" />
+   <xinput index="11" value="-0.418919" />
+   <xinput index="12" value="-0.0891089" />
+   <xinput index="13" value="0.467626" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0549" id="166">
+   <xinput index="1" value="-0.191579" />
+   <xinput index="2" value="-0.559322" />
+   <xinput index="3" value="-0.194768" />
+   <xinput index="4" value="0.834197" />
+   <xinput index="5" value="-0.0646766" />
+   <xinput index="6" value="-0.00878735" />
+   <xinput index="7" value="-0.346887" />
+   <xinput index="8" value="-0.37799" />
+   <xinput index="9" value="-0.122195" />
+   <xinput index="10" value="0.0310559" />
+   <xinput index="11" value="-0.121622" />
+   <xinput index="12" value="0.148515" />
+   <xinput index="13" value="0.827338" />
+   <xinput index="14" value="0.285714" />
+ </datapt>
+
+ <datapt yvalue="1.0492" id="167">
+   <xinput index="1" value="-0.0821053" />
+   <xinput index="2" value="-0.559322" />
+   <xinput index="3" value="-0.609646" />
+   <xinput index="4" value="0.595855" />
+   <xinput index="5" value="-0.263682" />
+   <xinput index="6" value="-0.304042" />
+   <xinput index="7" value="-0.466328" />
+   <xinput index="8" value="-0.661882" />
+   <xinput index="9" value="-0.586035" />
+   <xinput index="10" value="-0.850932" />
+   <xinput index="11" value="-0.621622" />
+   <xinput index="12" value="-0.465347" />
+   <xinput index="13" value="0.107914" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0525" id="168">
+   <xinput index="1" value="-0.145263" />
+   <xinput index="2" value="-0.559322" />
+   <xinput index="3" value="-0.131412" />
+   <xinput index="4" value="0.772021" />
+   <xinput index="5" value="0.273632" />
+   <xinput index="6" value="0.0158172" />
+   <xinput index="7" value="-0.212198" />
+   <xinput index="8" value="-0.304625" />
+   <xinput index="9" value="-0.197007" />
+   <xinput index="10" value="0.0807453" />
+   <xinput index="11" value="-0.256757" />
+   <xinput index="12" value="0.227723" />
+   <xinput index="13" value="0.741007" />
+   <xinput index="14" value="0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.018" id="169">
+   <xinput index="1" value="0.444211" />
+   <xinput index="2" value="-0.559322" />
+   <xinput index="3" value="-0.1028" />
+   <xinput index="4" value="0.658031" />
+   <xinput index="5" value="-0.0746269" />
+   <xinput index="6" value="0.251318" />
+   <xinput index="7" value="0.181703" />
+   <xinput index="8" value="-0.141946" />
+   <xinput index="9" value="0.356608" />
+   <xinput index="10" value="-0.0559006" />
+   <xinput index="11" value="-0.337838" />
+   <xinput index="12" value="0.118812" />
+   <xinput index="13" value="0.553957" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.061" id="170">
+   <xinput index="1" value="-0.305263" />
+   <xinput index="2" value="-0.559322" />
+   <xinput index="3" value="-0.556509" />
+   <xinput index="4" value="0.658031" />
+   <xinput index="5" value="-0.353234" />
+   <xinput index="6" value="-0.304042" />
+   <xinput index="7" value="-0.456163" />
+   <xinput index="8" value="-0.582137" />
+   <xinput index="9" value="-0.356608" />
+   <xinput index="10" value="-0.242236" />
+   <xinput index="11" value="-0.418919" />
+   <xinput index="12" value="-0.237624" />
+   <xinput index="13" value="0.266187" />
+   <xinput index="14" value="-0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.0926" id="171">
+   <xinput index="1" value="-0.873684" />
+   <xinput index="2" value="-0.559322" />
+   <xinput index="3" value="-0.724096" />
+   <xinput index="4" value="0.585492" />
+   <xinput index="5" value="-0.412935" />
+   <xinput index="6" value="-0.546573" />
+   <xinput index="7" value="-0.682338" />
+   <xinput index="8" value="-0.751196" />
+   <xinput index="9" value="-0.625935" />
+   <xinput index="10" value="-0.602484" />
+   <xinput index="11" value="-0.594595" />
+   <xinput index="12" value="-0.445545" />
+   <xinput index="13" value="-0.0791367" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0983" id="172">
+   <xinput index="1" value="-0.970526" />
+   <xinput index="2" value="-0.559322" />
+   <xinput index="3" value="-0.940732" />
+   <xinput index="4" value="0.492228" />
+   <xinput index="5" value="-0.711443" />
+   <xinput index="6" value="-0.595782" />
+   <xinput index="7" value="-0.857687" />
+   <xinput index="8" value="-0.866029" />
+   <xinput index="9" value="-0.860349" />
+   <xinput index="10" value="-0.776398" />
+   <xinput index="11" value="-0.608108" />
+   <xinput index="12" value="-1" />
+   <xinput index="13" value="-0.294964" />
+   <xinput index="14" value="-0.607143" />
+ </datapt>
+
+ <datapt yvalue="1.0521" id="173">
+   <xinput index="1" value="-0.136842" />
+   <xinput index="2" value="-0.559322" />
+   <xinput index="3" value="-0.519722" />
+   <xinput index="4" value="0.720207" />
+   <xinput index="5" value="-0.273632" />
+   <xinput index="6" value="-0.254833" />
+   <xinput index="7" value="-0.468869" />
+   <xinput index="8" value="-0.562998" />
+   <xinput index="9" value="-0.471322" />
+   <xinput index="10" value="-0.465839" />
+   <xinput index="11" value="-0.554054" />
+   <xinput index="12" value="-0.386139" />
+   <xinput index="13" value="0.107914" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0603" id="174">
+   <xinput index="1" value="-0.288421" />
+   <xinput index="2" value="-0.525424" />
+   <xinput index="3" value="-0.527897" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="-0.243781" />
+   <xinput index="6" value="-0.335677" />
+   <xinput index="7" value="-0.468869" />
+   <xinput index="8" value="-0.524721" />
+   <xinput index="9" value="-0.401496" />
+   <xinput index="10" value="-0.416149" />
+   <xinput index="11" value="-0.675676" />
+   <xinput index="12" value="-0.247525" />
+   <xinput index="13" value="0.0647482" />
+   <xinput index="14" value="-0.285714" />
+ </datapt>
+
+ <datapt yvalue="1.0414" id="175">
+   <xinput index="1" value="0.0652632" />
+   <xinput index="2" value="-0.525424" />
+   <xinput index="3" value="-0.115062" />
+   <xinput index="4" value="0.751295" />
+   <xinput index="5" value="0.0348259" />
+   <xinput index="6" value="0.265378" />
+   <xinput index="7" value="0.00127065" />
+   <xinput index="8" value="-0.062201" />
+   <xinput index="9" value="0.0972569" />
+   <xinput index="10" value="0.167702" />
+   <xinput index="11" value="-0.337838" />
+   <xinput index="12" value="0.049505" />
+   <xinput index="13" value="-1" />
+   <xinput index="14" value="0.535714" />
+ </datapt>
+
+ <datapt yvalue="1.0763" id="176">
+   <xinput index="1" value="-0.583158" />
+   <xinput index="2" value="-0.491525" />
+   <xinput index="3" value="-0.78132" />
+   <xinput index="4" value="0.647668" />
+   <xinput index="5" value="-0.512438" />
+   <xinput index="6" value="-0.384886" />
+   <xinput index="7" value="-0.74587" />
+   <xinput index="8" value="-0.866029" />
+   <xinput index="9" value="-0.845387" />
+   <xinput index="10" value="-0.776398" />
+   <xinput index="11" value="-0.581081" />
+   <xinput index="12" value="-0.386139" />
+   <xinput index="13" value="-0.151079" />
+   <xinput index="14" value="-0.607143" />
+ </datapt>
+
+ <datapt yvalue="1.0689" id="177">
+   <xinput index="1" value="-0.448421" />
+   <xinput index="2" value="-0.491525" />
+   <xinput index="3" value="-0.734314" />
+   <xinput index="4" value="0.554404" />
+   <xinput index="5" value="-0.58209" />
+   <xinput index="6" value="-0.532513" />
+   <xinput index="7" value="-0.649301" />
+   <xinput index="8" value="-0.636364" />
+   <xinput index="9" value="-0.361596" />
+   <xinput index="10" value="-0.36646" />
+   <xinput index="11" value="-0.608108" />
+   <xinput index="12" value="-0.336634" />
+   <xinput index="13" value="-0.194245" />
+   <xinput index="14" value="-0.678571" />
+ </datapt>
+
+ <datapt yvalue="1.0316" id="178">
+   <xinput index="1" value="0.258947" />
+   <xinput index="2" value="-0.491525" />
+   <xinput index="3" value="0.00347435" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="0.0945274" />
+   <xinput index="6" value="0.40246" />
+   <xinput index="7" value="0.0393901" />
+   <xinput index="8" value="-0.0781499" />
+   <xinput index="9" value="0.127182" />
+   <xinput index="10" value="0.192547" />
+   <xinput index="11" value="-0.22973" />
+   <xinput index="12" value="-0.049505" />
+   <xinput index="13" value="0.223022" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0477" id="179">
+   <xinput index="1" value="-0.0526316" />
+   <xinput index="2" value="-0.457627" />
+   <xinput index="3" value="-0.437973" />
+   <xinput index="4" value="0.647668" />
+   <xinput index="5" value="-0.313433" />
+   <xinput index="6" value="-0.177504" />
+   <xinput index="7" value="-0.407878" />
+   <xinput index="8" value="-0.460925" />
+   <xinput index="9" value="-0.127182" />
+   <xinput index="10" value="-0.192547" />
+   <xinput index="11" value="-0.243243" />
+   <xinput index="12" value="-0.00990099" />
+   <xinput index="13" value="0.338129" />
+   <xinput index="14" value="-0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.0603" id="180">
+   <xinput index="1" value="-0.288421" />
+   <xinput index="2" value="-0.423729" />
+   <xinput index="3" value="-0.0496628" />
+   <xinput index="4" value="0.865285" />
+   <xinput index="5" value="0.164179" />
+   <xinput index="6" value="0.0615114" />
+   <xinput index="7" value="-0.108005" />
+   <xinput index="8" value="-0.205742" />
+   <xinput index="9" value="0.112219" />
+   <xinput index="10" value="0.254658" />
+   <xinput index="11" value="-0.0945946" />
+   <xinput index="12" value="0.415842" />
+   <xinput index="13" value="0.654676" />
+   <xinput index="14" value="0.464286" />
+ </datapt>
+
+ <datapt yvalue="1.0387" id="181">
+   <xinput index="1" value="0.12" />
+   <xinput index="2" value="-0.423729" />
+   <xinput index="3" value="-0.176374" />
+   <xinput index="4" value="0.854922" />
+   <xinput index="5" value="-0.114428" />
+   <xinput index="6" value="0.026362" />
+   <xinput index="7" value="-0.105464" />
+   <xinput index="8" value="-0.208931" />
+   <xinput index="9" value="0.042394" />
+   <xinput index="10" value="0.217391" />
+   <xinput index="11" value="-0.324324" />
+   <xinput index="12" value="0.0693069" />
+   <xinput index="13" value="0.151079" />
+   <xinput index="14" value="0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.1089" id="182">
+   <xinput index="1" value="-1" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-1" />
+   <xinput index="4" value="0.595855" />
+   <xinput index="5" value="-0.731343" />
+   <xinput index="6" value="-1" />
+   <xinput index="7" value="-1" />
+   <xinput index="8" value="-1" />
+   <xinput index="9" value="-1" />
+   <xinput index="10" value="-0.937888" />
+   <xinput index="11" value="-0.851351" />
+   <xinput index="12" value="-0.712871" />
+   <xinput index="13" value="-0.482014" />
+   <xinput index="14" value="-0.75" />
+ </datapt>
+
+ <datapt yvalue="1.0725" id="183">
+   <xinput index="1" value="-0.515789" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.777233" />
+   <xinput index="4" value="0.564767" />
+   <xinput index="5" value="-0.562189" />
+   <xinput index="6" value="-0.43058" />
+   <xinput index="7" value="-0.639136" />
+   <xinput index="8" value="-0.789474" />
+   <xinput index="9" value="-0.65586" />
+   <xinput index="10" value="-0.602484" />
+   <xinput index="11" value="-0.635135" />
+   <xinput index="12" value="-0.346535" />
+   <xinput index="13" value="0.0503597" />
+   <xinput index="14" value="-0.5" />
+ </datapt>
+
+ <datapt yvalue="1.0713" id="184">
+   <xinput index="1" value="-0.490526" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.666871" />
+   <xinput index="4" value="0.668394" />
+   <xinput index="5" value="-0.58209" />
+   <xinput index="6" value="-0.543058" />
+   <xinput index="7" value="-0.557814" />
+   <xinput index="8" value="-0.645933" />
+   <xinput index="9" value="-0.461347" />
+   <xinput index="10" value="-0.204969" />
+   <xinput index="11" value="-0.513514" />
+   <xinput index="12" value="-0.485149" />
+   <xinput index="13" value="-0.223022" />
+   <xinput index="14" value="-0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.0587" id="185">
+   <xinput index="1" value="-0.263158" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.574903" />
+   <xinput index="4" value="0.854922" />
+   <xinput index="5" value="-0.343284" />
+   <xinput index="6" value="-0.311072" />
+   <xinput index="7" value="-0.466328" />
+   <xinput index="8" value="-0.665072" />
+   <xinput index="9" value="-0.591022" />
+   <xinput index="10" value="-0.267081" />
+   <xinput index="11" value="-0.554054" />
+   <xinput index="12" value="-0.435644" />
+   <xinput index="13" value="0.136691" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0794" id="186">
+   <xinput index="1" value="-0.637895" />
+   <xinput index="2" value="-0.389831" />
+   <xinput index="3" value="-0.599428" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="-0.174129" />
+   <xinput index="6" value="-0.641476" />
+   <xinput index="7" value="-0.636595" />
+   <xinput index="8" value="-0.582137" />
+   <xinput index="9" value="-0.496259" />
+   <xinput index="10" value="-0.167702" />
+   <xinput index="11" value="-0.527027" />
+   <xinput index="12" value="-0.19802" />
+   <xinput index="13" value="0.194245" />
+   <xinput index="14" value="-0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0453" id="187">
+   <xinput index="1" value="-0.00631579" />
+   <xinput index="2" value="-0.355932" />
+   <xinput index="3" value="-0.0660127" />
+   <xinput index="4" value="0.854922" />
+   <xinput index="5" value="0.0746269" />
+   <xinput index="6" value="0.342707" />
+   <xinput index="7" value="0.0139771" />
+   <xinput index="8" value="-0.240829" />
+   <xinput index="9" value="0.0224439" />
+   <xinput index="10" value="0.0310559" />
+   <xinput index="11" value="-0.243243" />
+   <xinput index="12" value="0.227723" />
+   <xinput index="13" value="0.553957" />
+   <xinput index="14" value="0.5" />
+ </datapt>
+
+ <datapt yvalue="1.0524" id="188">
+   <xinput index="1" value="-0.141053" />
+   <xinput index="2" value="-0.355932" />
+   <xinput index="3" value="-0.247905" />
+   <xinput index="4" value="0.761658" />
+   <xinput index="5" value="-0.263682" />
+   <xinput index="6" value="-0.0123023" />
+   <xinput index="7" value="-0.250318" />
+   <xinput index="8" value="-0.39075" />
+   <xinput index="9" value="-0.187032" />
+   <xinput index="10" value="-0.15528" />
+   <xinput index="11" value="-0.405405" />
+   <xinput index="12" value="0.148515" />
+   <xinput index="13" value="0.352518" />
+   <xinput index="14" value="0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.052" id="189">
+   <xinput index="1" value="-0.136842" />
+   <xinput index="2" value="-0.355932" />
+   <xinput index="3" value="-0.315348" />
+   <xinput index="4" value="0.782383" />
+   <xinput index="5" value="-0.0348259" />
+   <xinput index="6" value="0.0509666" />
+   <xinput index="7" value="-0.273189" />
+   <xinput index="8" value="-0.464115" />
+   <xinput index="9" value="-0.221945" />
+   <xinput index="10" value="0.0310559" />
+   <xinput index="11" value="-0.22973" />
+   <xinput index="12" value="0.168317" />
+   <xinput index="13" value="0.640288" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0434" id="190">
+   <xinput index="1" value="0.0273684" />
+   <xinput index="2" value="-0.355932" />
+   <xinput index="3" value="-0.456366" />
+   <xinput index="4" value="0.606218" />
+   <xinput index="5" value="-0.313433" />
+   <xinput index="6" value="-0.1529" />
+   <xinput index="7" value="-0.191868" />
+   <xinput index="8" value="-0.422648" />
+   <xinput index="9" value="-0.286783" />
+   <xinput index="10" value="-0.0807453" />
+   <xinput index="11" value="-0.486486" />
+   <xinput index="12" value="-0.148515" />
+   <xinput index="13" value="0.179856" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0728" id="191">
+   <xinput index="1" value="-0.52" />
+   <xinput index="2" value="-0.355932" />
+   <xinput index="3" value="-0.717964" />
+   <xinput index="4" value="0.647668" />
+   <xinput index="5" value="-0.472637" />
+   <xinput index="6" value="-0.574692" />
+   <xinput index="7" value="-0.715375" />
+   <xinput index="8" value="-0.767145" />
+   <xinput index="9" value="-0.645885" />
+   <xinput index="10" value="-0.590062" />
+   <xinput index="11" value="-0.635135" />
+   <xinput index="12" value="-0.524752" />
+   <xinput index="13" value="-0.0935252" />
+   <xinput index="14" value="-0.25" />
+ </datapt>
+
+ <datapt yvalue="1.014" id="192">
+   <xinput index="1" value="0.604211" />
+   <xinput index="2" value="-0.322034" />
+   <xinput index="3" value="0.0279992" />
+   <xinput index="4" value="0.927461" />
+   <xinput index="5" value="0.0646766" />
+   <xinput index="6" value="0.261863" />
+   <xinput index="7" value="0.125794" />
+   <xinput index="8" value="-0.125997" />
+   <xinput index="9" value="0.0623441" />
+   <xinput index="10" value="0.490683" />
+   <xinput index="11" value="-0.135135" />
+   <xinput index="12" value="0.217822" />
+   <xinput index="13" value="0.467626" />
+   <xinput index="14" value="0.464286" />
+ </datapt>
+
+ <datapt yvalue="1.0624" id="193">
+   <xinput index="1" value="-0.330526" />
+   <xinput index="2" value="-0.322034" />
+   <xinput index="3" value="-0.386879" />
+   <xinput index="4" value="0.699482" />
+   <xinput index="5" value="-0.0447761" />
+   <xinput index="6" value="-0.100176" />
+   <xinput index="7" value="-0.3723" />
+   <xinput index="8" value="-0.435407" />
+   <xinput index="9" value="-0.331671" />
+   <xinput index="10" value="-0.304348" />
+   <xinput index="11" value="-0.243243" />
+   <xinput index="12" value="-0.0891089" />
+   <xinput index="13" value="0.309353" />
+   <xinput index="14" value="0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0429" id="194">
+   <xinput index="1" value="0.04" />
+   <xinput index="2" value="-0.322034" />
+   <xinput index="3" value="-0.131412" />
+   <xinput index="4" value="0.875648" />
+   <xinput index="5" value="-0.263682" />
+   <xinput index="6" value="-0.0369069" />
+   <xinput index="7" value="-0.0775095" />
+   <xinput index="8" value="-0.145136" />
+   <xinput index="9" value="-0.0972569" />
+   <xinput index="10" value="0.279503" />
+   <xinput index="11" value="-0.0675676" />
+   <xinput index="12" value="-0.118812" />
+   <xinput index="13" value="0.280576" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.047" id="195">
+   <xinput index="1" value="-0.04" />
+   <xinput index="2" value="-0.322034" />
+   <xinput index="3" value="-0.638259" />
+   <xinput index="4" value="0.792746" />
+   <xinput index="5" value="-0.572139" />
+   <xinput index="6" value="-0.546573" />
+   <xinput index="7" value="-0.58831" />
+   <xinput index="8" value="-0.633174" />
+   <xinput index="9" value="-0.351621" />
+   <xinput index="10" value="-0.267081" />
+   <xinput index="11" value="-0.554054" />
+   <xinput index="12" value="-0.316832" />
+   <xinput index="13" value="-0.122302" />
+   <xinput index="14" value="-0.535714" />
+ </datapt>
+
+ <datapt yvalue="1.0411" id="196">
+   <xinput index="1" value="0.0736842" />
+   <xinput index="2" value="-0.322034" />
+   <xinput index="3" value="-0.497241" />
+   <xinput index="4" value="0.606218" />
+   <xinput index="5" value="-0.263682" />
+   <xinput index="6" value="-0.216169" />
+   <xinput index="7" value="-0.308767" />
+   <xinput index="8" value="-0.502392" />
+   <xinput index="9" value="-0.306733" />
+   <xinput index="10" value="-0.329193" />
+   <xinput index="11" value="-0.324324" />
+   <xinput index="12" value="-0.19802" />
+   <xinput index="13" value="0.266187" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0488" id="197">
+   <xinput index="1" value="-0.0736842" />
+   <xinput index="2" value="-0.322034" />
+   <xinput index="3" value="-0.691396" />
+   <xinput index="4" value="0.637306" />
+   <xinput index="5" value="-0.562189" />
+   <xinput index="6" value="-0.349736" />
+   <xinput index="7" value="-0.578145" />
+   <xinput index="8" value="-0.642743" />
+   <xinput index="9" value="-0.476309" />
+   <xinput index="10" value="-0.304348" />
+   <xinput index="11" value="-0.337838" />
+   <xinput index="12" value="-0.366337" />
+   <xinput index="13" value="-0.0935252" />
+   <xinput index="14" value="-0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.0583" id="198">
+   <xinput index="1" value="-0.254737" />
+   <xinput index="2" value="-0.322034" />
+   <xinput index="3" value="-0.59534" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="-0.462687" />
+   <xinput index="6" value="-0.553603" />
+   <xinput index="7" value="-0.484117" />
+   <xinput index="8" value="-0.489633" />
+   <xinput index="9" value="-0.246883" />
+   <xinput index="10" value="-0.378882" />
+   <xinput index="11" value="-0.567568" />
+   <xinput index="12" value="-0.405941" />
+   <xinput index="13" value="-0.0215827" />
+   <xinput index="14" value="-0.607143" />
+ </datapt>
+
+ <datapt yvalue="1.0841" id="199">
+   <xinput index="1" value="-0.722105" />
+   <xinput index="2" value="-0.322034" />
+   <xinput index="3" value="-0.601471" />
+   <xinput index="4" value="0.792746" />
+   <xinput index="5" value="-0.353234" />
+   <xinput index="6" value="-0.483304" />
+   <xinput index="7" value="-0.781449" />
+   <xinput index="8" value="-0.553429" />
+   <xinput index="9" value="-0.486284" />
+   <xinput index="10" value="-0.130435" />
+   <xinput index="11" value="-0.540541" />
+   <xinput index="12" value="-0.425743" />
+   <xinput index="13" value="0.294964" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0462" id="200">
+   <xinput index="1" value="-0.00631579" />
+   <xinput index="2" value="-0.288136" />
+   <xinput index="3" value="-0.572859" />
+   <xinput index="4" value="0.57513" />
+   <xinput index="5" value="-0.373134" />
+   <xinput index="6" value="-0.142355" />
+   <xinput index="7" value="-0.484117" />
+   <xinput index="8" value="-0.706539" />
+   <xinput index="9" value="-0.436409" />
+   <xinput index="10" value="-0.254658" />
+   <xinput index="11" value="-0.324324" />
+   <xinput index="12" value="-0.108911" />
+   <xinput index="13" value="0.122302" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0709" id="201">
+   <xinput index="1" value="-0.486316" />
+   <xinput index="2" value="-0.288136" />
+   <xinput index="3" value="-0.511547" />
+   <xinput index="4" value="0.689119" />
+   <xinput index="5" value="-0.333333" />
+   <xinput index="6" value="-0.177504" />
+   <xinput index="7" value="-0.496823" />
+   <xinput index="8" value="-0.547049" />
+   <xinput index="9" value="-0.351621" />
+   <xinput index="10" value="-0.229814" />
+   <xinput index="11" value="-0.364865" />
+   <xinput index="12" value="-0.316832" />
+   <xinput index="13" value="0.0647482" />
+   <xinput index="14" value="6.66134e-16" />
+ </datapt>
+
+ <datapt yvalue="1.0484" id="202">
+   <xinput index="1" value="-0.0694737" />
+   <xinput index="2" value="-0.288136" />
+   <xinput index="3" value="-0.742489" />
+   <xinput index="4" value="0.647668" />
+   <xinput index="5" value="-0.59204" />
+   <xinput index="6" value="-0.585237" />
+   <xinput index="7" value="-0.585769" />
+   <xinput index="8" value="-0.620415" />
+   <xinput index="9" value="-0.586035" />
+   <xinput index="10" value="-0.664596" />
+   <xinput index="11" value="-0.608108" />
+   <xinput index="12" value="-0.544554" />
+   <xinput index="13" value="-0.194245" />
+   <xinput index="14" value="-0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.034" id="203">
+   <xinput index="1" value="0.208421" />
+   <xinput index="2" value="-0.288136" />
+   <xinput index="3" value="-0.329655" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="-0.323383" />
+   <xinput index="6" value="-0.0193322" />
+   <xinput index="7" value="-0.143583" />
+   <xinput index="8" value="-0.346093" />
+   <xinput index="9" value="0.0773067" />
+   <xinput index="10" value="-0.341615" />
+   <xinput index="11" value="-0.378378" />
+   <xinput index="12" value="-0.277228" />
+   <xinput index="13" value="0.136691" />
+   <xinput index="14" value="0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0854" id="204">
+   <xinput index="1" value="-0.747368" />
+   <xinput index="2" value="-0.254237" />
+   <xinput index="3" value="-0.464541" />
+   <xinput index="4" value="0.84456" />
+   <xinput index="5" value="-0.323383" />
+   <xinput index="6" value="-0.244288" />
+   <xinput index="7" value="-0.499365" />
+   <xinput index="8" value="-0.438596" />
+   <xinput index="9" value="-0.331671" />
+   <xinput index="10" value="-0.254658" />
+   <xinput index="11" value="-0.337838" />
+   <xinput index="12" value="-0.19802" />
+   <xinput index="13" value="0.179856" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0209" id="205">
+   <xinput index="1" value="0.465263" />
+   <xinput index="2" value="-0.254237" />
+   <xinput index="3" value="-0.145718" />
+   <xinput index="4" value="0.668394" />
+   <xinput index="5" value="-0.0248756" />
+   <xinput index="6" value="0.486819" />
+   <xinput index="7" value="0.130877" />
+   <xinput index="8" value="-0.295056" />
+   <xinput index="9" value="-0.187032" />
+   <xinput index="10" value="-0.0931677" />
+   <xinput index="11" value="-0.635135" />
+   <xinput index="12" value="-0.00990099" />
+   <xinput index="13" value="0.395683" />
+   <xinput index="14" value="-0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.061" id="206">
+   <xinput index="1" value="-0.301053" />
+   <xinput index="2" value="-0.254237" />
+   <xinput index="3" value="-0.262211" />
+   <xinput index="4" value="0.803109" />
+   <xinput index="5" value="0.0746269" />
+   <xinput index="6" value="-0.0755712" />
+   <xinput index="7" value="-0.316391" />
+   <xinput index="8" value="-0.457735" />
+   <xinput index="9" value="-0.197007" />
+   <xinput index="10" value="-0.15528" />
+   <xinput index="11" value="-0.324324" />
+   <xinput index="12" value="0.237624" />
+   <xinput index="13" value="-0.697842" />
+   <xinput index="14" value="0.285714" />
+ </datapt>
+
+ <datapt yvalue="1.025" id="207">
+   <xinput index="1" value="0.385263" />
+   <xinput index="2" value="-0.254237" />
+   <xinput index="3" value="-0.61169" />
+   <xinput index="4" value="0.492228" />
+   <xinput index="5" value="-0.20398" />
+   <xinput index="6" value="-0.251318" />
+   <xinput index="7" value="-0.377382" />
+   <xinput index="8" value="-0.518341" />
+   <xinput index="9" value="-0.416459" />
+   <xinput index="10" value="-0.428571" />
+   <xinput index="11" value="-0.689189" />
+   <xinput index="12" value="-0.178218" />
+   <xinput index="13" value="0.223022" />
+   <xinput index="14" value="-0.464286" />
+ </datapt>
+
+ <datapt yvalue="1.0254" id="208">
+   <xinput index="1" value="0.381053" />
+   <xinput index="2" value="-0.152542" />
+   <xinput index="3" value="-0.374617" />
+   <xinput index="4" value="0.782383" />
+   <xinput index="5" value="-0.0945274" />
+   <xinput index="6" value="-0.177504" />
+   <xinput index="7" value="-0.189327" />
+   <xinput index="8" value="-0.467305" />
+   <xinput index="9" value="-0.326683" />
+   <xinput index="10" value="-0.204969" />
+   <xinput index="11" value="-0.432432" />
+   <xinput index="12" value="0.178218" />
+   <xinput index="13" value="0.52518" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0771" id="209">
+   <xinput index="1" value="-0.595789" />
+   <xinput index="2" value="-0.152542" />
+   <xinput index="3" value="-0.656652" />
+   <xinput index="4" value="0.689119" />
+   <xinput index="5" value="-0.512438" />
+   <xinput index="6" value="-0.279438" />
+   <xinput index="7" value="-0.631512" />
+   <xinput index="8" value="-0.783094" />
+   <xinput index="9" value="-0.710723" />
+   <xinput index="10" value="-0.602484" />
+   <xinput index="11" value="-0.540541" />
+   <xinput index="12" value="-0.346535" />
+   <xinput index="13" value="-0.0647482" />
+   <xinput index="14" value="-0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0742" id="210">
+   <xinput index="1" value="-0.545263" />
+   <xinput index="2" value="-0.152542" />
+   <xinput index="3" value="-0.662784" />
+   <xinput index="4" value="0.709845" />
+   <xinput index="5" value="-0.661692" />
+   <xinput index="6" value="-0.521968" />
+   <xinput index="7" value="-0.618806" />
+   <xinput index="8" value="-0.712919" />
+   <xinput index="9" value="-0.561097" />
+   <xinput index="10" value="-0.354037" />
+   <xinput index="11" value="-0.527027" />
+   <xinput index="12" value="-0.584158" />
+   <xinput index="13" value="-0.251799" />
+   <xinput index="14" value="-0.357143" />
+ </datapt>
+
+ <datapt yvalue="1.0829" id="211">
+   <xinput index="1" value="-0.701053" />
+   <xinput index="2" value="-0.0847458" />
+   <xinput index="3" value="-0.820151" />
+   <xinput index="4" value="0.595855" />
+   <xinput index="5" value="-0.532338" />
+   <xinput index="6" value="-0.581722" />
+   <xinput index="7" value="-0.74587" />
+   <xinput index="8" value="-0.872408" />
+   <xinput index="9" value="-0.805486" />
+   <xinput index="10" value="-0.751553" />
+   <xinput index="11" value="-0.648649" />
+   <xinput index="12" value="-0.39604" />
+   <xinput index="13" value="0.122302" />
+   <xinput index="14" value="-0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.0373" id="212">
+   <xinput index="1" value="0.145263" />
+   <xinput index="2" value="-0.0847458" />
+   <xinput index="3" value="-0.200899" />
+   <xinput index="4" value="0.865285" />
+   <xinput index="5" value="-0.0945274" />
+   <xinput index="6" value="0.275923" />
+   <xinput index="7" value="-0.120712" />
+   <xinput index="8" value="-0.23445" />
+   <xinput index="9" value="-0.177057" />
+   <xinput index="10" value="-0.0931677" />
+   <xinput index="11" value="-0.445946" />
+   <xinput index="12" value="0.188119" />
+   <xinput index="13" value="0.438849" />
+   <xinput index="14" value="0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.0543" id="213">
+   <xinput index="1" value="-0.178947" />
+   <xinput index="2" value="-0.0847458" />
+   <xinput index="3" value="-0.593297" />
+   <xinput index="4" value="0.751295" />
+   <xinput index="5" value="-0.283582" />
+   <xinput index="6" value="-0.332162" />
+   <xinput index="7" value="-0.484117" />
+   <xinput index="8" value="-0.550239" />
+   <xinput index="9" value="-0.546135" />
+   <xinput index="10" value="-0.279503" />
+   <xinput index="11" value="-0.472973" />
+   <xinput index="12" value="-0.534653" />
+   <xinput index="13" value="-0.00719424" />
+   <xinput index="14" value="6.66134e-16" />
+ </datapt>
+
+ <datapt yvalue="1.0561" id="214">
+   <xinput index="1" value="-0.212632" />
+   <xinput index="2" value="-0.0508475" />
+   <xinput index="3" value="-0.376661" />
+   <xinput index="4" value="0.709845" />
+   <xinput index="5" value="-0.21393" />
+   <xinput index="6" value="-0.142355" />
+   <xinput index="7" value="-0.283355" />
+   <xinput index="8" value="-0.38756" />
+   <xinput index="9" value="-0.361596" />
+   <xinput index="10" value="-0.0186335" />
+   <xinput index="11" value="-0.135135" />
+   <xinput index="12" value="-0.217822" />
+   <xinput index="13" value="0.294964" />
+   <xinput index="14" value="0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0543" id="215">
+   <xinput index="1" value="-0.178947" />
+   <xinput index="2" value="-0.0508475" />
+   <xinput index="3" value="-0.556509" />
+   <xinput index="4" value="0.803109" />
+   <xinput index="5" value="-0.373134" />
+   <xinput index="6" value="-0.318102" />
+   <xinput index="7" value="-0.537484" />
+   <xinput index="8" value="-0.645933" />
+   <xinput index="9" value="-0.506234" />
+   <xinput index="10" value="-0.36646" />
+   <xinput index="11" value="-0.635135" />
+   <xinput index="12" value="-0.623762" />
+   <xinput index="13" value="-0.179856" />
+   <xinput index="14" value="-0.214286" />
+ </datapt>
+
+ <datapt yvalue="0.995" id="216">
+   <xinput index="1" value="1" />
+   <xinput index="2" value="-0.0169492" />
+   <xinput index="3" value="-0.178418" />
+   <xinput index="4" value="0.430052" />
+   <xinput index="5" value="0.00497512" />
+   <xinput index="6" value="0.42355" />
+   <xinput index="7" value="0.339263" />
+   <xinput index="8" value="-0.113238" />
+   <xinput index="9" value="-0.236908" />
+   <xinput index="10" value="-0.515528" />
+   <xinput index="11" value="-0.391892" />
+   <xinput index="12" value="-0.019802" />
+   <xinput index="13" value="0.165468" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0678" id="217">
+   <xinput index="1" value="-0.427368" />
+   <xinput index="2" value="-0.0169492" />
+   <xinput index="3" value="-0.74862" />
+   <xinput index="4" value="0.668394" />
+   <xinput index="5" value="-0.631841" />
+   <xinput index="6" value="-0.525483" />
+   <xinput index="7" value="-0.702668" />
+   <xinput index="8" value="-0.639553" />
+   <xinput index="9" value="-0.670823" />
+   <xinput index="10" value="-0.565217" />
+   <xinput index="11" value="-0.675676" />
+   <xinput index="12" value="-0.356436" />
+   <xinput index="13" value="-0.23741" />
+   <xinput index="14" value="-0.285714" />
+ </datapt>
+
+ <datapt yvalue="1.0819" id="218">
+   <xinput index="1" value="-0.684211" />
+   <xinput index="2" value="-0.0169492" />
+   <xinput index="3" value="-0.705702" />
+   <xinput index="4" value="0.678756" />
+   <xinput index="5" value="-0.422886" />
+   <xinput index="6" value="-0.507909" />
+   <xinput index="7" value="-0.692503" />
+   <xinput index="8" value="-0.700159" />
+   <xinput index="9" value="-0.625935" />
+   <xinput index="10" value="-0.254658" />
+   <xinput index="11" value="-0.527027" />
+   <xinput index="12" value="-0.732673" />
+   <xinput index="13" value="-0.294964" />
+   <xinput index="14" value="6.66134e-16" />
+ </datapt>
+
+ <datapt yvalue="1.0433" id="219">
+   <xinput index="1" value="0.0315789" />
+   <xinput index="2" value="0.0169492" />
+   <xinput index="3" value="-0.339873" />
+   <xinput index="4" value="0.751295" />
+   <xinput index="5" value="-0.174129" />
+   <xinput index="6" value="-0.0333919" />
+   <xinput index="7" value="-0.222363" />
+   <xinput index="8" value="-0.362041" />
+   <xinput index="9" value="-0.167082" />
+   <xinput index="10" value="-0.229814" />
+   <xinput index="11" value="-0.486486" />
+   <xinput index="12" value="0.0792079" />
+   <xinput index="13" value="0.352518" />
+   <xinput index="14" value="0.214286" />
+ </datapt>
+
+ <datapt yvalue="1.0646" id="220">
+   <xinput index="1" value="-0.368421" />
+   <xinput index="2" value="0.0508475" />
+   <xinput index="3" value="-0.705702" />
+   <xinput index="4" value="0.647668" />
+   <xinput index="5" value="-0.353234" />
+   <xinput index="6" value="-0.486819" />
+   <xinput index="7" value="-0.50953" />
+   <xinput index="8" value="-0.69697" />
+   <xinput index="9" value="-0.67581" />
+   <xinput index="10" value="-0.602484" />
+   <xinput index="11" value="-0.608108" />
+   <xinput index="12" value="-0.633663" />
+   <xinput index="13" value="-0.323741" />
+   <xinput index="14" value="-0.535714" />
+ </datapt>
+
+ <datapt yvalue="1.0706" id="221">
+   <xinput index="1" value="-0.477895" />
+   <xinput index="2" value="0.0847458" />
+   <xinput index="3" value="-0.715921" />
+   <xinput index="4" value="0.699482" />
+   <xinput index="5" value="-0.263682" />
+   <xinput index="6" value="-0.307557" />
+   <xinput index="7" value="-0.43075" />
+   <xinput index="8" value="-0.642743" />
+   <xinput index="9" value="-0.476309" />
+   <xinput index="10" value="-0.36646" />
+   <xinput index="11" value="-0.351351" />
+   <xinput index="12" value="-0.346535" />
+   <xinput index="13" value="0.280576" />
+   <xinput index="14" value="0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.0399" id="222">
+   <xinput index="1" value="0.0947368" />
+   <xinput index="2" value="0.0847458" />
+   <xinput index="3" value="-0.0884938" />
+   <xinput index="4" value="0.772021" />
+   <xinput index="5" value="0.134328" />
+   <xinput index="6" value="0.427065" />
+   <xinput index="7" value="0.0419314" />
+   <xinput index="8" value="-0.346093" />
+   <xinput index="9" value="-0.15212" />
+   <xinput index="10" value="0.204969" />
+   <xinput index="11" value="0.0675676" />
+   <xinput index="12" value="0.346535" />
+   <xinput index="13" value="0.582734" />
+   <xinput index="14" value="0.357143" />
+ </datapt>
+
+ <datapt yvalue="1.0726" id="223">
+   <xinput index="1" value="-0.515789" />
+   <xinput index="2" value="0.0847458" />
+   <xinput index="3" value="-0.646434" />
+   <xinput index="4" value="0.57513" />
+   <xinput index="5" value="-0.373134" />
+   <xinput index="6" value="-0.476274" />
+   <xinput index="7" value="-0.537484" />
+   <xinput index="8" value="-0.661882" />
+   <xinput index="9" value="-0.376559" />
+   <xinput index="10" value="-0.10559" />
+   <xinput index="11" value="-0.418919" />
+   <xinput index="12" value="-0.693069" />
+   <xinput index="13" value="-0.136691" />
+   <xinput index="14" value="-0.285714" />
+ </datapt>
+
+ <datapt yvalue="1.0874" id="224">
+   <xinput index="1" value="-0.781053" />
+   <xinput index="2" value="0.118644" />
+   <xinput index="3" value="-0.805845" />
+   <xinput index="4" value="0.564767" />
+   <xinput index="5" value="-0.59204" />
+   <xinput index="6" value="-0.528998" />
+   <xinput index="7" value="-0.659466" />
+   <xinput index="8" value="-0.779904" />
+   <xinput index="9" value="-0.640898" />
+   <xinput index="10" value="-0.726708" />
+   <xinput index="11" value="-0.540541" />
+   <xinput index="12" value="-0.544554" />
+   <xinput index="13" value="-0.165468" />
+   <xinput index="14" value="-0.571429" />
+ </datapt>
+
+ <datapt yvalue="1.074" id="225">
+   <xinput index="1" value="-0.541053" />
+   <xinput index="2" value="0.118644" />
+   <xinput index="3" value="-0.499285" />
+   <xinput index="4" value="0.626943" />
+   <xinput index="5" value="-0.00497512" />
+   <xinput index="6" value="-0.029877" />
+   <xinput index="7" value="-0.341804" />
+   <xinput index="8" value="-0.578947" />
+   <xinput index="9" value="-0.491272" />
+   <xinput index="10" value="-0.490683" />
+   <xinput index="11" value="-0.635135" />
+   <xinput index="12" value="-0.0792079" />
+   <xinput index="13" value="0.453237" />
+   <xinput index="14" value="0.214286" />
+ </datapt>
+
+ <datapt yvalue="1.0703" id="226">
+   <xinput index="1" value="-0.473684" />
+   <xinput index="2" value="0.118644" />
+   <xinput index="3" value="-0.9346" />
+   <xinput index="4" value="0.544041" />
+   <xinput index="5" value="-0.771144" />
+   <xinput index="6" value="-0.666081" />
+   <xinput index="7" value="-0.776366" />
+   <xinput index="8" value="-0.920255" />
+   <xinput index="9" value="-0.820449" />
+   <xinput index="10" value="-1" />
+   <xinput index="11" value="-0.918919" />
+   <xinput index="12" value="-0.950495" />
+   <xinput index="13" value="-0.856115" />
+   <xinput index="14" value="-1" />
+ </datapt>
+
+ <datapt yvalue="1.065" id="227">
+   <xinput index="1" value="-0.376842" />
+   <xinput index="2" value="0.118644" />
+   <xinput index="3" value="-0.583078" />
+   <xinput index="4" value="0.606218" />
+   <xinput index="5" value="-0.393035" />
+   <xinput index="6" value="-0.212654" />
+   <xinput index="7" value="-0.448539" />
+   <xinput index="8" value="-0.614035" />
+   <xinput index="9" value="-0.531172" />
+   <xinput index="10" value="-0.31677" />
+   <xinput index="11" value="-0.527027" />
+   <xinput index="12" value="-0.148515" />
+   <xinput index="13" value="0.194245" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0418" id="228">
+   <xinput index="1" value="0.0610526" />
+   <xinput index="2" value="0.118644" />
+   <xinput index="3" value="-0.346004" />
+   <xinput index="4" value="0.854922" />
+   <xinput index="5" value="-0.283582" />
+   <xinput index="6" value="-0.086116" />
+   <xinput index="7" value="-0.306226" />
+   <xinput index="8" value="-0.311005" />
+   <xinput index="9" value="-0.162095" />
+   <xinput index="10" value="0.192547" />
+   <xinput index="11" value="-0.418919" />
+   <xinput index="12" value="-0.168317" />
+   <xinput index="13" value="0.294964" />
+   <xinput index="14" value="-0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0647" id="229">
+   <xinput index="1" value="-0.372632" />
+   <xinput index="2" value="0.152542" />
+   <xinput index="3" value="-0.542203" />
+   <xinput index="4" value="0.658031" />
+   <xinput index="5" value="-0.303483" />
+   <xinput index="6" value="-0.13181" />
+   <xinput index="7" value="-0.491741" />
+   <xinput index="8" value="-0.572568" />
+   <xinput index="9" value="-0.441397" />
+   <xinput index="10" value="-0.453416" />
+   <xinput index="11" value="-0.540541" />
+   <xinput index="12" value="-0.029703" />
+   <xinput index="13" value="0.309353" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0601" id="230">
+   <xinput index="1" value="-0.284211" />
+   <xinput index="2" value="0.152542" />
+   <xinput index="3" value="-0.597384" />
+   <xinput index="4" value="0.61658" />
+   <xinput index="5" value="-0.373134" />
+   <xinput index="6" value="-0.321617" />
+   <xinput index="7" value="-0.400254" />
+   <xinput index="8" value="-0.617225" />
+   <xinput index="9" value="-0.591022" />
+   <xinput index="10" value="-0.279503" />
+   <xinput index="11" value="-0.445946" />
+   <xinput index="12" value="-0.247525" />
+   <xinput index="13" value="0.251799" />
+   <xinput index="14" value="0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0745" id="231">
+   <xinput index="1" value="-0.553684" />
+   <xinput index="2" value="0.186441" />
+   <xinput index="3" value="-0.760883" />
+   <xinput index="4" value="0.502591" />
+   <xinput index="5" value="-0.59204" />
+   <xinput index="6" value="-0.286467" />
+   <xinput index="7" value="-0.56798" />
+   <xinput index="8" value="-0.837321" />
+   <xinput index="9" value="-0.710723" />
+   <xinput index="10" value="-0.751553" />
+   <xinput index="11" value="-0.702703" />
+   <xinput index="12" value="-0.316832" />
+   <xinput index="13" value="-0.0935252" />
+   <xinput index="14" value="-0.607143" />
+ </datapt>
+
+ <datapt yvalue="1.062" id="232">
+   <xinput index="1" value="-0.322105" />
+   <xinput index="2" value="0.186441" />
+   <xinput index="3" value="-0.478847" />
+   <xinput index="4" value="0.751295" />
+   <xinput index="5" value="-0.174129" />
+   <xinput index="6" value="-0.1529" />
+   <xinput index="7" value="-0.306226" />
+   <xinput index="8" value="-0.499203" />
+   <xinput index="9" value="-0.396509" />
+   <xinput index="10" value="-0.304348" />
+   <xinput index="11" value="-0.5" />
+   <xinput index="12" value="-0.306931" />
+   <xinput index="13" value="0.165468" />
+   <xinput index="14" value="0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0636" id="233">
+   <xinput index="1" value="-0.351579" />
+   <xinput index="2" value="0.220339" />
+   <xinput index="3" value="-0.534028" />
+   <xinput index="4" value="0.740933" />
+   <xinput index="5" value="-0.313433" />
+   <xinput index="6" value="-0.265378" />
+   <xinput index="7" value="-0.524778" />
+   <xinput index="8" value="-0.591707" />
+   <xinput index="9" value="-0.506234" />
+   <xinput index="10" value="-0.267081" />
+   <xinput index="11" value="-0.391892" />
+   <xinput index="12" value="-0.39604" />
+   <xinput index="13" value="0.23741" />
+   <xinput index="14" value="-0.214286" />
+ </datapt>
+
+ <datapt yvalue="1.0384" id="234">
+   <xinput index="1" value="0.124211" />
+   <xinput index="2" value="0.220339" />
+   <xinput index="3" value="-0.646434" />
+   <xinput index="4" value="0.564767" />
+   <xinput index="5" value="-0.60199" />
+   <xinput index="6" value="-0.45167" />
+   <xinput index="7" value="-0.35197" />
+   <xinput index="8" value="-0.515152" />
+   <xinput index="9" value="-0.521197" />
+   <xinput index="10" value="-0.639752" />
+   <xinput index="11" value="-0.743243" />
+   <xinput index="12" value="-0.70297" />
+   <xinput index="13" value="-0.266187" />
+   <xinput index="14" value="-0.357143" />
+ </datapt>
+
+ <datapt yvalue="1.0403" id="235">
+   <xinput index="1" value="0.0863158" />
+   <xinput index="2" value="0.288136" />
+   <xinput index="3" value="-0.679133" />
+   <xinput index="4" value="0.57513" />
+   <xinput index="5" value="-0.0746269" />
+   <xinput index="6" value="-0.370826" />
+   <xinput index="7" value="-0.39263" />
+   <xinput index="8" value="-0.712919" />
+   <xinput index="9" value="-0.645885" />
+   <xinput index="10" value="-0.664596" />
+   <xinput index="11" value="-0.743243" />
+   <xinput index="12" value="-0.356436" />
+   <xinput index="13" value="0.107914" />
+   <xinput index="14" value="-0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.0563" id="236">
+   <xinput index="1" value="-0.216842" />
+   <xinput index="2" value="0.355932" />
+   <xinput index="3" value="-0.589209" />
+   <xinput index="4" value="0.57513" />
+   <xinput index="5" value="-0.283582" />
+   <xinput index="6" value="-0.107206" />
+   <xinput index="7" value="-0.33418" />
+   <xinput index="8" value="-0.722488" />
+   <xinput index="9" value="-0.640898" />
+   <xinput index="10" value="-0.490683" />
+   <xinput index="11" value="-0.513514" />
+   <xinput index="12" value="-0.455446" />
+   <xinput index="13" value="-0.23741" />
+   <xinput index="14" value="-0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.0424" id="237">
+   <xinput index="1" value="0.0442105" />
+   <xinput index="2" value="0.355932" />
+   <xinput index="3" value="-0.403229" />
+   <xinput index="4" value="0.772021" />
+   <xinput index="5" value="-0.0547264" />
+   <xinput index="6" value="-0.13181" />
+   <xinput index="7" value="-0.268107" />
+   <xinput index="8" value="-0.486443" />
+   <xinput index="9" value="-0.396509" />
+   <xinput index="10" value="-0.0931677" />
+   <xinput index="11" value="-0.472973" />
+   <xinput index="12" value="-0.227723" />
+   <xinput index="13" value="0.0791367" />
+   <xinput index="14" value="0.142857" />
+ </datapt>
+
+ <datapt yvalue="1.0372" id="238">
+   <xinput index="1" value="0.149474" />
+   <xinput index="2" value="0.389831" />
+   <xinput index="3" value="-0.177192" />
+   <xinput index="4" value="0.658031" />
+   <xinput index="5" value="-0.0945274" />
+   <xinput index="6" value="0.346221" />
+   <xinput index="7" value="0.128335" />
+   <xinput index="8" value="-0.145136" />
+   <xinput index="9" value="-0.19202" />
+   <xinput index="10" value="0.00621118" />
+   <xinput index="11" value="-0.567568" />
+   <xinput index="12" value="0.019802" />
+   <xinput index="13" value="0.23741" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0705" id="239">
+   <xinput index="1" value="-0.477895" />
+   <xinput index="2" value="0.423729" />
+   <xinput index="3" value="-0.699571" />
+   <xinput index="4" value="0.658031" />
+   <xinput index="5" value="-0.323383" />
+   <xinput index="6" value="-0.420035" />
+   <xinput index="7" value="-0.659466" />
+   <xinput index="8" value="-0.69697" />
+   <xinput index="9" value="-0.301746" />
+   <xinput index="10" value="-0.242236" />
+   <xinput index="11" value="-0.567568" />
+   <xinput index="12" value="-0.50495" />
+   <xinput index="13" value="0.136691" />
+   <xinput index="14" value="-0.107143" />
+ </datapt>
+
+ <datapt yvalue="1.0316" id="240">
+   <xinput index="1" value="0.258947" />
+   <xinput index="2" value="0.457627" />
+   <xinput index="3" value="-0.417535" />
+   <xinput index="4" value="0.502591" />
+   <xinput index="5" value="-0.0348259" />
+   <xinput index="6" value="-0.0474517" />
+   <xinput index="7" value="-0.209657" />
+   <xinput index="8" value="-0.505582" />
+   <xinput index="9" value="-0.401496" />
+   <xinput index="10" value="-0.36646" />
+   <xinput index="11" value="-0.337838" />
+   <xinput index="12" value="0.0990099" />
+   <xinput index="13" value="0.366906" />
+   <xinput index="14" value="0.178571" />
+ </datapt>
+
+ <datapt yvalue="1.0599" id="241">
+   <xinput index="1" value="-0.284211" />
+   <xinput index="2" value="0.457627" />
+   <xinput index="3" value="-0.926426" />
+   <xinput index="4" value="0.502591" />
+   <xinput index="5" value="-0.641791" />
+   <xinput index="6" value="-0.518453" />
+   <xinput index="7" value="-0.738247" />
+   <xinput index="8" value="-0.917065" />
+   <xinput index="9" value="-0.825436" />
+   <xinput index="10" value="-0.950311" />
+   <xinput index="11" value="-0.864865" />
+   <xinput index="12" value="-0.633663" />
+   <xinput index="13" value="-0.453237" />
+   <xinput index="14" value="-0.75" />
+ </datapt>
+
+ <datapt yvalue="1.0207" id="242">
+   <xinput index="1" value="0.473684" />
+   <xinput index="2" value="0.457627" />
+   <xinput index="3" value="-0.133456" />
+   <xinput index="4" value="0.606218" />
+   <xinput index="5" value="-0.233831" />
+   <xinput index="6" value="0.41652" />
+   <xinput index="7" value="0.23507" />
+   <xinput index="8" value="-0.0653907" />
+   <xinput index="9" value="-0.296758" />
+   <xinput index="10" value="0.130435" />
+   <xinput index="11" value="-0.418919" />
+   <xinput index="12" value="-2.22045e-16" />
+   <xinput index="13" value="0.309353" />
+   <xinput index="14" value="0.285714" />
+ </datapt>
+
+ <datapt yvalue="1.0304" id="243">
+   <xinput index="1" value="0.28" />
+   <xinput index="2" value="0.491525" />
+   <xinput index="3" value="-0.0537503" />
+   <xinput index="4" value="0.761658" />
+   <xinput index="5" value="0.0248756" />
+   <xinput index="6" value="0.420035" />
+   <xinput index="7" value="0.00635324" />
+   <xinput index="8" value="-0.23126" />
+   <xinput index="9" value="-0.177057" />
+   <xinput index="10" value="0.167702" />
+   <xinput index="11" value="-0.256757" />
+   <xinput index="12" value="0.0693069" />
+   <xinput index="13" value="0.395683" />
+   <xinput index="14" value="0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0256" id="244">
+   <xinput index="1" value="0.372632" />
+   <xinput index="2" value="0.525424" />
+   <xinput index="3" value="-0.106887" />
+   <xinput index="4" value="0.792746" />
+   <xinput index="5" value="0.0149254" />
+   <xinput index="6" value="0.282953" />
+   <xinput index="7" value="0.11817" />
+   <xinput index="8" value="-0.208931" />
+   <xinput index="9" value="-0.0822943" />
+   <xinput index="10" value="0.614907" />
+   <xinput index="11" value="-0.148649" />
+   <xinput index="12" value="0.039604" />
+   <xinput index="13" value="0.266187" />
+   <xinput index="14" value="0.321429" />
+ </datapt>
+
+ <datapt yvalue="1.0334" id="245">
+   <xinput index="1" value="0.221053" />
+   <xinput index="2" value="0.525424" />
+   <xinput index="3" value="-0.33783" />
+   <xinput index="4" value="0.61658" />
+   <xinput index="5" value="-0.0447761" />
+   <xinput index="6" value="0.370826" />
+   <xinput index="7" value="-0.0673443" />
+   <xinput index="8" value="-0.470494" />
+   <xinput index="9" value="-0.451372" />
+   <xinput index="10" value="-0.279503" />
+   <xinput index="11" value="-0.324324" />
+   <xinput index="12" value="-0.277228" />
+   <xinput index="13" value="0.194245" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0641" id="246">
+   <xinput index="1" value="-0.36" />
+   <xinput index="2" value="0.559322" />
+   <xinput index="3" value="-0.697527" />
+   <xinput index="4" value="0.647668" />
+   <xinput index="5" value="-0.482587" />
+   <xinput index="6" value="-0.363796" />
+   <xinput index="7" value="-0.621347" />
+   <xinput index="8" value="-0.700159" />
+   <xinput index="9" value="-0.645885" />
+   <xinput index="10" value="-0.440994" />
+   <xinput index="11" value="-0.527027" />
+   <xinput index="12" value="-0.564356" />
+   <xinput index="13" value="-0.0935252" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0308" id="247">
+   <xinput index="1" value="0.271579" />
+   <xinput index="2" value="0.59322" />
+   <xinput index="3" value="-0.20703" />
+   <xinput index="4" value="0.699482" />
+   <xinput index="5" value="-0.0348259" />
+   <xinput index="6" value="0.209139" />
+   <xinput index="7" value="-0.0292249" />
+   <xinput index="8" value="-0.202552" />
+   <xinput index="9" value="-0.197007" />
+   <xinput index="10" value="0.36646" />
+   <xinput index="11" value="-0.527027" />
+   <xinput index="12" value="0.257426" />
+   <xinput index="13" value="0.669065" />
+   <xinput index="14" value="0.0714286" />
+ </datapt>
+
+ <datapt yvalue="1.0736" id="248">
+   <xinput index="1" value="-0.536842" />
+   <xinput index="2" value="0.627119" />
+   <xinput index="3" value="-0.871245" />
+   <xinput index="4" value="0.554404" />
+   <xinput index="5" value="-0.621891" />
+   <xinput index="6" value="-0.652021" />
+   <xinput index="7" value="-0.639136" />
+   <xinput index="8" value="-0.878788" />
+   <xinput index="9" value="-0.880299" />
+   <xinput index="10" value="-0.776398" />
+   <xinput index="11" value="-0.675676" />
+   <xinput index="12" value="-0.920792" />
+   <xinput index="13" value="-0.323741" />
+   <xinput index="14" value="-0.0357143" />
+ </datapt>
+
+ <datapt yvalue="1.0236" id="249">
+   <xinput index="1" value="0.414737" />
+   <xinput index="2" value="0.694915" />
+   <xinput index="3" value="-0.325567" />
+   <xinput index="4" value="0.668394" />
+   <xinput index="5" value="-0.0248756" />
+   <xinput index="6" value="0.026362" />
+   <xinput index="7" value="-0.0952986" />
+   <xinput index="8" value="-0.37799" />
+   <xinput index="9" value="-0.381546" />
+   <xinput index="10" value="-0.0310559" />
+   <xinput index="11" value="-0.445946" />
+   <xinput index="12" value="0.029703" />
+   <xinput index="13" value="0.0935252" />
+   <xinput index="14" value="0.535714" />
+ </datapt>
+
+ <datapt yvalue="1.0328" id="250">
+   <xinput index="1" value="0.233684" />
+   <xinput index="2" value="0.694915" />
+   <xinput index="3" value="-0.44206" />
+   <xinput index="4" value="0.512953" />
+   <xinput index="5" value="-0.223881" />
+   <xinput index="6" value="0.11775" />
+   <xinput index="7" value="0.0698856" />
+   <xinput index="8" value="-0.467305" />
+   <xinput index="9" value="-0.346633" />
+   <xinput index="10" value="-0.465839" />
+   <xinput index="11" value="-0.675676" />
+   <xinput index="12" value="-0.356436" />
+   <xinput index="13" value="-0.107914" />
+   <xinput index="14" value="-0.214286" />
+ </datapt>
+
+ <datapt yvalue="1.0399" id="251">
+   <xinput index="1" value="0.0947368" />
+   <xinput index="2" value="0.694915" />
+   <xinput index="3" value="-0.40936" />
+   <xinput index="4" value="0.699482" />
+   <xinput index="5" value="-0.223881" />
+   <xinput index="6" value="0.0193322" />
+   <xinput index="7" value="-0.189327" />
+   <xinput index="8" value="-0.591707" />
+   <xinput index="9" value="-0.561097" />
+   <xinput index="10" value="0.068323" />
+   <xinput index="11" value="-0.513514" />
+   <xinput index="12" value="-0.435644" />
+   <xinput index="13" value="0.208633" />
+   <xinput index="14" value="0.428571" />
+ </datapt>
+
+ <datapt yvalue="1.0271" id="252">
+   <xinput index="1" value="0.343158" />
+   <xinput index="2" value="0.762712" />
+   <xinput index="3" value="-0.27243" />
+   <xinput index="4" value="0.678756" />
+   <xinput index="5" value="-0.0348259" />
+   <xinput index="6" value="0.163445" />
+   <xinput index="7" value="-0.00635324" />
+   <xinput index="8" value="-0.295056" />
+   <xinput index="9" value="-0.396509" />
+   <xinput index="10" value="0.142857" />
+   <xinput index="11" value="-0.256757" />
+   <xinput index="12" value="-0.118812" />
+   <xinput index="13" value="0.294964" />
+   <xinput index="14" value="0.821429" />
+ </datapt>
+
+</data>
