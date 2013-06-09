@@ -1,5 +1,6 @@
 # include <cstdlib>
 # include <iostream>
+# include <math.h>
 # include "svm_interface_c.hpp"
 # include "svm.h"
 #define Malloc(type,n) (type *)malloc((n)*sizeof(type))
@@ -70,6 +71,8 @@ void run_svm_c( svm_parameter param, int n_train, double y_train[], svm_node xsp
     double y_predicted;
     int correct = 0;
     int total = 0;
+    double error = 0;
+    double sump = 0, sumt = 0, sumpp = 0, sumtt = 0, sumpt = 0;
     predict.x = Malloc(struct svm_node *, n_predict);
     j = 0;
     for (int i = 0; i < n_predict; i++)
@@ -83,6 +86,12 @@ void run_svm_c( svm_parameter param, int n_train, double y_train[], svm_node xsp
 
       // Check if we are correct
       if (y_predicted == y_predict[i]) ++correct;
+      error += (y_predicted - y_predict[i])*(y_predicted - y_predict[i]);
+      sump += y_predicted;
+      sumt += y_predict[i];
+      sumpp += y_predicted*y_predicted;
+      sumtt += y_predict[i]*y_predict[i];
+      sumpt += y_predicted*y_predict[i];
       ++total;
 
       // Traverse to start of next x values
@@ -94,8 +103,19 @@ void run_svm_c( svm_parameter param, int n_train, double y_train[], svm_node xsp
       j++;
     }
 
-    std :: cout << "Accuracy = " << (double)correct/total*100 << "% ("
-                << correct << "/" << total << ") (classification)\n";
+    if (param.svm_type == NU_SVR || param.svm_type == EPSILON_SVR)
+    {
+      std :: cout << "Mean squared error = " << error/total << " (regression)\n";
+      std :: cout << "Root Mean squared error = " << sqrt(error/total)*100 
+                  << "% (regression)\n";
+      std :: cout << "Squared correlation coefficient = " <<
+			((total*sumpt-sump*sumt)*(total*sumpt-sump*sumt))/
+			((total*sumpp-sump*sump)*(total*sumtt-sumt*sumt)) <<
+            " (regression)\n";
+    }
+    else
+      std :: cout << "Accuracy = " << (double)correct/total*100 << "% ("
+                  << correct << "/" << total << ") (classification)\n";
 
     return;
 }
