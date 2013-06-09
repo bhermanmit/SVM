@@ -3,7 +3,7 @@
 import sys
 
 # template definitions
-datapt_t = """ <datapt yvalue="{yval}" >
+datapt_t = """ <datapt yvalue="{yval}" id="{id}">
 {xinputs} </datapt>\n"""
 xinput_t = """   <xinput index="{idx}" value="{val}" />\n"""
 
@@ -19,7 +19,7 @@ dataList = []
 n_pts = 0
 for line in lines:
   sline = line.split()
-  dataList.append({'yval':float(sline[0])})
+  dataList.append({'yval':float(sline[0]),'id':n_pts+1})
   dataList[n_pts].update({'xinputs':[]})
   del sline[0]
   for inputset in sline:

@@ -136,6 +136,7 @@ contains
     ! Set sizes
     data_train % l = npts_train
     data_predict % l = npts - npts_train
+    print *, ninputs_train + npts_train
 
     ! Read in training data
     idx = 1
@@ -168,6 +169,7 @@ contains
       data_predict % x(idx) % value = ZERO
       idx = idx + 1
     end do
+    print *, data_train % x(2702)
 
     ! Check to set gamma
     if (param % gamma < 1.e-8_8) param % gamma = ONE/dble(max_index)

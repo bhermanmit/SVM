@@ -2,6 +2,9 @@
 # include <iostream>
 # include "svm_interface_c.hpp"
 # include "svm.h"
+#define Malloc(type,n) (type *)malloc((n)*sizeof(type))
+ 
+struct svm_problem prob;
 
 void run_svm_c( svm_parameter param, int n_train, double y_train[], svm_node xspace_train[] )
 {
@@ -27,6 +30,32 @@ void run_svm_c( svm_parameter param, int n_train, double y_train[], svm_node xsp
     std :: cout << "First y value: " << y_train[0] << "\n";
     std :: cout << "X PAIR: " << xspace_train[0].index << ", " << xspace_train[0].value << "\n";
 
-    return;
+    prob.l = n_train;
 
+    prob.y = Malloc(double, prob.l);
+    prob.x = Malloc(struct svm_node *, prob.l);
+    prob.y = y_train;
+  
+    int j = 0;
+    for (int i = 0; i < prob.l; i++)
+    {
+      prob.x[i] = &xspace_train[j];
+      while(1)
+      {
+        if (xspace_train[j].index == -1) break;
+        j++;
+      }
+      j++;
+    }
+
+    const char *error_msg;
+    error_msg = svm_check_parameter(&prob, &param);
+    std :: cout << "HERE" << error_msg << "\n";
+    if(error_msg)
+    {
+      std :: cout << "ERROR: " << error_msg << "\n";
+      exit(1);
+    }
+
+    return;
 }

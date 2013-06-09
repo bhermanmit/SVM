@@ -49,13 +49,14 @@ ifeq ($(COMPILER),gnu)
   F90FLAGS := -cpp -fbacktrace -DNO_F2008
   LDFLAGS = -lstdc++
   CPP = g++
+  CPPFLAGS :=
 
   # Debugging
   ifeq ($(DEBUG),yes)
     F90FLAGS += -g -Wall -pedantic -std=f2008 -fbounds-check \
                 -ffpe-trap=invalid,overflow,underflow
     LDFLAGS  += -g
-    CPPFLAGS := -g
+    CPPFLAGS += -g
   endif
 
   # Profiling
