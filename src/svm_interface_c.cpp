@@ -5,11 +5,15 @@
 #define Malloc(type,n) (type *)malloc((n)*sizeof(type))
  
 struct svm_problem prob;
+struct svm_problem predict;
 struct svm_model *model;
+struct svm_node x;
 
-void run_svm_c( svm_parameter param, int n_train, double y_train[], svm_node xspace_train[] )
+void run_svm_c( svm_parameter param, int n_train, double y_train[], svm_node xspace_train[],
+                int n_predict, double y_predict[], svm_node xspace_predict[] )
 {
 
+    // Re-print all of the options while we are still developing
     std :: cout << "SVM_TYPE: " << param.svm_type << "\n";
     std :: cout << "KERNEL_TYPE: " << param.kernel_type << "\n";
     std :: cout << "DEGREE: " << param.degree << "\n";
@@ -24,19 +28,20 @@ void run_svm_c( svm_parameter param, int n_train, double y_train[], svm_node xsp
     std :: cout << "P: " << param.p << "\n";
     std :: cout << "SHRINKING: " << param.shrinking << "\n";
     std :: cout << "PROBABILITY: " << param.probability << "\n";
-
     param.weight_label = NULL;
     param.weight = NULL;
 
+    // Make sure we have a valid y and X pair
     std :: cout << "First y value: " << y_train[0] << "\n";
     std :: cout << "X PAIR: " << xspace_train[0].index << ", " << xspace_train[0].value << "\n";
 
+    // Allocate problem (Get help from Jeremy to make sure we aren't duplicating memory
     prob.l = n_train;
-
     prob.y = Malloc(double, prob.l);
     prob.x = Malloc(struct svm_node *, prob.l);
     prob.y = y_train;
   
+    // Populate, hopefully references, to the problem
     int j = 0;
     for (int i = 0; i < prob.l; i++)
     {
@@ -49,16 +54,48 @@ void run_svm_c( svm_parameter param, int n_train, double y_train[], svm_node xsp
       j++;
     }
 
+    // Check to make sure the problem and parameters were set up correctly
     const char *error_msg;
     error_msg = svm_check_parameter(&prob, &param);
-    std :: cout << "HERE" << error_msg << "\n";
     if(error_msg)
     {
       std :: cout << "ERROR: " << error_msg << "\n";
       exit(1);
     }
 
+    // Train the model with the problem data
     model = svm_train(&prob, &param);
+
+    // Set up prediction problem and predict y values
+    double y_predicted;
+    int correct = 0;
+    int total = 0;
+    predict.x = Malloc(struct svm_node *, n_predict);
+    j = 0;
+    for (int i = 0; i < n_predict; i++)
+    {
+
+      // Set up x values for prediction
+      predict.x[i] = &xspace_predict[j];
+
+      // Run prediction
+      y_predicted = svm_predict(model, predict.x[i]);
+
+      // Check if we are correct
+      if (y_predicted == y_predict[i]) ++correct;
+      ++total;
+
+      // Traverse to start of next x values
+      while(1)
+      {
+        if (xspace_predict[j].index == -1) break;
+        j++;
+      }
+      j++;
+    }
+
+    std :: cout << "Accuracy = " << (double)correct/total*100 << "% ("
+                << correct << "/" << total << ") (classification)\n";
 
     return;
 }

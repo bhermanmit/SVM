@@ -35,13 +35,17 @@ module svm_interface
   end type svm_parameter_f
 
   interface
-    subroutine run_svm_c(param, n_train, y_train, xspace_train) bind (c)
+    subroutine run_svm_c(param, n_train, y_train, xspace_train, &
+                      n_predict, y_predict, xspace_predict) bind (c)
       import :: svm_parameter_f, svm_node_f, c_double, c_int 
       implicit none
       type(svm_parameter_f), value :: param
       integer(c_int), value :: n_train
       real(c_double) :: y_train(*)
       type(svm_node_f) :: xspace_train(*)
+      integer(c_int), value :: n_predict
+      real(c_double) :: y_predict(*)
+      type(svm_node_f) :: xspace_predict(*)
     end subroutine run_svm_c
   end interface 
 
@@ -57,7 +61,8 @@ contains
     type(svm_problem_f) :: data_train
     type(svm_problem_f) :: data_predict
     print *, 'FORTRAN Y:', data_train % y(1)
-    call run_svm_c(param, data_train % l, data_train % y, data_train % x)
+    call run_svm_c(param, data_train % l, data_train % y, data_train % x, &
+                   data_predict % l, data_predict % y, data_predict % x)
 
   end subroutine run_svm_f
 
