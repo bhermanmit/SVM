@@ -297,10 +297,10 @@ contains
   end function int8_to_str
 
 !===============================================================================
-! STR_TO_INT converts a string to an integer. 
+! STR_TO_INT8 converts a string to an integer(8). 
 !===============================================================================
 
-  function str_to_int(str) result(num)
+  function str_to_int8(str) result(num)
 
     character(*), intent(in) :: str
     integer(8) :: num
@@ -319,7 +319,32 @@ contains
     read(UNIT=str, FMT=fmt, IOSTAT=ioError) num
     if (ioError > 0) num = ERROR_INT
 
-  end function str_to_int
+  end function str_to_int8
+
+!===============================================================================
+! STR_TO_INT4 converts a string to an integer(4). 
+!===============================================================================
+
+  function str_to_int4(str) result(num)
+
+    character(*), intent(in) :: str
+    integer :: num
+    
+    character(5) :: fmt
+    integer      :: w
+    integer      :: ioError
+
+    ! Determine width of string
+    w = len_trim(str)
+    
+    ! Create format specifier for reading string
+    write(UNIT=fmt, FMT='("(I",I2,")")') w
+
+    ! read string into integer
+    read(UNIT=str, FMT=fmt, IOSTAT=ioError) num
+    if (ioError > 0) num = ERROR_INT
+
+  end function str_to_int4
 
 !===============================================================================
 ! STR_TO_REAL converts an arbitrary string to a real(8). Generally this function

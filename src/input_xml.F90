@@ -4,7 +4,6 @@ module input_xml
   use error,   only: fatal_error
   use global
   use output,  only: write_message
-  use svm_interface, only: print_parameters
 
   implicit none
   save
@@ -174,9 +173,6 @@ contains
     ! Check to set gamma
     if (param % gamma < 1.e-8_8) param % gamma = ONE/dble(max_index)
 
-    ! Print parameters
-    call print_parameters(param)
- 
   end subroutine read_data_xml
 
 end module input_xml

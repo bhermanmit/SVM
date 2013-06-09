@@ -5,8 +5,9 @@ module initialize
   use global
   use input_xml,        only: read_input_xml
   use output,           only: title, header, print_version, print_usage
-  use string,           only: to_str, str_to_int, starts_with, ends_with, &
+  use string,           only: to_str, str_to_int4, starts_with, ends_with, &
                               str_to_real
+  use svm_interface,    only: print_parameters
 
   implicit none
 
@@ -66,13 +67,13 @@ contains
           stop
         case ('-s', '-svm_type', '--svm_type')
           i = i + 1
-          param % svm_type = str_to_int(argv(i))
+          param % svm_type = str_to_int4(argv(i))
         case ('-t', '-kernel_type', '--kernel_type')
           i = i + 1
-          param % kernel_type = str_to_int(argv(i))
+          param % kernel_type = str_to_int4(argv(i))
         case ('-d', '-degree', '--degree')
           i = i + 1
-          param % degree = str_to_int(argv(i))
+          param % degree = str_to_int4(argv(i))
         case ('-g', '-gamma', '--gamma')
           i = i + 1
           param % gamma = str_to_real(argv(i))
@@ -86,15 +87,20 @@ contains
           i = i + 1
           param % nu = str_to_real(argv(i))
         case ('-p', '-eps_svr', '--eps_svr')
+          i = i + 1
           param % p = str_to_real(argv(i))
         case ('-m', '-cache', '--cache')
+          i = i + 1
           param % cache_size = str_to_real(argv(i))
         case ('-e', '-eps', '--eps')
+          i = i + 1
           param % eps = str_to_real(argv(i))
         case ('-h', '-shrink', '--shrink')
-          param % shrinking = str_to_int(argv(i))
+          i = i + 1
+          param % shrinking = str_to_int4(argv(i))
         case ('-b', '-probability', '--probability')
-          param % probability = str_to_int(argv(i))
+          i = i + 1
+          param % probability = str_to_int4(argv(i))
         case default
           message = "Unknown command line option: " // argv(i)
           call fatal_error()
@@ -109,6 +115,9 @@ contains
 
     ! Free memory from argv
     deallocate(argv)
+
+    ! Print parameters
+    call print_parameters(param)
 
   end subroutine read_command_line
 
