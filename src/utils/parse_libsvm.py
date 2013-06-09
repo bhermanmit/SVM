@@ -3,7 +3,7 @@
 import sys
 
 # template definitions
-datapt_t = """ <datapt y="{yval}" >
+datapt_t = """ <datapt yvalue="{yval}" >
 {xinputs} </datapt>\n"""
 xinput_t = """   <xinput index="{idx}" value="{val}" />\n"""
 

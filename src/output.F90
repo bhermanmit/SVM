@@ -133,9 +133,9 @@ contains
     write(UNIT=OUTPUT_UNIT, FMT='(1X,A,1X,I1,".",I1,".",I1)') &
          "OpenMC version", VERSION_MAJOR, VERSION_MINOR, VERSION_RELEASE
     write(UNIT=OUTPUT_UNIT, FMT=*) "Copyright (c) 2011-2013 &
-          Massachusetts Institute of Technology"
+         &Massachusetts Institute of Technology"
     write(UNIT=OUTPUT_UNIT, FMT=*) "MIT/X license at &
-          <http://mit-crpg.github.io/openmc/license.html>"
+         &<http://mit-crpg.github.io/openmc/license.html>"
 
   end subroutine print_version
 
@@ -181,9 +181,7 @@ contains
 ! standard output stream.
 !===============================================================================
 
-  subroutine write_message(level)
-
-    integer, optional :: level ! verbosity level
+  subroutine write_message()
 
     integer :: i_start   ! starting position
     integer :: i_end     ! ending position

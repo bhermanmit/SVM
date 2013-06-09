@@ -11,7 +11,7 @@ program main
   call initialize_run() 
 
   ! run svm
-  call run_svm_f(param)
+  call run_svm_f(param, data_train, data_predict)
 
   ! finalize program
   call finalize_run() 

@@ -3,7 +3,7 @@
 # include "svm_interface_c.hpp"
 # include "svm.h"
 
-void run_svm_c( svm_parameter param )
+void run_svm_c( svm_parameter param, int n_train, double y_train[], svm_node xspace_train[] )
 {
 
     std :: cout << "SVM_TYPE: " << param.svm_type << "\n";
@@ -23,6 +23,9 @@ void run_svm_c( svm_parameter param )
 
     param.weight_label = NULL;
     param.weight = NULL;
+
+    std :: cout << "First y value: " << y_train[0] << "\n";
+    std :: cout << "X PAIR: " << xspace_train[0].index << ", " << xspace_train[0].value << "\n";
 
     return;
 

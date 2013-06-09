@@ -31,13 +31,12 @@ contains
 
     use xml_data_settings_t
 
-    character(MAX_WORD_LEN) :: type
     character(MAX_LINE_LEN) :: filename
     logical :: file_exists
 
     ! Display output message
     message = "Reading settings XML file..."
-    call write_message(5)
+    call write_message()
 
     ! Check if settings.xml exists
     filename = "settings.xml"
@@ -81,7 +80,6 @@ contains
 
     use xml_data_data_t
 
-    character(MAX_WORD_LEN) :: type
     character(MAX_LINE_LEN) :: filename
     integer :: ninputs_train
     integer :: ninputs_predict
@@ -93,7 +91,7 @@ contains
 
     ! Display output message
     message = "Reading data XML file..."
-    call write_message(5)
+    call write_message()
 
     ! Check if settings.xml exists
     filename = "data.xml"
@@ -134,6 +132,10 @@ contains
     allocate(data_predict % y(npts - npts_train))
     allocate(data_train % x(ninputs_train + npts_train)) ! accounts for -1 on each line
     allocate(data_predict % x(ninputs_predict + npts - npts_train)) ! accounts for -1 on each line
+
+    ! Set sizes
+    data_train % l = npts_train
+    data_predict % l = npts - npts_train
 
     ! Read in training data
     idx = 1
