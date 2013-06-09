@@ -5,7 +5,8 @@ module initialize
   use global
   use input_xml,        only: read_input_xml
   use output,           only: title, header, print_version, print_usage
-  use string,           only: to_str, str_to_int, starts_with, ends_with
+  use string,           only: to_str, str_to_int, starts_with, ends_with, &
+                              str_to_real
 
   implicit none
 
@@ -17,15 +18,15 @@ contains
 
   subroutine initialize_run()
 
-    ! Read command line arguments
-!   call read_command_line()
-
     ! Display title and initialization header
     call title()
     call header("INITIALIZATION", level=1)
 
     ! Read XML input files
     call read_input_xml()
+
+    ! Read command line arguments
+    call read_command_line()
 
   end subroutine initialize_run
 
@@ -60,12 +61,40 @@ contains
       ! Check for flags
       if (starts_with(argv(i), "-")) then
         select case (argv(i))
-!       case ('-p', '-plot', '--plot')
-!         run_mode = MODE_PLOTTING
-!       case ('-n', '-n_particles', '--n_particles')
-!         ! Read number of particles per cycle
-!         i = i + 1
-!         n_particles = str_to_int(argv(i))
+        case ('-?', '-help', '--help')
+          call print_usage()
+          stop
+        case ('-s', '-svm_type', '--svm_type')
+          i = i + 1
+          param % svm_type = str_to_int(argv(i))
+        case ('-t', '-kernel_type', '--kernel_type')
+          i = i + 1
+          param % kernel_type = str_to_int(argv(i))
+        case ('-d', '-degree', '--degree')
+          i = i + 1
+          param % degree = str_to_int(argv(i))
+        case ('-g', '-gamma', '--gamma')
+          i = i + 1
+          param % gamma = str_to_real(argv(i))
+        case ('-r', '-coef0', '--coef0')
+          i = i + 1
+          param % coef0 = str_to_real(argv(i))
+        case ('-c', '-cost', '--cost')
+          i = i + 1
+          param % C = str_to_real(argv(i))
+        case ('-n', '-nu', '--nu')
+          i = i + 1
+          param % nu = str_to_real(argv(i))
+        case ('-p', '-eps_svr', '--eps_svr')
+          param % p = str_to_real(argv(i))
+        case ('-m', '-cache', '--cache')
+          param % cache_size = str_to_real(argv(i))
+        case ('-e', '-eps', '--eps')
+          param % eps = str_to_real(argv(i))
+        case ('-h', '-shrink', '--shrink')
+          param % shrinking = str_to_int(argv(i))
+        case ('-b', '-probability', '--probability')
+          param % probability = str_to_int(argv(i))
         case default
           message = "Unknown command line option: " // argv(i)
           call fatal_error()

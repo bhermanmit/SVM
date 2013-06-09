@@ -4,6 +4,7 @@ module input_xml
   use error,   only: fatal_error
   use global
   use output,  only: write_message
+  use svm_interface, only: print_parameters
 
   implicit none
   save
@@ -46,6 +47,22 @@ contains
       call fatal_error()
     end if
 
+    ! Set default values
+    param % svm_type = C_SVC
+    param % kernel_type = RBF
+    param % degree = 3
+    param % coef0 = 0
+    param % cache_size = 100.0_8
+    param % eps = 1.e-3_8
+    param % C = 1
+    param % nr_weight = 0
+    param % weight_label = 0
+    param % weight = 0.0_8
+    param % nu = 0.5_8
+    param % p = 0.1_8
+    param % shrinking = 1
+    param % probability = 0
+
     ! Parse settings.xml file
     call read_xml_file_settings_t(filename)
 
@@ -69,6 +86,9 @@ contains
     integer :: ninputs_train
     integer :: ninputs_predict
     integer :: i, j
+    integer :: idx
+    integer :: max_index
+    integer :: max_index_tmp
     logical :: file_exists
 
     ! Display output message
@@ -115,6 +135,44 @@ contains
     allocate(data_train % x(ninputs_train + npts_train)) ! accounts for -1 on each line
     allocate(data_predict % x(ninputs_predict + npts - npts_train)) ! accounts for -1 on each line
 
+    ! Read in training data
+    idx = 1
+    max_index = 0
+    max_index_tmp = 0
+    do i = 1, npts_train
+      data_train % y(i) = datapt_(i) % yvalue
+      do j = 1, size(datapt_(i) % xinputs)
+        data_train % x(idx) % index = datapt_(i) % xinputs(j) % index
+        data_train % x(idx) % value = datapt_(i) % xinputs(j) % value
+        idx = idx + 1
+        max_index_tmp = j
+      end do
+      if (max_index_tmp > max_index) max_index = max_index_tmp
+      data_train % x(idx) % index = -1
+      data_train % x(idx) % value = ZERO
+      idx = idx + 1
+    end do
+
+    ! Read in prediction data
+    idx = 1
+    do i = npts_train + 1, npts
+      data_predict % y(i-npts_train) = datapt_(i) % yvalue
+      do j = 1, size(datapt_(i) % xinputs)
+        data_predict % x(idx) % index = datapt_(i) % xinputs(j) % index
+        data_predict % x(idx) % value = datapt_(i) % xinputs(j) % value
+        idx = idx + 1
+      end do
+      data_predict % x(idx) % index = -1
+      data_predict % x(idx) % value = ZERO
+      idx = idx + 1
+    end do
+
+    ! Check to set gamma
+    if (param % gamma < 1.e-8_8) param % gamma = ONE/dble(max_index)
+
+    ! Print parameters
+    call print_parameters(param)
+ 
   end subroutine read_data_xml
 
 end module input_xml

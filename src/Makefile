@@ -17,12 +17,13 @@ include OBJECTS
 #===============================================================================
 
 COMPILER = gnu
-DEBUG    = no
+DEBUG    = yes
 PROFILE  = no
 OPTIMIZE = no
 MPI      = no
 HDF5     = no
 PETSC    = no
+LIBSVM   = yes
 
 #===============================================================================
 # External Library Paths
@@ -31,6 +32,7 @@ PETSC    = no
 MPI_DIR   = /opt/petsc/petsc-3.3-p3/externalpackages/mpich2-1.4.1p1
 HDF5_DIR  = /opt/hdf5/1.8.9-$(COMPILER)
 PETSC_DIR = /opt/petsc/3.3-$(COMPILER)
+LIBSVM_DIR = /home/bherman/Documents/libsvm
 
 #===============================================================================
 # Add git SHA-1 hash
@@ -45,13 +47,15 @@ GIT_SHA1 = $(shell git log -1 2>/dev/null | head -n 1 | awk '{print $$2}')
 ifeq ($(COMPILER),gnu)
   F90 = gfortran
   F90FLAGS := -cpp -fbacktrace -DNO_F2008
-  LDFLAGS =
+  LDFLAGS = -lstdc++
+  CPP = g++
 
   # Debugging
   ifeq ($(DEBUG),yes)
     F90FLAGS += -g -Wall -pedantic -std=f2008 -fbounds-check \
                 -ffpe-trap=invalid,overflow,underflow
     LDFLAGS  += -g
+    CPPFLAGS := -g
   endif
 
   # Profiling
@@ -195,6 +199,13 @@ ifeq ($(PETSC),yes)
   LDFLAGS += $(PETSC_LIB)
 endif
 
+# LIBSVM
+
+ifeq ($(LIBSVM),yes)
+  CPPFLAGS += -I$(LIBSVM_DIR)
+  LDFLAGS += -L$(LIBSVM_DIR) -lsvm
+endif
+
 #===============================================================================
 # Machine-specific setup
 #===============================================================================
@@ -262,6 +273,9 @@ neat:
 
 %.o: %.F90
 	$(F90) $(F90FLAGS) -DGIT_SHA1="\"$(GIT_SHA1)\"" -Ixml-fortran -Itemplates -c $<
+
+%.o: %.cpp
+	$(CPP) $(CPPFLAGS) -c $<
 
 #===============================================================================
 # Dependencies

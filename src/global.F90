@@ -1,7 +1,7 @@
 module global
 
   use constants
-  use svm_interface, only: svm_problem
+  use svm_interface, only: svm_problem_f, svm_parameter_f
 
   implicit none
   save
@@ -10,12 +10,15 @@ module global
   character(MAX_LINE_LEN) :: message
 
   ! SVM problem data for training and predicting
-  type(svm_problem) :: data_train
-  type(svm_problem) :: data_predict
+  type(svm_problem_f) :: data_train
+  type(svm_problem_f) :: data_predict
 
   ! Number of training points, rest are used for predicting
   integer :: npts
   integer :: npts_train
+
+  ! SVM Parameters
+  type(svm_parameter_f) :: param
 
 contains
 

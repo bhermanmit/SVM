@@ -43,4 +43,21 @@ module constants
   integer, parameter :: ERROR_INT  = -huge(0)
   real(8), parameter :: ERROR_REAL = -huge(0.0_8) * 0.917826354_8
 
+  ! ============================================================================
+  ! SVM OPTIONS
+
+  ! svm-type
+  integer, parameter :: C_SVC = 0
+  integer, parameter :: NU_SVC = 1
+  integer, parameter :: ONE_CLASS = 2
+  integer, parameter :: EPSILON_SVR = 3
+  integer, parameter :: NU_SVR = 4
+
+  ! kernel-type
+  integer, parameter :: LINEAR = 0
+  integer, parameter :: POLY = 1
+  integer, parameter :: RBF = 2
+  integer, parameter :: SIGMOID = 3
+  integer, parameter :: PRECOMPUTED = 4
+  
 end module constants

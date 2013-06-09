@@ -145,17 +145,34 @@ contains
 
   subroutine print_usage()
 
-!   if (master) then
-!     write(OUTPUT_UNIT,*) 'Usage: openmc [options] [directory]'
-!     write(OUTPUT_UNIT,*)
-!     write(OUTPUT_UNIT,*) 'Options:'
-!     write(OUTPUT_UNIT,*) '  -p, --plot      Run in plotting mode'
-!     write(OUTPUT_UNIT,*) '  -r, --restart   Restart a previous run'
-!     write(OUTPUT_UNIT,*) '  -s, --particle  Run a single particle history'
-!     write(OUTPUT_UNIT,*) '  -t, --tallies   Write tally results from state point'
-!     write(OUTPUT_UNIT,*) '  -v, --version   Show version information'
-!     write(OUTPUT_UNIT,*) '  -?, --help      Show this message'
-!   end if
+    write(OUTPUT_UNIT,*) "Usage: svm-train [options] training_set_file [model_file]"
+    write(OUTPUT_UNIT,*) "options:"
+    write(OUTPUT_UNIT,*) "-s svm_type : set type of SVM (default 0)"
+    write(OUTPUT_UNIT,*) "      0 -- C-SVC              (multi-class classification)"
+    write(OUTPUT_UNIT,*) "      1 -- nu-SVC             (multi-class classification)"
+    write(OUTPUT_UNIT,*) "      2 -- one-class SVM"
+    write(OUTPUT_UNIT,*) "      3 -- epsilon-SVR        (regression)"
+    write(OUTPUT_UNIT,*) "      4 -- nu-SVR             (regression)"
+    write(OUTPUT_UNIT,*) "-t kernel_type : set type of kernel function (default 2)"
+    write(OUTPUT_UNIT,*) "      0 -- linear: u'*v"
+    write(OUTPUT_UNIT,*) "      1 -- polynomial: (gamma*u'*v + coef0)^degree"
+    write(OUTPUT_UNIT,*) "      2 -- radial basis function: exp(-gamma*|u-v|^2)"
+    write(OUTPUT_UNIT,*) "      3 -- sigmoid: tanh(gamma*u'*v + coef0)\n"
+    write(OUTPUT_UNIT,*) "      4 -- precomputed kernel (kernel values in training_set_file)"
+    write(OUTPUT_UNIT,*) "-d degree : set degree in kernel function (default 3)"
+    write(OUTPUT_UNIT,*) "-g gamma : set gamma in kernel function (default 1/num_features)"
+    write(OUTPUT_UNIT,*) "-r coef0 : set coef0 in kernel function (default 0)"
+    write(OUTPUT_UNIT,*) "-c cost : set the parameter C of C-SVC, epsilon-SVR, and nu-SVR (default 1)"
+    write(OUTPUT_UNIT,*) "-n nu : set the parameter nu of nu-SVC, one-class SVM, and nu-SVR (default 0.5)"
+    write(OUTPUT_UNIT,*) "-p epsilon : set the epsilon in loss function of epsilon-SVR (default 0.1)"
+    write(OUTPUT_UNIT,*) "-m cachesize : set cache memory size in MB (default 100)"
+    write(OUTPUT_UNIT,*) "-e epsilon : set tolerance of termination criterion (default 0.001)"
+    write(OUTPUT_UNIT,*) "-h shrinking : whether to use the shrinking heuristics, 0 or 1 (default 1)"
+    write(OUTPUT_UNIT,*) "-b probability_estimates : whether to train a SVC or SVR model for probability" // &
+                         " estimates, 0 or 1 (default 0)"
+    write(OUTPUT_UNIT,*) "-wi weight : set the parameter C of class i to weight*C, for C-SVC (default 1)"
+    write(OUTPUT_UNIT,*) "-v n: n-fold cross validation mode"
+    write(OUTPUT_UNIT,*) "-q : quiet mode (no outputs)"
 
   end subroutine print_usage
 

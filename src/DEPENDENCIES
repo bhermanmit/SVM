@@ -16,11 +16,13 @@ input_xml.o: constants.o
 input_xml.o: error.o
 input_xml.o: global.o
 input_xml.o: output.o
+input_xml.o: svm_interface.o
 input_xml.o: templates/data_t.o
 input_xml.o: templates/settings_t.o
 
 main.o: finalize.o
 main.o: initialize.o
+main.o: svm_interface.o
 
 output.o: constants.o
 output.o: global.o
