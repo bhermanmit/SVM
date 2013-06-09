@@ -30,10 +30,10 @@ contains
   subroutine free_memory()
 
     ! deallocate data points
-    deallocate(data_train % y)
-    deallocate(data_train % x)
-    deallocate(data_predict % y)
-    deallocate(data_predict % x)
+    if (allocated(data_train % y)) deallocate(data_train % y)
+    if (allocated(data_train % x)) deallocate(data_train % x)
+    if (allocated(data_predict % y)) deallocate(data_predict % y)
+    if (allocated(data_predict % x)) deallocate(data_predict % x)
  
   end subroutine free_memory
 
