@@ -8,12 +8,12 @@
   <variable name="degree_"      tag="degree"      type="integer" default="999"            />
   <variable name="gamma_"       tag="gamma"       type="double"  default="999."           />
   <variable name="coef0_"       tag="coef0"       type="double"  default="999."           />
-  <variable name="cost_"        tag="cost"        type="double"  default="999."           />
+  <variable name="C_"           tag="C"           type="double"  default="999."           />
   <variable name="nu_"          tag="nu"          type="double"  default="999."           />
-  <variable name="eps_svr_"     tag="eps_svr"     type="double"  default="999."           />
-  <variable name="cache_"       tag="cache"       type="double"  default="999."           />
+  <variable name="p_"            tag="p"           type="double"  default="999."           />
+  <variable name="cache_size_"  tag="cache_size"  type="double"  default="999."           />
   <variable name="eps_"         tag="eps"         type="double"  default="999."           />
-  <variable name="shrink_"      tag="shrink"      type="integer" default="999"            />
+  <variable name="shrinking_"   tag="shrinking"   type="integer" default="999"            />
   <variable name="probability_" tag="probability" type="integer" default="999"            />
 
 </template>

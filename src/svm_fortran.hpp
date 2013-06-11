@@ -30,7 +30,6 @@ extern "C"
     void svmparametersetcachesize_(svm_parameter *param, int *val);
     void svmparameterseteps_(svm_parameter *param, double *val);
     void svmparametersetc_(svm_parameter *param, double *val);
-    void svmparametersetnrweight_(svm_parameter *param, int *val);
     void svmparametersetnu_(svm_parameter *param, double *val);
     void svmparametersetp_(svm_parameter *param, double *val);
     void svmparametersetshrinking_(svm_parameter *param, int *val);

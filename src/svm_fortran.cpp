@@ -116,11 +116,6 @@ void svmparametersetc_(svm_parameter *param, double *val)
     param -> C = *val;
 }
 
-void svmparametersetnrweight_(svm_parameter *param, int *val)
-{
-    param -> nr_weight = *val;
-}
-
 void svmparametersetnu_(svm_parameter *param, double *val)
 {
     param -> nu = *val;
