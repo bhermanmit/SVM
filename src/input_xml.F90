@@ -111,6 +111,7 @@ contains
       call SvmParameterSetProbability(param, probability_)
     end if
 
+    ! Print out parameters
     call SvmParameterPrint(param)
 
   end subroutine read_settings_xml
@@ -126,6 +127,8 @@ contains
 
     character(MAX_LINE_LEN) :: filename
     logical :: file_exists
+    integer :: n = 270
+    integer :: nf = 200
 
     ! Display output message
     message = "Reading data XML file..."
@@ -141,6 +144,9 @@ contains
 
     ! Parse settings.xml file
     call read_xml_file_data_t(filename)
+
+    ! Create the problem
+    call SvmProblemCreate(prob, n, nf)
 
   end subroutine read_data_xml
 

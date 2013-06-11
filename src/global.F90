@@ -15,11 +15,6 @@ module global
   SvmProblem   :: prob
   SvmModel     :: model 
 
-  ! Number of training points, rest are used for predicting
-  integer :: npts
-  integer :: npts_train
-
-
 contains
 
 !===============================================================================

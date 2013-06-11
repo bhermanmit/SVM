@@ -3,6 +3,13 @@
 #include <string.h>
 #include "svm_fortran.hpp"
 
+void svmproblemcreate_(svm_problem *prob, int *n, int *nf)
+{
+    prob -> l = *n;
+    prob -> y = new double [*n];
+    prob -> x = new svm_node *[*nf + *n];
+}
+
 void svmparametercreate_(svm_parameter *param)
 {
     printf("HELLO\n");

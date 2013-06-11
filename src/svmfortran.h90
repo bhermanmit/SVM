@@ -8,6 +8,12 @@
 
 interface
 
+  subroutine SvmProblemCreate(prob, n, nf)
+    SvmProblem :: prob
+    integer :: n
+    integer :: nf
+  end subroutine SvmProblemCreate
+
   subroutine SvmParameterCreate(param)
     SvmParameter :: param
   end subroutine SvmParameterCreate

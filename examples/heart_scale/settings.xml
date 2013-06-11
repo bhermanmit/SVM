@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
 
-  <svm_type> epsilon_svr </svm_type>
+  <svm_type> c_svc </svm_type>
 
 </settings>
