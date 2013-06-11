@@ -1,0 +1,84 @@
+! This file defines the pointers to C++ structures
+! and explicit interfaces to the C++ routines
+
+#define SvmFortranAddr integer(8)
+#define SvmParameter SvmFortranAddr
+#define SvmProblem SvmFortranAddr
+#define SvmModel SvmFortranAddr
+
+interface
+
+  subroutine SvmParameterCreate(param)
+    SvmParameter :: param
+  end subroutine SvmParameterCreate
+
+  subroutine SvmParameterPrint(param)
+    SvmParameter :: param
+  end subroutine SvmParameterPrint
+
+  subroutine SvmParameterSetSvmType(param, valstr)
+    SvmParameter :: param
+    character :: valstr(*)
+  end subroutine SvmParameterSetSvmType
+
+  subroutine SvmParameterSetKernelType(param, valstr)
+    SvmParameter :: param
+    character :: valstr(*)
+  end subroutine SvmParameterSetKernelType
+
+  subroutine SvmParameterSetDegree(param, val)
+    SvmParameter :: param
+    integer :: val
+  end subroutine SvmParameterSetDegree
+
+  subroutine SvmParameterSetGamma(param, val)
+    SvmParameter :: param
+    real(8) :: val 
+  end subroutine SvmParameterSetGamma
+
+  subroutine SvmParameterSetCoef0(param, val)
+    SvmParameter :: param
+    real(8) :: val 
+  end subroutine SvmParameterSetCoef0
+
+  subroutine SvmParameterSetCacheSize(param, val)
+    SvmParameter :: param
+    real(8) :: val 
+  end subroutine SvmParameterSetCacheSize
+
+  subroutine SvmParameterSetEps(param, val)
+    SvmParameter :: param
+    real(8) :: val 
+  end subroutine SvmParameterSetEps
+
+  subroutine SvmParameterSetC(param, val)
+    SvmParameter :: param
+    real(8) :: val 
+  end subroutine SvmParameterSetC
+
+  subroutine SvmParameterSetNrWeight(param, val)
+    SvmParameter :: param
+    integer :: val
+  end subroutine SvmParameterSetNrWeight
+
+  subroutine SvmParameterSetNu(param, val)
+    SvmParameter :: param
+    real(8) :: val 
+  end subroutine SvmParameterSetNu
+
+  subroutine SvmParameterSetP(param, val)
+    SvmParameter :: param
+    real(8) :: val 
+  end subroutine SvmParameterSetP
+
+  subroutine SvmParameterSetShrinking(param, val)
+    SvmParameter :: param
+    integer :: val
+  end subroutine SvmParameterSetShrinking
+
+  subroutine SvmParameterSetProbability(param, val)
+    SvmParameter :: param
+    integer :: val
+  end subroutine SvmParameterSetProbability
+
+end interface

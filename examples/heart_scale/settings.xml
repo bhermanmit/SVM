@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
 
-  <npts_train> 200 </npts_train>
+  <svm_type> epsilon_svr </svm_type>
 
 </settings>

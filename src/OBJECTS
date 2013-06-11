@@ -8,5 +8,4 @@ input_xml.o \
 main.o \
 output.o \
 string.o \
-svm_interface.o \
-svm_interface_c.o
+svm_fortran.o

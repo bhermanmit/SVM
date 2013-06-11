@@ -3,6 +3,17 @@
 
   <options rootname="settings" />
 
-  <variable name="npts_train_" tag="npts_train" type="integer" />
+  <variable name="svm_type_"    tag="svm_type"    type="word"    length="25" default="''" />
+  <variable name="kernel_type_" tag="kernel_type" type="word"    length="25" default="''" />
+  <variable name="degree_"      tag="degree"      type="integer" default="999"            />
+  <variable name="gamma_"       tag="gamma"       type="double"  default="999."           />
+  <variable name="coef0_"       tag="coef0"       type="double"  default="999."           />
+  <variable name="cost_"        tag="cost"        type="double"  default="999."           />
+  <variable name="nu_"          tag="nu"          type="double"  default="999."           />
+  <variable name="eps_svr_"     tag="eps_svr"     type="double"  default="999."           />
+  <variable name="cache_"       tag="cache"       type="double"  default="999."           />
+  <variable name="eps_"         tag="eps"         type="double"  default="999."           />
+  <variable name="shrink_"      tag="shrink"      type="integer" default="999"            />
+  <variable name="probability_" tag="probability" type="integer" default="999"            />
 
 </template>
