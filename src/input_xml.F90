@@ -127,8 +127,10 @@ contains
 
     character(MAX_LINE_LEN) :: filename
     logical :: file_exists
-    integer :: n = 270
-    integer :: nf = 200
+    integer :: n_train
+    integer :: n_test
+    integer :: n_features
+    integer :: i
 
     ! Display output message
     message = "Reading data XML file..."
@@ -145,8 +147,24 @@ contains
     ! Parse settings.xml file
     call read_xml_file_data_t(filename)
 
+    ! sizes
+    n_train = size(traindata_)
+    n_test = size(testdata_)
+    n_features = max_features_
+
     ! Create the problem
-    call SvmProblemCreate(prob, n, nf)
+    call SvmProblemCreate(prob, n_train, n_features)
+
+    ! Loop around train data and set to problem
+    do i = 1, 1
+
+      ! print out 
+      call SvmProblemAddData(prob, traindata_(i) % yvalue, i, &
+           traindata_(i) % xinputs(:) % index, &
+           traindata_(i) % xinputs(:) % value, &
+           size(traindata_(i) % xinputs(:) % index))
+
+    end do
 
   end subroutine read_data_xml
 

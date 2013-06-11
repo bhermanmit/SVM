@@ -21,6 +21,7 @@ char * deblank (const char *str)
 extern "C"
 {
     void svmproblemcreate_(svm_problem *prob, int *n, int *nf);
+    void svmproblemadddata_(svm_problem *prob, double *y, int *yidx, int *xidx, double *xval, int *n);
     void svmparametercreate_(svm_parameter *param);
     void svmparameterprint_(svm_parameter *param);
     void svmparametersetsvmtype_(svm_parameter *param, const char *valstr);
@@ -35,5 +36,4 @@ extern "C"
     void svmparametersetp_(svm_parameter *param, double *val);
     void svmparametersetshrinking_(svm_parameter *param, int *val);
     void svmparametersetprobability_(svm_parameter *param, int *val);
-
 }

@@ -14,6 +14,15 @@ interface
     integer :: nf
   end subroutine SvmProblemCreate
 
+  subroutine SvmProblemAddData(prob, y, yidx, xidx, xval, n)
+    SvmProblem :: prob
+    real(8) :: y
+    integer :: yidx
+    integer :: xidx(*)
+    real(8) :: xval(*)
+    integer :: n
+  end subroutine
+
   subroutine SvmParameterCreate(param)
     SvmParameter :: param
   end subroutine SvmParameterCreate

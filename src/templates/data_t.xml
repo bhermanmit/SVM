@@ -19,6 +19,8 @@
     <component name="xinputs" tag="xinput" type="xinput_xml" dimension="1" />
   </typedef>
 
-  <variable name="datapt_" tag="datapt" type="datapt_xml" dimension="1" />
+  <variable name="traindata_"    tag="traindata"    type="datapt_xml" dimension="1" />
+  <variable name="testdata_"     tag="testdata"     type="datapt_xml" dimension="1" />
+  <variable name="max_features_" tag="max_features" type="integer" />
 
 </template>

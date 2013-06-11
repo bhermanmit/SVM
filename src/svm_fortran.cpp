@@ -7,8 +7,32 @@ void svmproblemcreate_(svm_problem *prob, int *n, int *nf)
 {
     prob -> l = *n;
     prob -> y = new double [*n];
-    prob -> x = new svm_node *[*nf + *n];
+    prob -> x = new svm_node *[*n];
 }
+
+void svmproblemadddata_(svm_problem *prob, double *y, int *yidx, int *xidx, double *xval, int *n)
+{
+    printf("SIZE is: %d\n", prob -> l);
+    printf("Y is: %f\n", *y);
+    for (int i = 0; i < *n; i++)
+    {
+       printf("INDEX: %d  VALUE: %f\n", *(xidx + i), *(xval + i));
+    }
+    prob -> y[*yidx - 1] = *yidx;
+    printf("Y is now: %f\n", prob -> y[*yidx-1]);
+    svm_node *xtemp = new svm_node [*n+1];
+    for (int i = 0; i < *n; i++)
+    {
+      xtemp[i].index = xidx[i];
+      xtemp[i].value = xval[i];
+      printf("%d, %f\n", xtemp[i].index, xtemp[i].value);
+    }
+    xtemp[*n].index = -1;
+    xtemp[*n].value = 0;
+    prob -> x[*yidx - 1] = &xtemp[0];
+    printf("%d %f\n", (prob -> x[*yidx - 1] +1) -> index, (prob -> x[*yidx - 1] +1) -> value);
+}
+
 
 void svmparametercreate_(svm_parameter *param)
 {
