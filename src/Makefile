@@ -16,7 +16,7 @@ include OBJECTS
 # User Options
 #===============================================================================
 
-COMPILER = gnu
+COMPILER = intel
 DEBUG    = yes
 PROFILE  = no
 OPTIMIZE = no
@@ -32,7 +32,7 @@ LIBSVM   = yes
 MPI_DIR   = /opt/petsc/petsc-3.3-p3/externalpackages/mpich2-1.4.1p1
 HDF5_DIR  = /opt/hdf5/1.8.9-$(COMPILER)
 PETSC_DIR = /opt/petsc/3.3-$(COMPILER)
-LIBSVM_DIR = /home/bherman/Documents/Files/libsvm
+LIBSVM_DIR = /home/bherman/libsvm
 
 #===============================================================================
 # Add git SHA-1 hash
@@ -78,12 +78,15 @@ endif
 ifeq ($(COMPILER),intel)
   F90 = ifort
   F90FLAGS := -cpp -warn -assume byterecl -traceback
-  LDFLAGS =
+  LDFLAGS = -lstdc++
+  CPP = icc
+  CPPFLAGS =
 
   # Debugging
   ifeq ($(DEBUG),yes)
     F90FLAGS += -g -ftrapuv -fp-stack-check -check all -fpe0
     LDFLAGS  += -g
+    CPPFLAGS += -g
   endif
 
   # Profiling

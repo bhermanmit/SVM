@@ -1,104 +1,47 @@
 ! This file defines the pointers to C++ structures
 ! and explicit interfaces to the C++ routines
 
-#define SvmFortranAddr integer(8)
+#define SvmFortranAddr type(c_ptr)
 #define SvmParameter SvmFortranAddr
 #define SvmProblem SvmFortranAddr
 #define SvmModel SvmFortranAddr
 
 interface
 
-  subroutine SvmProblemCreate(prob, n, nf)
-    SvmProblem :: prob
-    integer :: n
-    integer :: nf
-  end subroutine SvmProblemCreate
+  function SvmProblemCreate(prob, n, nf) bind (c)
+    use iso_c_binding
+    SvmProblem :: SvmProblemCreate
+    SvmProblem, value :: prob
+    integer(c_int), value :: n
+    integer(c_int), value :: nf
+  end function SvmProblemCreate
 
-  subroutine SvmProblemAddData(prob, y, yidx, xidx, xval, n)
-    SvmProblem :: prob
-    real(8) :: y
-    integer :: yidx
-    integer :: xidx(*)
-    real(8) :: xval(*)
-    integer :: n
-  end subroutine
+  function SvmProblemAddData(prob, y, yidx, xidx, xval, n) bind (c)
+    use iso_c_binding
+    SvmProblem :: SvmProblemAddData
+    SvmProblem, value :: prob
+    real(c_double), value :: y
+    integer(c_int),value :: yidx
+    integer(c_int) :: xidx(*)
+    real(c_double) :: xval(*)
+    integer(c_int), value :: n
+  end function SvmProblemAddData
 
-  subroutine SvmProblemPrintData(prob, i)
-    SvmProblem :: prob
-    integer    :: i
+  subroutine SvmProblemPrintData(prob, i) bind(c)
+    use iso_c_binding
+    SvmProblem, value :: prob
+    integer(c_int), value     :: i
   end subroutine SvmProblemPrintData
 
-  subroutine SvmParameterCreate(param)
-    SvmParameter :: param
-  end subroutine SvmParameterCreate
+  function SvmParameterCreate(param) bind(c)
+    use iso_c_binding
+    SvmParameter :: SvmParameterCreate
+    SvmParameter, value :: param
+  end function SvmParameterCreate
 
-  subroutine SvmParameterPrint(param)
-    SvmParameter :: param
+  subroutine SvmParameterPrint(param) bind(c)
+    use iso_c_binding
+    SvmParameter, value :: param
   end subroutine SvmParameterPrint
-
-  subroutine SvmParameterSetSvmType(param, valstr)
-    SvmParameter :: param
-    character :: valstr(*)
-  end subroutine SvmParameterSetSvmType
-
-  subroutine SvmParameterSetKernelType(param, valstr)
-    SvmParameter :: param
-    character :: valstr(*)
-  end subroutine SvmParameterSetKernelType
-
-  subroutine SvmParameterSetDegree(param, val)
-    SvmParameter :: param
-    integer :: val
-  end subroutine SvmParameterSetDegree
-
-  subroutine SvmParameterSetGamma(param, val)
-    SvmParameter :: param
-    real(8) :: val 
-  end subroutine SvmParameterSetGamma
-
-  subroutine SvmParameterSetCoef0(param, val)
-    SvmParameter :: param
-    real(8) :: val 
-  end subroutine SvmParameterSetCoef0
-
-  subroutine SvmParameterSetCacheSize(param, val)
-    SvmParameter :: param
-    real(8) :: val 
-  end subroutine SvmParameterSetCacheSize
-
-  subroutine SvmParameterSetEps(param, val)
-    SvmParameter :: param
-    real(8) :: val 
-  end subroutine SvmParameterSetEps
-
-  subroutine SvmParameterSetC(param, val)
-    SvmParameter :: param
-    real(8) :: val 
-  end subroutine SvmParameterSetC
-
-  subroutine SvmParameterSetNrWeight(param, val)
-    SvmParameter :: param
-    integer :: val
-  end subroutine SvmParameterSetNrWeight
-
-  subroutine SvmParameterSetNu(param, val)
-    SvmParameter :: param
-    real(8) :: val 
-  end subroutine SvmParameterSetNu
-
-  subroutine SvmParameterSetP(param, val)
-    SvmParameter :: param
-    real(8) :: val 
-  end subroutine SvmParameterSetP
-
-  subroutine SvmParameterSetShrinking(param, val)
-    SvmParameter :: param
-    integer :: val
-  end subroutine SvmParameterSetShrinking
-
-  subroutine SvmParameterSetProbability(param, val)
-    SvmParameter :: param
-    integer :: val
-  end subroutine SvmParameterSetProbability
 
 end interface

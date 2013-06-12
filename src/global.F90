@@ -1,6 +1,7 @@
 module global
 
   use constants
+  use, intrinsic :: iso_c_binding
 
   implicit none
   save

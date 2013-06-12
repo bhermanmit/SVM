@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include "svm_fortran.hpp"
 
-void svmdatafinalize_(svm_problem *prob, svm_parameter *param)
+void svmdatafinalize(svm_problem *prob, svm_parameter *param)
 {
     const char *error_msg;
 
@@ -16,32 +15,54 @@ void svmdatafinalize_(svm_problem *prob, svm_parameter *param)
     }
 }
 
-void svmproblemcreate_(svm_problem *prob, int *n, int *nf)
+svm_problem *svmproblemcreate(svm_problem *prob, int n)
 {
-    prob -> l = *n;
-    prob -> y = new double [*n];
-    prob -> x = new svm_node *[*n];
+    // Allocate a pointer of svm_problem type
+    prob = new svm_problem;
+
+    // Set and allocate data in problem
+    prob -> l = n; // copies n over to problem
+    prob -> y = new double [n]; // allocate 1-D array of y
+    prob -> x = new svm_node *[n]; // allocate 1-D array of pointers to svm_nodes
+
+    return prob;
 }
 
-void svmproblemadddata_(svm_problem *prob, double *y, int *yidx, int *xidx, double *xval, int *n)
+
+svm_problem *svmproblemadddata(svm_problem *prob, double y, int yidx, int *xidx, double *xval, int n)
 {
-    prob -> y[*yidx - 1] = *y;
-    svm_node *xtemp = new svm_node [*n+1];
-    for (int i = 0; i < *n; i++)
+
+    // Copy over y value
+    prob -> y[yidx - 1] = y;
+
+    // Create a new pointer to array of svm nodes
+    svm_node *xtemp = new svm_node [n+1];
+    for (int i = 0; i < n; i++)
     {
       xtemp[i].index = xidx[i];
       xtemp[i].value = xval[i];
     }
-    xtemp[*n].index = -1;
-    xtemp[*n].value = 0;
-    prob -> x[*yidx - 1] = &xtemp[0];
+
+    // Terminate array with -1 for index
+    xtemp[n].index = -1;
+    xtemp[n].value = 0;
+
+    // Point first value in x to first value of xtemp
+    prob -> x[yidx - 1] = &xtemp[0];
+
+    return prob;
 }
 
-void svmproblemprintdata_(svm_problem *prob, int *i)
+void svmproblemprintdata(svm_problem *prob, int i)
 {
+    // Create temporary pointer to a svm_mode
     svm_node * a_node;
-    printf("Y VALUE: %f\n", prob -> y[*i-1]);
-    a_node = prob -> x[*i-1];
+
+    // Print out y value
+    printf("Y VALUE: %f\n", prob -> y[i-1]);
+
+    // Point a_node to the first value in x, loop around and print
+    a_node = prob -> x[i-1];
     while(a_node -> index != -1)
     {
        printf("X INDEX: %d  X VALUE: %f\n", a_node -> index, a_node -> value);
@@ -49,10 +70,12 @@ void svmproblemprintdata_(svm_problem *prob, int *i)
     }
 }
 
-void svmparametercreate_(svm_parameter *param)
+svm_parameter *svmparametercreate(svm_parameter *param)
 {
-    printf("HELLO\n");
+    // Allocate a svm_parameter
+    param = new svm_parameter;
 
+    // Setup default values
     param -> svm_type = C_SVC;
     param -> kernel_type = RBF;
     param -> degree = 3;
@@ -68,11 +91,12 @@ void svmparametercreate_(svm_parameter *param)
     param -> nr_weight = 0;
     param -> weight_label = NULL;
     param -> weight = NULL;
+
+    return param;
 }
 
-void svmparameterprint_(svm_parameter *param)
+void svmparameterprint(svm_parameter *param)
 {
-
     printf("SVM TYPE: %d\n", param -> svm_type);
     printf("KERNEL TYPE: %d\n", param -> kernel_type);
     printf("DEGREE: %d\n", param -> degree);
@@ -86,98 +110,4 @@ void svmparameterprint_(svm_parameter *param)
     printf("SHRINKING: %d\n", param -> shrinking);
     printf("PROBABILITY: %d\n", param -> probability);
     printf("NR WEIGHT: %d\n", param -> nr_weight);
-
-}
-
-void svmparametersetsvmtype_(svm_parameter *param, const char *valstr)
-{
-    char *cvalstr;
-
-    // Convert fortran to c strings
-    cvalstr = deblank(valstr);
-
-    // Check string options 
-    if (strcmp(cvalstr,"c_svc") == 0)
-      param -> svm_type = C_SVC;
-    else if (strcmp(cvalstr,"nu_svc") == 0)
-      param -> svm_type = NU_SVC;
-    else if (strcmp(cvalstr,"one_class") == 0)
-      param -> svm_type = ONE_CLASS;
-    else if (strcmp(cvalstr,"epsilon_svr") == 0)
-      param -> svm_type = EPSILON_SVR;
-    else if (strcmp(cvalstr,"nu_svr") == 0)
-      param -> svm_type = NU_SVR;
-    else
-      printf("svm_type input not recognized\n");
-}
-
-void svmparametersetkerneltype_(svm_parameter *param, const char *valstr)
-{
-    char *cvalstr;
-
-    // Convert fortran to c strings
-    cvalstr = deblank(valstr);
-
-    // Check string options 
-    if (strcmp(cvalstr,"linear") == 0)
-      param -> kernel_type = LINEAR;
-    else if (strcmp(cvalstr,"poly") == 0)
-      param -> svm_type = POLY;
-    else if (strcmp(cvalstr,"rbf") == 0)
-      param -> svm_type = RBF;
-    else if (strcmp(cvalstr,"sigmoid") == 0)
-      param -> svm_type = SIGMOID;
-    else if (strcmp(cvalstr,"precomputed") == 0)
-      param -> svm_type = PRECOMPUTED;
-    else
-      printf("svm_type input not recognized\n");
-}
-void svmparametersetdegree_(svm_parameter *param, int *val)
-{
-    param -> degree = *val;
-}
-
-void svmparametersetgamma_(svm_parameter *param, double *val)
-{
-    param -> gamma = *val;
-}
-
-void svmparametersetcoef0_(svm_parameter *param, double *val)
-{
-    param -> coef0 = *val;
-}
-
-void svmparametersetcachesize_(svm_parameter *param, int *val)
-{
-    param -> cache_size = *val;
-}
-
-void svmparameterseteps_(svm_parameter *param, double *val)
-{
-    param -> eps = *val;
-}
-
-void svmparametersetc_(svm_parameter *param, double *val)
-{
-    param -> C = *val;
-}
-
-void svmparametersetnu_(svm_parameter *param, double *val)
-{
-    param -> nu = *val;
-}
-
-void svmparametersetp_(svm_parameter *param, double *val)
-{
-    param -> p = *val;
-}
-
-void svmparametersetshrinking_(svm_parameter *param, int *val)
-{
-    param -> shrinking = *val;
-}
-
-void svmparametersetprobability_(svm_parameter *param, int *val)
-{
-    param -> probability = *val;
 }
