@@ -56,7 +56,7 @@ interface
     SvmParameter :: SvmParameterSet
     SvmParameter, value :: param
     character(c_char) :: optstr(*)
-    type(c_ptr) :: val
+    type(c_ptr), value :: val
   end function SvmParameterSet
 
   subroutine SvmParameterPrint(param) bind(c)

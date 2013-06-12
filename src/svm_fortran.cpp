@@ -103,7 +103,11 @@ svm_parameter *svmparametercreate(svm_parameter *param)
 
 svm_parameter *svmparameterset(svm_parameter *param, const char *optstr, void *val)
 {
+  double *valdoub = static_cast<double*>(val);
+
   printf("STRING IS: %s\n", optstr);
+  printf("VALUE IS: %f\n", *valdoub);
+
   return param;
 } 
 
