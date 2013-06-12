@@ -3,6 +3,19 @@
 #include <string.h>
 #include "svm_fortran.hpp"
 
+void svmdatafinalize_(svm_problem *prob, svm_parameter *param)
+{
+    const char *error_msg;
+
+    error_msg = svm_check_parameter(prob, param);
+
+    if (error_msg)
+    {
+      fprintf(stderr, "ERROR: %s\n", error_msg);
+      exit(1);
+    }
+}
+
 void svmproblemcreate_(svm_problem *prob, int *n, int *nf)
 {
     prob -> l = *n;

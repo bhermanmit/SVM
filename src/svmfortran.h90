@@ -23,6 +23,11 @@ interface
     integer :: n
   end subroutine
 
+  subroutine SvmProblemPrintData(prob, i)
+    SvmProblem :: prob
+    integer    :: i
+  end subroutine SvmProblemPrintData
+
   subroutine SvmParameterCreate(param)
     SvmParameter :: param
   end subroutine SvmParameterCreate

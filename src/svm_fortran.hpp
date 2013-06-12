@@ -20,6 +20,7 @@ char * deblank (const char *str)
 
 extern "C"
 {
+    void svmdatafinalize_(svm_problem *prob, svm_parameter *param);
     void svmproblemcreate_(svm_problem *prob, int *n, int *nf);
     void svmproblemadddata_(svm_problem *prob, double *y, int *yidx, int *xidx, double *xval, int *n);
     void svmproblemprintdata_(svm_problem *prob, int *i);

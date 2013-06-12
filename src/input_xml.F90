@@ -167,6 +167,9 @@ contains
 
     end do
 
+    ! Check problem
+    call SvmDataFinalize(prob, param)
+
   end subroutine read_data_xml
 
 end module input_xml
