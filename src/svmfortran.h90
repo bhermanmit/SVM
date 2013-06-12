@@ -8,6 +8,12 @@
 
 interface
 
+  subroutine SvmTrain(prob, param) bind (c)
+    use iso_c_binding
+    SvmProblem, value :: prob
+    SvmParameter, value :: param
+  end subroutine SvmTrain
+
   subroutine SvmDataFinalize(prob, param) bind(c)
     use iso_c_binding
     SvmProblem, value :: prob
@@ -44,6 +50,14 @@ interface
     SvmParameter :: SvmParameterCreate
     SvmParameter, value :: param
   end function SvmParameterCreate
+
+  function SvmParameterSet(param, optstr, val) bind(c)
+    use iso_c_binding
+    SvmParameter :: SvmParameterSet
+    SvmParameter, value :: param
+    character(c_char) :: optstr(*)
+    type(c_ptr) :: val
+  end function SvmParameterSet
 
   subroutine SvmParameterPrint(param) bind(c)
     use iso_c_binding

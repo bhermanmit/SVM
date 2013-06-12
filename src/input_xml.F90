@@ -32,6 +32,8 @@ contains
 
     character(MAX_LINE_LEN) :: filename
     logical :: file_exists
+    type(c_ptr) :: input
+    character(kind=c_char, len=25) :: optstr
 
     ! Display output message
     message = "Reading settings XML file..."
@@ -51,6 +53,10 @@ contains
     ! Create a parameter object
     param = SvmParameterCreate(param)
     call SvmParameterPrint(param)
+
+    optstr = "gamma"
+    input = c_loc(gamma_)
+    param = SvmParameterSet(param, optstr, input)
 
   end subroutine read_settings_xml
 
@@ -101,12 +107,13 @@ contains
            traindata_(i) % xinputs(:) % value, &
            size(traindata_(i) % xinputs(:) % index))
 
-      call SvmProblemPrintData(prob, i)
+!     call SvmProblemPrintData(prob, i)
 
     end do
 
     ! Check problem
     call SvmDataFinalize(prob, param)
+    call SvmTrain(prob, param)
 
   end subroutine read_data_xml
 

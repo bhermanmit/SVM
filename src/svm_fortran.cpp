@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include "svm_fortran.hpp"
 
+void svmtrain(svm_problem *prob, svm_parameter *param)
+{
+    svm_model *model = new svm_model;
+    model = svm_train(prob, param);
+}
+
 void svmdatafinalize(svm_problem *prob, svm_parameter *param)
 {
     const char *error_msg;
@@ -79,7 +85,7 @@ svm_parameter *svmparametercreate(svm_parameter *param)
     param -> svm_type = C_SVC;
     param -> kernel_type = RBF;
     param -> degree = 3;
-    param -> gamma = 0;    // 1/num_features
+    param -> gamma = 1.0/13.0;    // 1/num_features
     param -> coef0 = 0;
     param -> nu = 0.5;
     param -> cache_size = 100;
@@ -94,6 +100,12 @@ svm_parameter *svmparametercreate(svm_parameter *param)
 
     return param;
 }
+
+svm_parameter *svmparameterset(svm_parameter *param, const char *optstr, void *val)
+{
+  printf("STRING IS: %s\n", optstr);
+  return param;
+} 
 
 void svmparameterprint(svm_parameter *param)
 {
