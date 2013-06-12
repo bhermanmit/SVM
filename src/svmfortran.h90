@@ -20,12 +20,11 @@ interface
     SvmParameter, value :: param
   end subroutine SvmDataFinalize
 
-  function SvmProblemCreate(prob, n, nf) bind (c)
+  function SvmProblemCreate(prob, n) bind (c)
     use iso_c_binding
     SvmProblem :: SvmProblemCreate
     SvmProblem, value :: prob
     integer(c_int), value :: n
-    integer(c_int), value :: nf
   end function SvmProblemCreate
 
   function SvmProblemAddData(prob, y, yidx, xidx, xval, n) bind (c)

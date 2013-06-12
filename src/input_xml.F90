@@ -75,6 +75,8 @@ contains
     integer :: n_test
     integer :: n_features
     integer :: i
+    integer, allocatable :: index_vec(:)
+    real(8), allocatable :: value_vec(:)
 
     ! Display output message
     message = "Reading data XML file..."
@@ -91,29 +93,41 @@ contains
     ! Parse settings.xml file
     call read_xml_file_data_t(filename)
 
-    ! sizes
+    ! Get data sizes
     n_train = size(traindata_)
     n_test = size(testdata_)
     n_features = max_features_
 
+    ! Allocate data
+    allocate(index_vec(n_features))
+    allocate(value_vec(n_features))
+
     ! Create the problem
-    prob = SvmProblemCreate(prob, n_train, n_features)
+    prob = SvmProblemCreate(prob, n_train)
 
     ! Loop around train data and set to problem
-    do i = 1, n_train 
+    do i = 1, n_train
 
+      ! Get the number of features 
+      n_features = size(traindata_(i) % xinputs)
+
+      ! Set values to temp arrays
+      index_vec(1:n_features) = traindata_(i) % xinputs(:) % index
+      value_vec(1:n_features) = traindata_(i) % xinputs(:) % value
+
+      ! Store in svm problem structure
       prob = SvmProblemAddData(prob, traindata_(i) % yvalue, i, &
-           traindata_(i) % xinputs(:) % index, &
-           traindata_(i) % xinputs(:) % value, &
-           size(traindata_(i) % xinputs(:) % index))
-
-!     call SvmProblemPrintData(prob, i)
+             index_vec, value_vec, n_features) 
 
     end do
 
     ! Check problem
     call SvmDataFinalize(prob, param)
     call SvmTrain(prob, param)
+
+    ! Deallocate
+    deallocate(index_vec)
+    deallocate(value_vec)
 
   end subroutine read_data_xml
 
