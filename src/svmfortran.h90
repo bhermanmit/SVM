@@ -8,11 +8,12 @@
 
 interface
 
-  subroutine SvmTrain(prob, param) bind (c)
+  function SvmTrain(prob, param) bind (c)
     use iso_c_binding
+    SvmModel :: SvmTrain
     SvmProblem, value :: prob
     SvmParameter, value :: param
-  end subroutine SvmTrain
+  end function SvmTrain
 
   subroutine SvmDataFinalize(prob, param) bind(c)
     use iso_c_binding

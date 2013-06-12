@@ -123,7 +123,7 @@ contains
 
     ! Check problem
     call SvmDataFinalize(prob, param)
-    call SvmTrain(prob, param)
+    model = SvmTrain(prob, param)
 
     ! Deallocate
     deallocate(index_vec)

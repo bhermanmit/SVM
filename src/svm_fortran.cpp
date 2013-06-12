@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include "svm_fortran.hpp"
 
-void svmtrain(svm_problem *prob, svm_parameter *param)
+svm_model *svmtrain(svm_problem *prob, svm_parameter *param)
 {
     svm_model *model = new svm_model;
     model = svm_train(prob, param);
+    return model;
 }
 
 void svmdatafinalize(svm_problem *prob, svm_parameter *param)
