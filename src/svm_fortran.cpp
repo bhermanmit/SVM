@@ -12,27 +12,29 @@ void svmproblemcreate_(svm_problem *prob, int *n, int *nf)
 
 void svmproblemadddata_(svm_problem *prob, double *y, int *yidx, int *xidx, double *xval, int *n)
 {
-    printf("SIZE is: %d\n", prob -> l);
-    printf("Y is: %f\n", *y);
-    for (int i = 0; i < *n; i++)
-    {
-       printf("INDEX: %d  VALUE: %f\n", *(xidx + i), *(xval + i));
-    }
-    prob -> y[*yidx - 1] = *yidx;
-    printf("Y is now: %f\n", prob -> y[*yidx-1]);
+    prob -> y[*yidx - 1] = *y;
     svm_node *xtemp = new svm_node [*n+1];
     for (int i = 0; i < *n; i++)
     {
       xtemp[i].index = xidx[i];
       xtemp[i].value = xval[i];
-      printf("%d, %f\n", xtemp[i].index, xtemp[i].value);
     }
     xtemp[*n].index = -1;
     xtemp[*n].value = 0;
     prob -> x[*yidx - 1] = &xtemp[0];
-    printf("%d %f\n", (prob -> x[*yidx - 1] +1) -> index, (prob -> x[*yidx - 1] +1) -> value);
 }
 
+void svmproblemprintdata_(svm_problem *prob, int *i)
+{
+    svm_node * a_node;
+    printf("Y VALUE: %f\n", prob -> y[*i-1]);
+    a_node = prob -> x[*i-1];
+    while(a_node -> index != -1)
+    {
+       printf("X INDEX: %d  X VALUE: %f\n", a_node -> index, a_node -> value);
+       a_node ++;
+    }
+}
 
 void svmparametercreate_(svm_parameter *param)
 {

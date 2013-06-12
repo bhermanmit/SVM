@@ -22,6 +22,7 @@ extern "C"
 {
     void svmproblemcreate_(svm_problem *prob, int *n, int *nf);
     void svmproblemadddata_(svm_problem *prob, double *y, int *yidx, int *xidx, double *xval, int *n);
+    void svmproblemprintdata_(svm_problem *prob, int *i);
     void svmparametercreate_(svm_parameter *param);
     void svmparameterprint_(svm_parameter *param);
     void svmparametersetsvmtype_(svm_parameter *param, const char *valstr);

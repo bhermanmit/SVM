@@ -156,13 +156,14 @@ contains
     call SvmProblemCreate(prob, n_train, n_features)
 
     ! Loop around train data and set to problem
-    do i = 1, 1
+    do i = 1, n_train 
 
-      ! print out 
       call SvmProblemAddData(prob, traindata_(i) % yvalue, i, &
            traindata_(i) % xinputs(:) % index, &
            traindata_(i) % xinputs(:) % value, &
            size(traindata_(i) % xinputs(:) % index))
+
+      call SvmProblemPrintData(prob, i)
 
     end do
 
