@@ -8,6 +8,12 @@
 
 interface
 
+  subroutine SvmDataFinalize(prob, param) bind(c)
+    use iso_c_binding
+    SvmProblem, value :: prob
+    SvmParameter, value :: param
+  end subroutine SvmDataFinalize
+
   function SvmProblemCreate(prob, n, nf) bind (c)
     use iso_c_binding
     SvmProblem :: SvmProblemCreate

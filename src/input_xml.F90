@@ -91,7 +91,6 @@ contains
     n_features = max_features_
 
     ! Create the problem
-    call SvmParameterPrint(param)
     prob = SvmProblemCreate(prob, n_train, n_features)
 
     ! Loop around train data and set to problem
@@ -107,8 +106,8 @@ contains
     end do
 
     ! Check problem
-!   call SvmDataFinalize(prob, param)
-    call SvmParameterPrint(param)
+    call SvmDataFinalize(prob, param)
+
   end subroutine read_data_xml
 
 end module input_xml
