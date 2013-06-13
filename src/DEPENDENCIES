@@ -29,4 +29,3 @@ output.o: string.o
 string.o: constants.o
 string.o: error.o
 string.o: global.o
-

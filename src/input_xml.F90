@@ -24,8 +24,9 @@ contains
     ! read in data input file
     call read_data_xml()
 
-    ! print out parameter list
+    ! print out parameter list and check all data
     call SvmParameterPrint(param)
+    call SvmDataFinalize(prob, param)
 
   end subroutine read_input_xml
 
@@ -224,9 +225,6 @@ contains
       temp_char = "gamma"
       param = SvmParameterSet(param, temp_char, cptr)
     end if
-
-    ! Check problem
-    call SvmDataFinalize(prob, param)
 
     ! Deallocate
     deallocate(index_vec)
