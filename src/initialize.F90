@@ -4,7 +4,7 @@ module initialize
   use error,            only: fatal_error
   use global
   use input_xml,        only: read_input_xml
-  use output,           only: title, header, print_version
+  use output,           only: title, header
   use string,           only: to_str, str_to_int4, starts_with, ends_with, &
                               str_to_real
 

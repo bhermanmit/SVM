@@ -180,4 +180,103 @@ contains
 
   end subroutine write_message
 
+!===============================================================================
+! PRINT_COLUMNS displays a header listing what physical values will displayed
+! below them
+!===============================================================================
+
+  subroutine print_columns()
+
+    if (svm_type == CLASSIFICATION) then
+
+      message = " Test Data id     y predicted     y actual (opt.)     correct?"
+      call write_message()
+      message = " ============     ===========     ===============     ========" 
+      call write_message()
+
+    else ! regression
+
+      message = " Test Data id     y predicted     y actual (opt.)       % diff?"
+      call write_message()
+      message = " ============     ===========     ===============     ==========="
+      call write_message()
+
+    end if
+
+  end subroutine print_columns
+
+!===============================================================================
+! PRINT_PREDICTION
+!===============================================================================
+
+  subroutine print_prediction(id, y_predict, y_actual)
+
+    integer :: id
+    real(8) :: y_predict
+    real(8), optional :: y_actual
+
+    if (svm_type == CLASSIFICATION) then
+
+      write(ou, fmt='(1X,I12)', advance='no') id
+      write(ou, fmt='(5X,1PE11.4)', advance='no') y_predict
+      if (present(y_actual)) then 
+        write(ou, fmt='(5X,1PE15.4)', advance='no') y_actual
+        if (abs(y_predict - y_actual) < TINY_BIT) then
+          write(ou, fmt='(5X,A8)', advance='no') "yes  "
+        else
+          write(ou, fmt='(5X,A8)', advance='no') "no  "
+        end if
+      end if
+
+    else ! regression
+
+      write(ou, fmt='(1X,I12)', advance='no') id
+      write(ou, fmt='(5X,1PE11.4)', advance='no') y_predict
+      if (present(y_actual)) then
+        write(ou, fmt='(5X,1PE15.4)', advance='no') y_actual
+        write(ou, fmt='(5X,F11.4)', advance='no') &
+          abs((y_predict - y_actual)/y_actual)*100.0_8 
+      end if
+
+    end if
+
+    ! next line
+    write(ou, fmt=*)
+
+  end subroutine print_prediction
+
+!===============================================================================
+! PRINT_RESULTS
+!===============================================================================
+
+  subroutine print_results()
+
+    if (svm_type == CLASSIFICATION) then
+
+      call header("  Classification Problem Results", level=3)
+
+      write(ou, fmt='(5X,A1,I0,A1,I0,A)') "(",total,"/",n_test, &
+           ") had true y values present"
+
+      write(ou, fmt='(/,5X,A,F0.2,A3,I0,A1,I0,A1)') "Accuracy: ",acc,"% (", &
+           correct,"/", total,")"
+
+    else ! regression
+
+      call header("  Regression Problem Results", level=3)
+
+      write(ou, fmt='(5X,A1,I0,A1,I0,A)') "(",total,"/",n_test, &
+           ") had true y values present"
+
+      write(ou, fmt='(5X,A,T40,1PE11.4)') "Mean Square Error:",mse
+      write(ou, fmt='(5X,A,T40,1PE11.4,A1)') "Root Mean Square Error:", rmsp, "%"
+      write(ou, fmt='(5X,A,T40,1PE11.4)') "Squared Correlation Coefficition:", r2
+
+    end if
+
+    ! next line
+    write(ou, fmt=*)
+
+  end subroutine print_results
+
 end module output

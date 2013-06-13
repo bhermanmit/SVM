@@ -249,17 +249,17 @@ svm_parameter *svmparameterset(svm_parameter *param, const char *optstr, void *v
 void svmparameterprint(svm_parameter *param)
 {
     // Print out all parameter options
-    printf("SVM TYPE: %d\n", param -> svm_type);
-    printf("KERNEL TYPE: %d\n", param -> kernel_type);
-    printf("DEGREE: %d\n", param -> degree);
-    printf("GAMMA: %f\n", param -> gamma);
-    printf("COEF0: %f\n", param -> coef0);
-    printf("Nu: %f\n", param -> nu);
-    printf("Cache Size: %f\n", param -> cache_size);
-    printf("C: %f\n", param -> C);
-    printf("EPS: %f\n", param -> eps);
-    printf("P: %f\n", param -> p);
-    printf("SHRINKING: %d\n", param -> shrinking);
-    printf("PROBABILITY: %d\n", param -> probability);
-    printf("NR WEIGHT: %d\n", param -> nr_weight);
+    printf(" SVM TYPE: %d\n", param -> svm_type);
+    printf(" KERNEL TYPE: %d\n", param -> kernel_type);
+    printf(" DEGREE: %d\n", param -> degree);
+    printf(" GAMMA: %f\n", param -> gamma);
+    printf(" COEF0: %f\n", param -> coef0);
+    printf(" Nu: %f\n", param -> nu);
+    printf(" Cache Size: %f\n", param -> cache_size);
+    printf(" C: %f\n", param -> C);
+    printf(" EPS: %f\n", param -> eps);
+    printf(" P: %f\n", param -> p);
+    printf(" SHRINKING: %d\n", param -> shrinking);
+    printf(" PROBABILITY: %d\n", param -> probability);
+    printf(" NR WEIGHT: %d\n", param -> nr_weight);
 }

@@ -1,6 +1,7 @@
 error.o: global.o
 
 finalize.o: global.o
+finalize.o: output.o
 
 global.o: constants.o
 global.o: svm_header.o
@@ -35,6 +36,7 @@ string.o: global.o
 
 svm.o: constants.o
 svm.o: global.o
+svm.o: output.o
 
 svm_header.o: constants.o
 

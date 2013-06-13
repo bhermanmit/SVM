@@ -3,7 +3,7 @@ module input_xml
   use constants
   use error,     only: fatal_error
   use global
-  use output,    only: write_message
+  use output,    only: write_message, header
   use svm_header
 
   implicit none
@@ -26,6 +26,7 @@ contains
     call read_data_xml()
 
     ! print parameters out
+    call header("SVM Parameters", level=2)
     call SvmParameterPrint(param)
 
   end subroutine read_input_xml

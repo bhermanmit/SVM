@@ -2,6 +2,7 @@ module svm
 
   use constants
   use global
+  use output,    only: header, print_columns, print_prediction
 
   implicit none
   private
@@ -16,9 +17,12 @@ contains
   subroutine run_svm()
 
     ! train data
+    call header("TRAINING MACHINE", level=1)
     call data_train()
 
     ! predict data
+    call header("PREDICTING DATA", level=1)
+    call print_columns()
     call data_predict()
 
   end subroutine run_svm
@@ -116,6 +120,9 @@ contains
       y_test = test_data % datapt(i) % y
       if (y_test /= DEFAULT_REAL) then
 
+        ! Print prediction
+        call print_prediction(i, y_predict, y_test)
+
         ! Increment total counter
         total = total + 1
 
@@ -136,6 +143,11 @@ contains
           sumpt = sumpt + y_predict*y_test
 
         end if
+
+      else
+
+        ! Just print y value
+        call print_prediction(i, y_predict)
 
       end if
  
@@ -160,8 +172,6 @@ contains
            ((dble(total)*sumpp - sump*sump)*(dble(total)*sumtt - sumt*sumt))
 
     end if
-
-    print *, acc
 
     ! Deallocate temp vectors
     deallocate(index_vec)
