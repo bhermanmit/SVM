@@ -26,6 +26,17 @@ module global
   type(svm_problem_type) :: train_data
   type(svm_problem_type) :: test_data
 
+  ! Type of SVM problem
+  integer :: svm_type
+
+  ! Results
+  integer :: correct
+  integer :: total
+  real(8) :: mse
+  real(8) :: rmsp
+  real(8) :: r2
+  real(8) :: acc
+
 contains
 
 !===============================================================================

@@ -44,5 +44,13 @@ module constants
   real(8), parameter :: ERROR_REAL = -huge(0.0_8) * 0.917826354_8
   integer, parameter :: DEFAULT_INT = 999
   real(8), parameter :: DEFAULT_REAL = 999._8
+  real(8), parameter :: TINY_BIT = 1.e-8_8
+
+  !=============================================================================
+  ! SVM CONSTANTS
+
+  ! type of problem
+  integer, parameter :: CLASSIFICATION = 0
+  integer, parameter :: REGRESSION = 1
 
 end module constants

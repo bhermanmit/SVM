@@ -1,5 +1,6 @@
 module svm
 
+  use constants
   use global
 
   implicit none
@@ -76,10 +77,27 @@ contains
     integer, allocatable :: index_vec(:)
     real(8), allocatable :: value_vec(:)
     real(8) :: y_predict
+    real(8) :: y_test
+    real(8) :: error
+    real(8) :: sump
+    real(8) :: sumt
+    real(8) :: sumpp
+    real(8) :: sumtt
+    real(8) :: sumpt
 
     ! Allocate temp vectors
     allocate(index_vec(n_features_max))
     allocate(value_vec(n_features_max))
+
+    ! Initialize sums
+    total = 0
+    correct = 0
+    error = ZERO
+    sump = ZERO
+    sumt = ZERO
+    sumpp = ZERO
+    sumtt = ZERO
+    sumpt = ZERO
 
     ! Loop around train data and set to problem
     do i = 1, n_test
@@ -94,9 +112,56 @@ contains
       y_predict = SvmPredict(model, index_vec, value_vec, &
                              test_data % datapt(i) % n)
 
-      print *, test_data % datapt(i) % y, y_predict
+      ! Collect data
+      y_test = test_data % datapt(i) % y
+      if (y_test /= DEFAULT_REAL) then
 
+        ! Increment total counter
+        total = total + 1
+
+        ! Classification analysis
+        if (svm_type == CLASSIFICATION) then
+
+          ! Check if values agree
+          if (abs(y_predict - y_test) < TINY_BIT) correct = correct + 1
+
+        else ! regression
+
+          ! Collect errors
+          error = error + (y_predict - y_test)**2
+          sump = sump + y_predict
+          sumt = sumt + y_test
+          sumpp = sumpp + y_predict**2
+          sumtt = sumtt + y_test**2
+          sumpt = sumpt + y_predict*y_test
+
+        end if
+
+      end if
+ 
     end do
+
+    ! Compute Results
+    if (svm_type == CLASSIFICATION) then
+
+      ! Calculate accuracy[%]
+      acc = dble(correct)/dble(total) * 100._8
+
+    else ! regression
+
+      ! Calculate mean squared error
+      mse = error/dble(total)
+
+      ! Calculate root mean squared error [%]
+      rmsp = sqrt(error/dble(total))*100._8
+
+      ! Calculate squared correlation coefficient
+      r2 = ((dble(total)*sumpt - sump*sumt)*(dble(total)*sumpt - sump*sumt)) / &
+           ((dble(total)*sumpp - sump*sump)*(dble(total)*sumtt - sumt*sumt))
+
+    end if
+
+    print *, acc
 
     ! Deallocate temp vectors
     deallocate(index_vec)

@@ -66,6 +66,10 @@ contains
       optstr = "svm_type"
       input = c_loc(svm_type_)
       param = SvmParameterSet(param, optstr, input)
+      if (trim(svm_type_) == "epsilon_svr" .or. trim(svm_type_) == "nu_svr") &
+        svm_type = REGRESSION
+    else
+      svm_type = CLASSIFICATION
     end if
 
     ! Check Kernel Type
