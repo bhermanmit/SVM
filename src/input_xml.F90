@@ -1,9 +1,10 @@
 module input_xml
 
   use constants
-  use error,   only: fatal_error
+  use error,     only: fatal_error
   use global
-  use output,  only: write_message
+  use output,    only: write_message
+  use svm_header
 
   implicit none
 
@@ -24,9 +25,8 @@ contains
     ! read in data input file
     call read_data_xml()
 
-    ! print out parameter list and check all data
+    ! print parameters out
     call SvmParameterPrint(param)
-    call SvmDataFinalize(prob, param)
 
   end subroutine read_input_xml
 
@@ -160,13 +160,8 @@ contains
 
     character(MAX_LINE_LEN) :: filename
     logical :: file_exists
-    integer :: n_train
-    integer :: n_test
     integer :: n_features
-    integer :: n_features_max
     integer :: i
-    integer, allocatable :: index_vec(:)
-    real(8), allocatable :: value_vec(:)
     real(8) :: temp_real
     character(len=25) :: temp_char
     type(c_ptr) :: cptr
@@ -195,12 +190,9 @@ contains
       call fatal_error()
     end if 
 
-    ! Allocate data
-    allocate(index_vec(n_features_max))
-    allocate(value_vec(n_features_max))
-
     ! Create the problem
-    prob = SvmProblemCreate(prob, n_train)
+    call allocate_problem(train_data, n_train)
+    call allocate_problem(test_data,  n_test)
 
     ! Loop around train data and set to problem
     do i = 1, n_train
@@ -208,13 +200,29 @@ contains
       ! Get the number of features 
       n_features = size(traindata_(i) % xinputs)
 
-      ! Set values to temp arrays
-      index_vec(1:n_features) = traindata_(i) % xinputs(:) % index
-      value_vec(1:n_features) = traindata_(i) % xinputs(:) % value
+      ! Allocate data
+      call allocate_data(train_data % datapt(i), n_features)
 
-      ! Store in svm problem structure
-      prob = SvmProblemAddData(prob, traindata_(i) % yvalue, i, &
-             index_vec, value_vec, n_features) 
+      ! Store data
+      train_data % datapt(i) % y = traindata_(i) % yvalue
+      train_data % datapt(i) % x(:) % idx = traindata_(i) % xinputs(:) % index
+      train_data % datapt(i) % x(:) % val = traindata_(i) % xinputs(:) % value
+
+    end do
+
+    ! Loop around test data and set to problem
+    do i = 1, n_test
+
+      ! Get the number of features 
+      n_features = size(testdata_(i) % xinputs)
+
+      ! Allocate data
+      call allocate_data(test_data % datapt(i), n_features)
+
+      ! Store data
+      test_data % datapt(i) % y = testdata_(i) % yvalue
+      test_data % datapt(i) % x(:) % idx = testdata_(i) % xinputs(:) % index
+      test_data % datapt(i) % x(:) % val = testdata_(i) % xinputs(:) % value
 
     end do
 
@@ -225,10 +233,6 @@ contains
       temp_char = "gamma"
       param = SvmParameterSet(param, temp_char, cptr)
     end if
-
-    ! Deallocate
-    deallocate(index_vec)
-    deallocate(value_vec)
 
   end subroutine read_data_xml
 

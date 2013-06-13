@@ -1,6 +1,7 @@
 module global
 
   use constants
+  use svm_header
   use, intrinsic :: iso_c_binding
 
   implicit none
@@ -15,6 +16,15 @@ module global
   SvmParameter :: param
   SvmProblem   :: prob
   SvmModel     :: model 
+
+  ! Size of problem
+  integer :: n_train
+  integer :: n_test
+  integer :: n_features_max
+
+  ! Data
+  type(svm_problem_type) :: train_data
+  type(svm_problem_type) :: test_data
 
 contains
 

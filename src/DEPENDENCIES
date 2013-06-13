@@ -3,6 +3,7 @@ error.o: global.o
 finalize.o: global.o
 
 global.o: constants.o
+global.o: svm_header.o
 
 initialize.o: constants.o
 initialize.o: error.o
@@ -15,12 +16,14 @@ input_xml.o: constants.o
 input_xml.o: error.o
 input_xml.o: global.o
 input_xml.o: output.o
+input_xml.o: svm_header.o
 input_xml.o: templates/data_t.o
 input_xml.o: templates/settings_t.o
 
 main.o: finalize.o
 main.o: global.o
 main.o: initialize.o
+main.o: svm.o
 
 output.o: constants.o
 output.o: global.o
@@ -29,3 +32,8 @@ output.o: string.o
 string.o: constants.o
 string.o: error.o
 string.o: global.o
+
+svm.o: global.o
+
+svm_header.o: constants.o
+
