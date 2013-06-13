@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
 
- <datapt yvalue="1.0708" id="1">
+ <max_features> 14 </max_features>
+
+ <traindata yvalue="1.0708" id="1">
    <xinput index="1" value="-0.482105" />
    <xinput index="2" value="-0.966102" />
    <xinput index="3" value="-0.707746" />
@@ -16,9 +18,9 @@
    <xinput index="12" value="-0.287129" />
    <xinput index="13" value="-0.0791367" />
    <xinput index="14" value="-0.535714" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0853" id="2">
+ <traindata yvalue="1.0853" id="2">
    <xinput index="1" value="-0.743158" />
    <xinput index="2" value="-1" />
    <xinput index="3" value="-0.552422" />
@@ -33,9 +35,9 @@
    <xinput index="12" value="-0.435644" />
    <xinput index="13" value="0.136691" />
    <xinput index="14" value="-0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0414" id="3">
+ <traindata yvalue="1.0414" id="3">
    <xinput index="1" value="0.0652632" />
    <xinput index="2" value="-1" />
    <xinput index="3" value="-0.709789" />
@@ -50,9 +52,9 @@
    <xinput index="12" value="-0.60396" />
    <xinput index="13" value="-0.395683" />
    <xinput index="14" value="-0.714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0751" id="4">
+ <traindata yvalue="1.0751" id="4">
    <xinput index="1" value="-0.562105" />
    <xinput index="2" value="-0.864407" />
    <xinput index="3" value="-0.45841" />
@@ -67,9 +69,9 @@
    <xinput index="12" value="-0.247525" />
    <xinput index="13" value="0.208633" />
    <xinput index="14" value="-0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.034" id="5">
+ <traindata yvalue="1.034" id="5">
    <xinput index="1" value="0.208421" />
    <xinput index="2" value="-0.932203" />
    <xinput index="3" value="-0.462497" />
@@ -84,9 +86,9 @@
    <xinput index="12" value="-0.267327" />
    <xinput index="13" value="-0.0359712" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0502" id="6">
+ <traindata yvalue="1.0502" id="6">
    <xinput index="1" value="-0.12" />
    <xinput index="2" value="-0.932203" />
    <xinput index="3" value="-0.249949" />
@@ -101,9 +103,9 @@
    <xinput index="12" value="0.0792079" />
    <xinput index="13" value="0.381295" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0549" id="7">
+ <traindata yvalue="1.0549" id="7">
    <xinput index="1" value="-0.191579" />
    <xinput index="2" value="-0.864407" />
    <xinput index="3" value="-0.489066" />
@@ -118,9 +120,9 @@
    <xinput index="12" value="-0.29703" />
    <xinput index="13" value="-0.0215827" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0704" id="8">
+ <traindata yvalue="1.0704" id="8">
    <xinput index="1" value="-0.477895" />
    <xinput index="2" value="-0.898305" />
    <xinput index="3" value="-0.529941" />
@@ -135,9 +137,9 @@
    <xinput index="12" value="-0.435644" />
    <xinput index="13" value="0.151079" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.09" id="9">
+ <traindata yvalue="1.09" id="9">
    <xinput index="1" value="-0.827368" />
    <xinput index="2" value="-0.898305" />
    <xinput index="3" value="-0.407317" />
@@ -152,9 +154,9 @@
    <xinput index="12" value="0.0990099" />
    <xinput index="13" value="0.453237" />
    <xinput index="14" value="-0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0722" id="10">
+ <traindata yvalue="1.0722" id="10">
    <xinput index="1" value="-0.507368" />
    <xinput index="2" value="-0.966102" />
    <xinput index="3" value="-0.348048" />
@@ -169,9 +171,9 @@
    <xinput index="12" value="0.0693069" />
    <xinput index="13" value="0.294964" />
    <xinput index="14" value="0.214286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.083" id="11">
+ <traindata yvalue="1.083" id="11">
    <xinput index="1" value="-0.701053" />
    <xinput index="2" value="-0.864407" />
    <xinput index="3" value="-0.446148" />
@@ -186,9 +188,9 @@
    <xinput index="12" value="-0.207921" />
    <xinput index="13" value="0.208633" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0812" id="12">
+ <traindata yvalue="1.0812" id="12">
    <xinput index="1" value="-0.671579" />
    <xinput index="2" value="-0.830508" />
    <xinput index="3" value="-0.202943" />
@@ -203,9 +205,9 @@
    <xinput index="12" value="0.227723" />
    <xinput index="13" value="0.323741" />
    <xinput index="14" value="0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0513" id="13">
+ <traindata yvalue="1.0513" id="13">
    <xinput index="1" value="-0.124211" />
    <xinput index="2" value="-0.661017" />
    <xinput index="3" value="-0.493153" />
@@ -220,9 +222,9 @@
    <xinput index="12" value="-0.237624" />
    <xinput index="13" value="0.0935252" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0505" id="14">
+ <traindata yvalue="1.0505" id="14">
    <xinput index="1" value="-0.107368" />
    <xinput index="2" value="-0.728814" />
    <xinput index="3" value="-0.290824" />
@@ -237,9 +239,9 @@
    <xinput index="12" value="0.19802" />
    <xinput index="13" value="0.52518" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0484" id="15">
+ <traindata yvalue="1.0484" id="15">
    <xinput index="1" value="-0.0694737" />
    <xinput index="2" value="-0.559322" />
    <xinput index="3" value="-0.433885" />
@@ -254,9 +256,9 @@
    <xinput index="12" value="0.118812" />
    <xinput index="13" value="0.366906" />
    <xinput index="14" value="-0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0512" id="16">
+ <traindata yvalue="1.0512" id="16">
    <xinput index="1" value="-0.12" />
    <xinput index="2" value="-0.559322" />
    <xinput index="3" value="-0.638259" />
@@ -271,9 +273,9 @@
    <xinput index="12" value="-0.376238" />
    <xinput index="13" value="-0.223022" />
    <xinput index="14" value="-0.607143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0333" id="17">
+ <traindata yvalue="1.0333" id="17">
    <xinput index="1" value="0.221053" />
    <xinput index="2" value="-0.59322" />
    <xinput index="3" value="-0.368486" />
@@ -288,9 +290,9 @@
    <xinput index="12" value="0.128713" />
    <xinput index="13" value="0.410072" />
    <xinput index="14" value="-0.464286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0468" id="18">
+ <traindata yvalue="1.0468" id="18">
    <xinput index="1" value="-0.0357895" />
    <xinput index="2" value="-0.661017" />
    <xinput index="3" value="-0.258124" />
@@ -305,9 +307,9 @@
    <xinput index="12" value="0.326733" />
    <xinput index="13" value="0.52518" />
    <xinput index="14" value="0.25" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0622" id="19">
+ <traindata yvalue="1.0622" id="19">
    <xinput index="1" value="-0.326316" />
    <xinput index="2" value="-0.79661" />
    <xinput index="3" value="-0.466585" />
@@ -322,9 +324,9 @@
    <xinput index="12" value="0.227723" />
    <xinput index="13" value="0.366906" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.061" id="20">
+ <traindata yvalue="1.061" id="20">
    <xinput index="1" value="-0.305263" />
    <xinput index="2" value="-0.627119" />
    <xinput index="3" value="-0.237686" />
@@ -339,9 +341,9 @@
    <xinput index="12" value="0.217822" />
    <xinput index="13" value="0.309353" />
    <xinput index="14" value="-0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0551" id="21">
+ <traindata yvalue="1.0551" id="21">
    <xinput index="1" value="-0.195789" />
    <xinput index="2" value="-0.79661" />
    <xinput index="3" value="-0.505416" />
@@ -356,9 +358,9 @@
    <xinput index="12" value="-0.237624" />
    <xinput index="13" value="0.338129" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.064" id="22">
+ <traindata yvalue="1.064" id="22">
    <xinput index="1" value="-0.36" />
    <xinput index="2" value="-0.79661" />
    <xinput index="3" value="-0.329655" />
@@ -373,9 +375,9 @@
    <xinput index="12" value="-0.188119" />
    <xinput index="13" value="0.697842" />
    <xinput index="14" value="0.464286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0631" id="23">
+ <traindata yvalue="1.0631" id="23">
    <xinput index="1" value="-0.343158" />
    <xinput index="2" value="-0.694915" />
    <xinput index="3" value="-0.822195" />
@@ -390,9 +392,9 @@
    <xinput index="12" value="-0.693069" />
    <xinput index="13" value="-0.294964" />
    <xinput index="14" value="-0.678571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0584" id="24">
+ <traindata yvalue="1.0584" id="24">
    <xinput index="1" value="-0.254737" />
    <xinput index="2" value="-0.661017" />
    <xinput index="3" value="-0.752708" />
@@ -407,9 +409,9 @@
    <xinput index="12" value="-0.50495" />
    <xinput index="13" value="-0.179856" />
    <xinput index="14" value="-0.535714" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0668" id="25">
+ <traindata yvalue="1.0668" id="25">
    <xinput index="1" value="-0.410526" />
    <xinput index="2" value="-0.79661" />
    <xinput index="3" value="-0.732271" />
@@ -424,9 +426,9 @@
    <xinput index="12" value="-0.376238" />
    <xinput index="13" value="0.00719424" />
    <xinput index="14" value="-0.357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0911" id="26">
+ <traindata yvalue="1.0911" id="26">
    <xinput index="1" value="-0.844211" />
    <xinput index="2" value="-0.830508" />
    <xinput index="3" value="-0.666871" />
@@ -441,9 +443,9 @@
    <xinput index="12" value="-0.49505" />
    <xinput index="13" value="0.0359712" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0811" id="27">
+ <traindata yvalue="1.0811" id="27">
    <xinput index="1" value="-0.667368" />
    <xinput index="2" value="-0.59322" />
    <xinput index="3" value="-0.893726" />
@@ -458,9 +460,9 @@
    <xinput index="12" value="-0.613861" />
    <xinput index="13" value="-0.136691" />
    <xinput index="14" value="-0.75" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0468" id="28">
+ <traindata yvalue="1.0468" id="28">
    <xinput index="1" value="-0.0357895" />
    <xinput index="2" value="-0.694915" />
    <xinput index="3" value="-0.758839" />
@@ -475,9 +477,9 @@
    <xinput index="12" value="-0.564356" />
    <xinput index="13" value="-0.194245" />
    <xinput index="14" value="-0.571429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.091" id="29">
+ <traindata yvalue="1.091" id="29">
    <xinput index="1" value="-0.844211" />
    <xinput index="2" value="-0.830508" />
    <xinput index="3" value="-0.87942" />
@@ -492,9 +494,9 @@
    <xinput index="12" value="-0.435644" />
    <xinput index="13" value="-0.00719424" />
    <xinput index="14" value="-0.5" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.079" id="30">
+ <traindata yvalue="1.079" id="30">
    <xinput index="1" value="-0.629474" />
    <xinput index="2" value="-0.762712" />
    <xinput index="3" value="-0.654609" />
@@ -509,9 +511,9 @@
    <xinput index="12" value="-0.475248" />
    <xinput index="13" value="-0.179856" />
    <xinput index="14" value="-0.357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0716" id="31">
+ <traindata yvalue="1.0716" id="31">
    <xinput index="1" value="-0.498947" />
    <xinput index="2" value="-0.661017" />
    <xinput index="3" value="-0.480891" />
@@ -526,9 +528,9 @@
    <xinput index="12" value="-0.237624" />
    <xinput index="13" value="-0.0359712" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0862" id="32">
+ <traindata yvalue="1.0862" id="32">
    <xinput index="1" value="-0.76" />
    <xinput index="2" value="-0.762712" />
    <xinput index="3" value="-0.658696" />
@@ -543,9 +545,9 @@
    <xinput index="12" value="-0.475248" />
    <xinput index="13" value="-0.223022" />
    <xinput index="14" value="-0.25" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0719" id="33">
+ <traindata yvalue="1.0719" id="33">
    <xinput index="1" value="-0.503158" />
    <xinput index="2" value="-0.830508" />
    <xinput index="3" value="-0.59534" />
@@ -560,9 +562,9 @@
    <xinput index="12" value="-0.584158" />
    <xinput index="13" value="0.294964" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0502" id="34">
+ <traindata yvalue="1.0502" id="34">
    <xinput index="1" value="-0.103158" />
    <xinput index="2" value="-0.355932" />
    <xinput index="3" value="-0.182506" />
@@ -577,9 +579,9 @@
    <xinput index="12" value="0.257426" />
    <xinput index="13" value="0.510791" />
    <xinput index="14" value="0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0263" id="35">
+ <traindata yvalue="1.0263" id="35">
    <xinput index="1" value="0.36" />
    <xinput index="2" value="-0.355932" />
    <xinput index="3" value="0.052524" />
@@ -594,9 +596,9 @@
    <xinput index="12" value="0.237624" />
    <xinput index="13" value="0.539568" />
    <xinput index="14" value="0.392857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0101" id="36">
+ <traindata yvalue="1.0101" id="36">
    <xinput index="1" value="0.688421" />
    <xinput index="2" value="-0.0847458" />
    <xinput index="3" value="-0.401185" />
@@ -611,9 +613,9 @@
    <xinput index="12" value="-0.287129" />
    <xinput index="13" value="0.266187" />
    <xinput index="14" value="-0.571429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0438" id="37">
+ <traindata yvalue="1.0438" id="37">
    <xinput index="1" value="0.0189474" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.315348" />
@@ -628,9 +630,9 @@
    <xinput index="12" value="0.019802" />
    <xinput index="13" value="0.381295" />
    <xinput index="14" value="0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0346" id="38">
+ <traindata yvalue="1.0346" id="38">
    <xinput index="1" value="0.195789" />
    <xinput index="2" value="-0.0508475" />
    <xinput index="3" value="-0.360311" />
@@ -645,9 +647,9 @@
    <xinput index="12" value="-0.168317" />
    <xinput index="13" value="0.366906" />
    <xinput index="14" value="0.285714" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0202" id="39">
+ <traindata yvalue="1.0202" id="39">
    <xinput index="1" value="0.482105" />
    <xinput index="2" value="-0.186441" />
    <xinput index="3" value="1" />
@@ -662,9 +664,9 @@
    <xinput index="12" value="1" />
    <xinput index="13" value="0.151079" />
    <xinput index="14" value="1" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0258" id="40">
+ <traindata yvalue="1.0258" id="40">
    <xinput index="1" value="0.372632" />
    <xinput index="2" value="-0.0508475" />
    <xinput index="3" value="-0.309217" />
@@ -679,9 +681,9 @@
    <xinput index="12" value="-0.0792079" />
    <xinput index="13" value="0.438849" />
    <xinput index="14" value="-0.107143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0217" id="41">
+ <traindata yvalue="1.0217" id="41">
    <xinput index="1" value="0.452632" />
    <xinput index="2" value="-0.220339" />
    <xinput index="3" value="0.179236" />
@@ -696,9 +698,9 @@
    <xinput index="12" value="0.148515" />
    <xinput index="13" value="0.683453" />
    <xinput index="14" value="1" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.025" id="42">
+ <traindata yvalue="1.025" id="42">
    <xinput index="1" value="0.385263" />
    <xinput index="2" value="-0.254237" />
    <xinput index="3" value="-0.292867" />
@@ -713,9 +715,9 @@
    <xinput index="12" value="-0.128713" />
    <xinput index="13" value="0.107914" />
    <xinput index="14" value="-0.428571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0279" id="43">
+ <traindata yvalue="1.0279" id="43">
    <xinput index="1" value="0.330526" />
    <xinput index="2" value="-0.118644" />
    <xinput index="3" value="-0.194768" />
@@ -730,9 +732,9 @@
    <xinput index="12" value="0.178218" />
    <xinput index="13" value="0.266187" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0269" id="44">
+ <traindata yvalue="1.0269" id="44">
    <xinput index="1" value="0.347368" />
    <xinput index="2" value="-0.355932" />
    <xinput index="3" value="-0.235643" />
@@ -747,9 +749,9 @@
    <xinput index="12" value="0.0891089" />
    <xinput index="13" value="0.510791" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0814" id="45">
+ <traindata yvalue="1.0814" id="45">
    <xinput index="1" value="-0.675789" />
    <xinput index="2" value="-0.423729" />
    <xinput index="3" value="-0.944819" />
@@ -764,9 +766,9 @@
    <xinput index="12" value="-0.871287" />
    <xinput index="13" value="-0.697842" />
    <xinput index="14" value="-0.892857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.067" id="46">
+ <traindata yvalue="1.067" id="46">
    <xinput index="1" value="-0.414737" />
    <xinput index="2" value="-0.288136" />
    <xinput index="3" value="-0.625996" />
@@ -781,9 +783,9 @@
    <xinput index="12" value="-0.514851" />
    <xinput index="13" value="-0.0791367" />
    <xinput index="14" value="-0.107143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0742" id="47">
+ <traindata yvalue="1.0742" id="47">
    <xinput index="1" value="-0.545263" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.877376" />
@@ -798,9 +800,9 @@
    <xinput index="12" value="-0.693069" />
    <xinput index="13" value="-0.251799" />
    <xinput index="14" value="-0.464286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0665" id="48">
+ <traindata yvalue="1.0665" id="48">
    <xinput index="1" value="-0.764211" />
    <xinput index="2" value="-0.423729" />
    <xinput index="3" value="-0.754752" />
@@ -815,9 +817,9 @@
    <xinput index="12" value="-0.60396" />
    <xinput index="13" value="-0.165468" />
    <xinput index="14" value="-0.25" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0678" id="49">
+ <traindata yvalue="1.0678" id="49">
    <xinput index="1" value="-0.427368" />
    <xinput index="2" value="-0.220339" />
    <xinput index="3" value="-0.858982" />
@@ -832,9 +834,9 @@
    <xinput index="12" value="-0.60396" />
    <xinput index="13" value="-0.352518" />
    <xinput index="14" value="-0.821429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0903" id="50">
+ <traindata yvalue="1.0903" id="50">
    <xinput index="1" value="-0.831579" />
    <xinput index="2" value="-0.152542" />
    <xinput index="3" value="-0.926426" />
@@ -849,9 +851,9 @@
    <xinput index="12" value="-0.80198" />
    <xinput index="13" value="-0.309353" />
    <xinput index="14" value="-0.642857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0756" id="51">
+ <traindata yvalue="1.0756" id="51">
    <xinput index="1" value="-0.570526" />
    <xinput index="2" value="-0.152542" />
    <xinput index="3" value="-0.675046" />
@@ -866,9 +868,9 @@
    <xinput index="12" value="-0.881188" />
    <xinput index="13" value="-0.309353" />
    <xinput index="14" value="-0.464286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.084" id="52">
+ <traindata yvalue="1.084" id="52">
    <xinput index="1" value="-0.722105" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.83037" />
@@ -883,9 +885,9 @@
    <xinput index="12" value="-0.811881" />
    <xinput index="13" value="-0.266187" />
    <xinput index="14" value="-0.5" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0807" id="53">
+ <traindata yvalue="1.0807" id="53">
    <xinput index="1" value="-0.663158" />
    <xinput index="2" value="-0.0169492" />
    <xinput index="3" value="-0.84672" />
@@ -900,9 +902,9 @@
    <xinput index="12" value="-0.524752" />
    <xinput index="13" value="-0.280576" />
    <xinput index="14" value="-0.607143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0848" id="54">
+ <traindata yvalue="1.0848" id="54">
    <xinput index="1" value="-0.734737" />
    <xinput index="2" value="-0.0847458" />
    <xinput index="3" value="-0.720008" />
@@ -917,9 +919,9 @@
    <xinput index="12" value="0.356436" />
    <xinput index="13" value="-0.0791367" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0906" id="55">
+ <traindata yvalue="1.0906" id="55">
    <xinput index="1" value="-0.835789" />
    <xinput index="2" value="-0.322034" />
    <xinput index="3" value="-0.854895" />
@@ -934,9 +936,9 @@
    <xinput index="12" value="-0.712871" />
    <xinput index="13" value="-0.0647482" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0473" id="56">
+ <traindata yvalue="1.0473" id="56">
    <xinput index="1" value="-0.0484211" />
    <xinput index="2" value="0.0847458" />
    <xinput index="3" value="-0.350092" />
@@ -951,9 +953,9 @@
    <xinput index="12" value="0.0990099" />
    <xinput index="13" value="0.323741" />
    <xinput index="14" value="0.107143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0524" id="57">
+ <traindata yvalue="1.0524" id="57">
    <xinput index="1" value="-0.141053" />
    <xinput index="2" value="0.220339" />
    <xinput index="3" value="-0.484979" />
@@ -968,9 +970,9 @@
    <xinput index="12" value="-0.178218" />
    <xinput index="13" value="0.0503597" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0356" id="58">
+ <traindata yvalue="1.0356" id="58">
    <xinput index="1" value="0.178947" />
    <xinput index="2" value="0.355932" />
    <xinput index="3" value="-0.323523" />
@@ -985,9 +987,9 @@
    <xinput index="12" value="0.277228" />
    <xinput index="13" value="0.42446" />
    <xinput index="14" value="0.214286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.028" id="59">
+ <traindata yvalue="1.028" id="59">
    <xinput index="1" value="0.326316" />
    <xinput index="2" value="0.0847458" />
    <xinput index="3" value="-0.313305" />
@@ -1002,9 +1004,9 @@
    <xinput index="12" value="-0.326733" />
    <xinput index="13" value="0.122302" />
    <xinput index="14" value="-0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.043" id="60">
+ <traindata yvalue="1.043" id="60">
    <xinput index="1" value="0.0357895" />
    <xinput index="2" value="0.322034" />
    <xinput index="3" value="-0.499285" />
@@ -1019,9 +1021,9 @@
    <xinput index="12" value="-0.039604" />
    <xinput index="13" value="0.23741" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0396" id="61">
+ <traindata yvalue="1.0396" id="61">
    <xinput index="1" value="0.0989474" />
    <xinput index="2" value="0.355932" />
    <xinput index="3" value="-0.202943" />
@@ -1036,9 +1038,9 @@
    <xinput index="12" value="0.128713" />
    <xinput index="13" value="0.553957" />
    <xinput index="14" value="0.571429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0317" id="62">
+ <traindata yvalue="1.0317" id="62">
    <xinput index="1" value="0.254737" />
    <xinput index="2" value="0.152542" />
    <xinput index="3" value="-0.50746" />
@@ -1053,9 +1055,9 @@
    <xinput index="12" value="-0.237624" />
    <xinput index="13" value="0.266187" />
    <xinput index="14" value="-0.107143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0298" id="63">
+ <traindata yvalue="1.0298" id="63">
    <xinput index="1" value="0.292632" />
    <xinput index="2" value="0.0847458" />
    <xinput index="3" value="-0.388923" />
@@ -1070,9 +1072,9 @@
    <xinput index="12" value="-0.217822" />
    <xinput index="13" value="0.280576" />
    <xinput index="14" value="0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0403" id="64">
+ <traindata yvalue="1.0403" id="64">
    <xinput index="1" value="0.0863158" />
    <xinput index="2" value="0.322034" />
    <xinput index="3" value="-0.513591" />
@@ -1087,9 +1089,9 @@
    <xinput index="12" value="-0.128713" />
    <xinput index="13" value="0.151079" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0264" id="65">
+ <traindata yvalue="1.0264" id="65">
    <xinput index="1" value="0.36" />
    <xinput index="2" value="0.186441" />
    <xinput index="3" value="-0.28878" />
@@ -1104,9 +1106,9 @@
    <xinput index="12" value="0.039604" />
    <xinput index="13" value="0.453237" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0313" id="66">
+ <traindata yvalue="1.0313" id="66">
    <xinput index="1" value="0.263158" />
    <xinput index="2" value="0.118644" />
    <xinput index="3" value="-0.468629" />
@@ -1121,9 +1123,9 @@
    <xinput index="12" value="-0.00990099" />
    <xinput index="13" value="0.309353" />
    <xinput index="14" value="0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0499" id="67">
+ <traindata yvalue="1.0499" id="67">
    <xinput index="1" value="-0.0947368" />
    <xinput index="2" value="0.0847458" />
    <xinput index="3" value="-0.730227" />
@@ -1138,9 +1140,9 @@
    <xinput index="12" value="-0.524752" />
    <xinput index="13" value="-0.0791367" />
    <xinput index="14" value="-0.428571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0673" id="68">
+ <traindata yvalue="1.0673" id="68">
    <xinput index="1" value="-0.418947" />
    <xinput index="2" value="0.118644" />
    <xinput index="3" value="-0.703658" />
@@ -1155,9 +1157,9 @@
    <xinput index="12" value="-0.207921" />
    <xinput index="13" value="-0.0791367" />
    <xinput index="14" value="0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0847" id="69">
+ <traindata yvalue="1.0847" id="69">
    <xinput index="1" value="-0.734737" />
    <xinput index="2" value="0.0847458" />
    <xinput index="3" value="-0.699571" />
@@ -1172,9 +1174,9 @@
    <xinput index="12" value="-0.227723" />
    <xinput index="13" value="0.0215827" />
    <xinput index="14" value="-0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0693" id="70">
+ <traindata yvalue="1.0693" id="70">
    <xinput index="1" value="-0.456842" />
    <xinput index="2" value="0.118644" />
    <xinput index="3" value="-0.687308" />
@@ -1189,9 +1191,9 @@
    <xinput index="12" value="-0.752475" />
    <xinput index="13" value="-0.122302" />
    <xinput index="14" value="-0.464286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0439" id="71">
+ <traindata yvalue="1.0439" id="71">
    <xinput index="1" value="0.0231579" />
    <xinput index="2" value="0.355932" />
    <xinput index="3" value="-0.599428" />
@@ -1206,9 +1208,9 @@
    <xinput index="12" value="-0.336634" />
    <xinput index="13" value="-0.0935252" />
    <xinput index="14" value="6.66134e-16" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0788" id="72">
+ <traindata yvalue="1.0788" id="72">
    <xinput index="1" value="-0.629474" />
    <xinput index="2" value="0.118644" />
    <xinput index="3" value="-0.769058" />
@@ -1223,9 +1225,9 @@
    <xinput index="12" value="-0.455446" />
    <xinput index="13" value="-0.0935252" />
    <xinput index="14" value="-0.107143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0796" id="73">
+ <traindata yvalue="1.0796" id="73">
    <xinput index="1" value="-0.642105" />
    <xinput index="2" value="0.152542" />
    <xinput index="3" value="-0.654609" />
@@ -1240,9 +1242,9 @@
    <xinput index="12" value="-0.514851" />
    <xinput index="13" value="-0.0935252" />
    <xinput index="14" value="-0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.068" id="74">
+ <traindata yvalue="1.068" id="74">
    <xinput index="1" value="-0.431579" />
    <xinput index="2" value="0.118644" />
    <xinput index="3" value="-0.946863" />
@@ -1257,9 +1259,9 @@
    <xinput index="12" value="-0.554455" />
    <xinput index="13" value="-0.323741" />
    <xinput index="14" value="-0.607143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.072" id="75">
+ <traindata yvalue="1.072" id="75">
    <xinput index="1" value="-0.503158" />
    <xinput index="2" value="0.322034" />
    <xinput index="3" value="-0.799714" />
@@ -1274,9 +1276,9 @@
    <xinput index="12" value="-0.544554" />
    <xinput index="13" value="-0.136691" />
    <xinput index="14" value="-0.642857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0666" id="76">
+ <traindata yvalue="1.0666" id="76">
    <xinput index="1" value="-0.221053" />
    <xinput index="2" value="0.322034" />
    <xinput index="3" value="-0.756795" />
@@ -1291,9 +1293,9 @@
    <xinput index="12" value="-0.554455" />
    <xinput index="13" value="-0.136691" />
    <xinput index="14" value="-0.107143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.079" id="77">
+ <traindata yvalue="1.079" id="77">
    <xinput index="1" value="-0.629474" />
    <xinput index="2" value="0.186441" />
    <xinput index="3" value="-0.640302" />
@@ -1308,9 +1310,9 @@
    <xinput index="12" value="-0.465347" />
    <xinput index="13" value="0.179856" />
    <xinput index="14" value="-0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0483" id="78">
+ <traindata yvalue="1.0483" id="78">
    <xinput index="1" value="-0.0652632" />
    <xinput index="2" value="0.59322" />
    <xinput index="3" value="-0.515635" />
@@ -1325,9 +1327,9 @@
    <xinput index="12" value="-0.405941" />
    <xinput index="13" value="-0.323741" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0498" id="79">
+ <traindata yvalue="1.0498" id="79">
    <xinput index="1" value="-0.0947368" />
    <xinput index="2" value="1" />
    <xinput index="3" value="-0.650521" />
@@ -1342,9 +1344,9 @@
    <xinput index="12" value="-0.346535" />
    <xinput index="13" value="-0.165468" />
    <xinput index="14" value="-0.107143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.056" id="80">
+ <traindata yvalue="1.056" id="80">
    <xinput index="1" value="-0.208421" />
    <xinput index="2" value="0.491525" />
    <xinput index="3" value="-0.568772" />
@@ -1359,9 +1361,9 @@
    <xinput index="12" value="-0.455446" />
    <xinput index="13" value="0.107914" />
    <xinput index="14" value="0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0283" id="81">
+ <traindata yvalue="1.0283" id="81">
    <xinput index="1" value="0.322105" />
    <xinput index="2" value="0.525424" />
    <xinput index="3" value="-0.630084" />
@@ -1376,9 +1378,9 @@
    <xinput index="12" value="-0.544554" />
    <xinput index="13" value="-0.107914" />
    <xinput index="14" value="0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0382" id="82">
+ <traindata yvalue="1.0382" id="82">
    <xinput index="1" value="0.128421" />
    <xinput index="2" value="0.423729" />
    <xinput index="3" value="-0.740446" />
@@ -1393,9 +1395,9 @@
    <xinput index="12" value="-0.49505" />
    <xinput index="13" value="-0.395683" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0568" id="83">
+ <traindata yvalue="1.0568" id="83">
    <xinput index="1" value="-0.225263" />
    <xinput index="2" value="0.423729" />
    <xinput index="3" value="-0.413448" />
@@ -1410,9 +1412,9 @@
    <xinput index="12" value="-0.0594059" />
    <xinput index="13" value="0.23741" />
    <xinput index="14" value="0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0377" id="84">
+ <traindata yvalue="1.0377" id="84">
    <xinput index="1" value="0.136842" />
    <xinput index="2" value="0.627119" />
    <xinput index="3" value="-0.572859" />
@@ -1427,9 +1429,9 @@
    <xinput index="12" value="-0.366337" />
    <xinput index="13" value="-0.0935252" />
    <xinput index="14" value="0.214286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0378" id="85">
+ <traindata yvalue="1.0378" id="85">
    <xinput index="1" value="0.136842" />
    <xinput index="2" value="0.694915" />
    <xinput index="3" value="-0.59534" />
@@ -1444,9 +1446,9 @@
    <xinput index="12" value="-0.514851" />
    <xinput index="13" value="-0.23741" />
    <xinput index="14" value="-0.214286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0386" id="86">
+ <traindata yvalue="1.0386" id="86">
    <xinput index="1" value="0.12" />
    <xinput index="2" value="0.525424" />
    <xinput index="3" value="-0.603515" />
@@ -1461,9 +1463,9 @@
    <xinput index="12" value="-0.247525" />
    <xinput index="13" value="-0.0359712" />
    <xinput index="14" value="-0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0648" id="87">
+ <traindata yvalue="1.0648" id="87">
    <xinput index="1" value="-0.372632" />
    <xinput index="2" value="0.694915" />
    <xinput index="3" value="-0.679133" />
@@ -1478,9 +1480,9 @@
    <xinput index="12" value="-0.227723" />
    <xinput index="13" value="0.00719424" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0462" id="88">
+ <traindata yvalue="1.0462" id="88">
    <xinput index="1" value="-0.0273684" />
    <xinput index="2" value="0.423729" />
    <xinput index="3" value="-0.66074" />
@@ -1495,9 +1497,9 @@
    <xinput index="12" value="-0.564356" />
    <xinput index="13" value="0.0647482" />
    <xinput index="14" value="-0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.08" id="89">
+ <traindata yvalue="1.08" id="89">
    <xinput index="1" value="-0.650526" />
    <xinput index="2" value="-0.186441" />
    <xinput index="3" value="-0.52381" />
@@ -1512,9 +1514,9 @@
    <xinput index="12" value="-0.465347" />
    <xinput index="13" value="0.194245" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0666" id="90">
+ <traindata yvalue="1.0666" id="90">
    <xinput index="1" value="-0.406316" />
    <xinput index="2" value="-0.118644" />
    <xinput index="3" value="-0.529941" />
@@ -1529,9 +1531,9 @@
    <xinput index="12" value="-0.60396" />
    <xinput index="13" value="0.23741" />
    <xinput index="14" value="0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.052" id="91">
+ <traindata yvalue="1.052" id="91">
    <xinput index="1" value="-0.136842" />
    <xinput index="2" value="-0.186441" />
    <xinput index="3" value="-0.521766" />
@@ -1546,9 +1548,9 @@
    <xinput index="12" value="-0.574257" />
    <xinput index="13" value="-0.0359712" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0573" id="92">
+ <traindata yvalue="1.0573" id="92">
    <xinput index="1" value="-0.233684" />
    <xinput index="2" value="-0.254237" />
    <xinput index="3" value="-0.499285" />
@@ -1563,9 +1565,9 @@
    <xinput index="12" value="-0.346535" />
    <xinput index="13" value="0.0647482" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0795" id="93">
+ <traindata yvalue="1.0795" id="93">
    <xinput index="1" value="-0.642105" />
    <xinput index="2" value="-0.152542" />
    <xinput index="3" value="-0.617821" />
@@ -1580,9 +1582,9 @@
    <xinput index="12" value="-0.475248" />
    <xinput index="13" value="0.0359712" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0424" id="94">
+ <traindata yvalue="1.0424" id="94">
    <xinput index="1" value="0.0484211" />
    <xinput index="2" value="-0.186441" />
    <xinput index="3" value="-0.395054" />
@@ -1597,9 +1599,9 @@
    <xinput index="12" value="-0.158416" />
    <xinput index="13" value="0.23741" />
    <xinput index="14" value="0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0785" id="95">
+ <traindata yvalue="1.0785" id="95">
    <xinput index="1" value="-0.621053" />
    <xinput index="2" value="-0.152542" />
    <xinput index="3" value="-0.462497" />
@@ -1614,9 +1616,9 @@
    <xinput index="12" value="-0.455446" />
    <xinput index="13" value="-0.00719424" />
    <xinput index="14" value="-0.285714" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0991" id="96">
+ <traindata yvalue="1.0991" id="96">
    <xinput index="1" value="-0.267368" />
    <xinput index="2" value="0.0508475" />
    <xinput index="3" value="-0.133456" />
@@ -1631,9 +1633,9 @@
    <xinput index="12" value="-0.19802" />
    <xinput index="13" value="0.410072" />
    <xinput index="14" value="0.642857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.077" id="97">
+ <traindata yvalue="1.077" id="97">
    <xinput index="1" value="-0.595789" />
    <xinput index="2" value="-0.457627" />
    <xinput index="3" value="-0.42571" />
@@ -1648,9 +1650,9 @@
    <xinput index="12" value="-0.326733" />
    <xinput index="13" value="0.309353" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.073" id="98">
+ <traindata yvalue="1.073" id="98">
    <xinput index="1" value="-0.524211" />
    <xinput index="2" value="-0.0508475" />
    <xinput index="3" value="-0.640302" />
@@ -1665,9 +1667,9 @@
    <xinput index="12" value="-0.425743" />
    <xinput index="13" value="-0.0215827" />
    <xinput index="14" value="-0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0582" id="99">
+ <traindata yvalue="1.0582" id="99">
    <xinput index="1" value="-0.250526" />
    <xinput index="2" value="-0.186441" />
    <xinput index="3" value="-0.689352" />
@@ -1682,9 +1684,9 @@
    <xinput index="12" value="-0.326733" />
    <xinput index="13" value="-0.0647482" />
    <xinput index="14" value="-0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0484" id="100">
+ <traindata yvalue="1.0484" id="100">
    <xinput index="1" value="-0.0652632" />
    <xinput index="2" value="-0.152542" />
    <xinput index="3" value="-0.358267" />
@@ -1699,9 +1701,9 @@
    <xinput index="12" value="0.039604" />
    <xinput index="13" value="0.42446" />
    <xinput index="14" value="-0.107143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0506" id="101">
+ <traindata yvalue="1.0506" id="101">
    <xinput index="1" value="-0.107368" />
    <xinput index="2" value="-0.0847458" />
    <xinput index="3" value="-0.346004" />
@@ -1716,9 +1718,9 @@
    <xinput index="12" value="-0.267327" />
    <xinput index="13" value="0.438849" />
    <xinput index="14" value="6.66134e-16" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0524" id="102">
+ <traindata yvalue="1.0524" id="102">
    <xinput index="1" value="-0.141053" />
    <xinput index="2" value="-0.118644" />
    <xinput index="3" value="-0.548334" />
@@ -1733,9 +1735,9 @@
    <xinput index="12" value="-0.693069" />
    <xinput index="13" value="-0.251799" />
    <xinput index="14" value="-0.571429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.053" id="103">
+ <traindata yvalue="1.053" id="103">
    <xinput index="1" value="-0.153684" />
    <xinput index="2" value="-0.355932" />
    <xinput index="3" value="-0.556509" />
@@ -1750,9 +1752,9 @@
    <xinput index="12" value="-0.386139" />
    <xinput index="13" value="0.179856" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.048" id="104">
+ <traindata yvalue="1.048" id="104">
    <xinput index="1" value="-0.0610526" />
    <xinput index="2" value="-0.0847458" />
    <xinput index="3" value="-0.360311" />
@@ -1767,9 +1769,9 @@
    <xinput index="12" value="-0.386139" />
    <xinput index="13" value="0.338129" />
    <xinput index="14" value="0.392857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0412" id="105">
+ <traindata yvalue="1.0412" id="105">
    <xinput index="1" value="0.0694737" />
    <xinput index="2" value="-0.288136" />
    <xinput index="3" value="-0.521766" />
@@ -1784,9 +1786,9 @@
    <xinput index="12" value="-0.475248" />
    <xinput index="13" value="-0.107914" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0578" id="106">
+ <traindata yvalue="1.0578" id="106">
    <xinput index="1" value="-0.242105" />
    <xinput index="2" value="-0.288136" />
    <xinput index="3" value="-0.615778" />
@@ -1801,9 +1803,9 @@
    <xinput index="12" value="-0.386139" />
    <xinput index="13" value="0.208633" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0547" id="107">
+ <traindata yvalue="1.0547" id="107">
    <xinput index="1" value="-0.187368" />
    <xinput index="2" value="-0.288136" />
    <xinput index="3" value="-0.331698" />
@@ -1818,9 +1820,9 @@
    <xinput index="12" value="-0.435644" />
    <xinput index="13" value="0.0791367" />
    <xinput index="14" value="-0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0569" id="108">
+ <traindata yvalue="1.0569" id="108">
    <xinput index="1" value="-0.229474" />
    <xinput index="2" value="0.0169492" />
    <xinput index="3" value="-0.307174" />
@@ -1835,9 +1837,9 @@
    <xinput index="12" value="0.019802" />
    <xinput index="13" value="0.23741" />
    <xinput index="14" value="0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0593" id="109">
+ <traindata yvalue="1.0593" id="109">
    <xinput index="1" value="-0.271579" />
    <xinput index="2" value="-0.288136" />
    <xinput index="3" value="-0.382792" />
@@ -1852,9 +1854,9 @@
    <xinput index="12" value="0.019802" />
    <xinput index="13" value="0.395683" />
    <xinput index="14" value="0.214286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.05" id="110">
+ <traindata yvalue="1.05" id="110">
    <xinput index="1" value="-0.0989474" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.591253" />
@@ -1869,9 +1871,9 @@
    <xinput index="12" value="-0.277228" />
    <xinput index="13" value="-0.280576" />
    <xinput index="14" value="-0.464286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0538" id="111">
+ <traindata yvalue="1.0538" id="111">
    <xinput index="1" value="-0.170526" />
    <xinput index="2" value="-0.288136" />
    <xinput index="3" value="-0.572859" />
@@ -1886,9 +1888,9 @@
    <xinput index="12" value="-0.158416" />
    <xinput index="13" value="0.0359712" />
    <xinput index="14" value="-0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0355" id="112">
+ <traindata yvalue="1.0355" id="112">
    <xinput index="1" value="0.178947" />
    <xinput index="2" value="-0.288136" />
    <xinput index="3" value="-0.470672" />
@@ -1903,9 +1905,9 @@
    <xinput index="12" value="-0.138614" />
    <xinput index="13" value="-0.0215827" />
    <xinput index="14" value="-0.428571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0486" id="113">
+ <traindata yvalue="1.0486" id="113">
    <xinput index="1" value="-0.0694737" />
    <xinput index="2" value="-0.152542" />
    <xinput index="3" value="-0.511547" />
@@ -1920,9 +1922,9 @@
    <xinput index="12" value="0.039604" />
    <xinput index="13" value="0.453237" />
    <xinput index="14" value="0.428571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0503" id="114">
+ <traindata yvalue="1.0503" id="114">
    <xinput index="1" value="-0.103158" />
    <xinput index="2" value="-0.322034" />
    <xinput index="3" value="-0.636215" />
@@ -1937,9 +1939,9 @@
    <xinput index="12" value="-0.415842" />
    <xinput index="13" value="-0.0503597" />
    <xinput index="14" value="-0.428571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0384" id="115">
+ <traindata yvalue="1.0384" id="115">
    <xinput index="1" value="0.124211" />
    <xinput index="2" value="-0.118644" />
    <xinput index="3" value="-0.536072" />
@@ -1954,9 +1956,9 @@
    <xinput index="12" value="-0.306931" />
    <xinput index="13" value="-0.0935252" />
    <xinput index="14" value="-0.392857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0607" id="116">
+ <traindata yvalue="1.0607" id="116">
    <xinput index="1" value="-0.296842" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.67709" />
@@ -1971,9 +1973,9 @@
    <xinput index="12" value="-0.50495" />
    <xinput index="13" value="-0.23741" />
    <xinput index="14" value="-0.464286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0529" id="117">
+ <traindata yvalue="1.0529" id="117">
    <xinput index="1" value="-0.153684" />
    <xinput index="2" value="-0.118644" />
    <xinput index="3" value="-0.519722" />
@@ -1988,9 +1990,9 @@
    <xinput index="12" value="-0.49505" />
    <xinput index="13" value="0.00719424" />
    <xinput index="14" value="-0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0671" id="118">
+ <traindata yvalue="1.0671" id="118">
    <xinput index="1" value="-0.414737" />
    <xinput index="2" value="-0.0169492" />
    <xinput index="3" value="-0.505416" />
@@ -2005,9 +2007,9 @@
    <xinput index="12" value="-0.148515" />
    <xinput index="13" value="0.266187" />
    <xinput index="14" value="0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0404" id="119">
+ <traindata yvalue="1.0404" id="119">
    <xinput index="1" value="0.0863158" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.407317" />
@@ -2022,9 +2024,9 @@
    <xinput index="12" value="-0.128713" />
    <xinput index="13" value="0.223022" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0575" id="120">
+ <traindata yvalue="1.0575" id="120">
    <xinput index="1" value="-0.237895" />
    <xinput index="2" value="-0.254237" />
    <xinput index="3" value="-0.435929" />
@@ -2039,9 +2041,9 @@
    <xinput index="12" value="-0.277228" />
    <xinput index="13" value="0.0935252" />
    <xinput index="14" value="-0.214286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0358" id="121">
+ <traindata yvalue="1.0358" id="121">
    <xinput index="1" value="0.174737" />
    <xinput index="2" value="0.0169492" />
    <xinput index="3" value="-0.280605" />
@@ -2056,9 +2058,9 @@
    <xinput index="12" value="-0.0990099" />
    <xinput index="13" value="0.467626" />
    <xinput index="14" value="0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0414" id="122">
+ <traindata yvalue="1.0414" id="122">
    <xinput index="1" value="0.0652632" />
    <xinput index="2" value="-0.254237" />
    <xinput index="3" value="-0.454323" />
@@ -2073,9 +2075,9 @@
    <xinput index="12" value="-0.188119" />
    <xinput index="13" value="0.23741" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0652" id="123">
+ <traindata yvalue="1.0652" id="123">
    <xinput index="1" value="-0.381053" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.658696" />
@@ -2090,9 +2092,9 @@
    <xinput index="12" value="-0.049505" />
    <xinput index="13" value="0.00719424" />
    <xinput index="14" value="-0.357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0623" id="124">
+ <traindata yvalue="1.0623" id="124">
    <xinput index="1" value="-0.326316" />
    <xinput index="2" value="-0.152542" />
    <xinput index="3" value="-0.730227" />
@@ -2107,9 +2109,9 @@
    <xinput index="12" value="-0.425743" />
    <xinput index="13" value="-0.0647482" />
    <xinput index="14" value="-0.357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0674" id="125">
+ <traindata yvalue="1.0674" id="125">
    <xinput index="1" value="-0.418947" />
    <xinput index="2" value="-0.0508475" />
    <xinput index="3" value="-0.652565" />
@@ -2124,9 +2126,9 @@
    <xinput index="12" value="-0.049505" />
    <xinput index="13" value="0.179856" />
    <xinput index="14" value="-0.214286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0587" id="126">
+ <traindata yvalue="1.0587" id="126">
    <xinput index="1" value="-0.263158" />
    <xinput index="2" value="-0.186441" />
    <xinput index="3" value="-0.603515" />
@@ -2141,9 +2143,9 @@
    <xinput index="12" value="0.0693069" />
    <xinput index="13" value="0.323741" />
    <xinput index="14" value="-0.357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0373" id="127">
+ <traindata yvalue="1.0373" id="127">
    <xinput index="1" value="0.145263" />
    <xinput index="2" value="-0.322034" />
    <xinput index="3" value="-0.517678" />
@@ -2158,9 +2160,9 @@
    <xinput index="12" value="-0.108911" />
    <xinput index="13" value="0.338129" />
    <xinput index="14" value="-0.5" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.059" id="128">
+ <traindata yvalue="1.059" id="128">
    <xinput index="1" value="-0.267368" />
    <xinput index="2" value="-0.288136" />
    <xinput index="3" value="-0.724096" />
@@ -2175,9 +2177,9 @@
    <xinput index="12" value="-0.0990099" />
    <xinput index="13" value="0.0359712" />
    <xinput index="14" value="-0.428571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0515" id="129">
+ <traindata yvalue="1.0515" id="129">
    <xinput index="1" value="-0.124211" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.397098" />
@@ -2192,9 +2194,9 @@
    <xinput index="12" value="-0.158416" />
    <xinput index="13" value="0.23741" />
    <xinput index="14" value="-0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0648" id="130">
+ <traindata yvalue="1.0648" id="130">
    <xinput index="1" value="-0.372632" />
    <xinput index="2" value="-0.322034" />
    <xinput index="3" value="-0.617821" />
@@ -2209,9 +2211,9 @@
    <xinput index="12" value="-0.326733" />
    <xinput index="13" value="-0.0215827" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0575" id="131">
+ <traindata yvalue="1.0575" id="131">
    <xinput index="1" value="-0.237895" />
    <xinput index="2" value="-0.0847458" />
    <xinput index="3" value="-0.564684" />
@@ -2226,9 +2228,9 @@
    <xinput index="12" value="-0.732673" />
    <xinput index="13" value="-0.208633" />
    <xinput index="14" value="-0.357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0472" id="132">
+ <traindata yvalue="1.0472" id="132">
    <xinput index="1" value="-0.0442105" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.568772" />
@@ -2243,9 +2245,9 @@
    <xinput index="12" value="-0.366337" />
    <xinput index="13" value="0.0647482" />
    <xinput index="14" value="-0.535714" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0452" id="133">
+ <traindata yvalue="1.0452" id="133">
    <xinput index="1" value="-0.00631579" />
    <xinput index="2" value="-0.152542" />
    <xinput index="3" value="-0.358267" />
@@ -2260,9 +2262,9 @@
    <xinput index="12" value="-0.138614" />
    <xinput index="13" value="0.0935252" />
    <xinput index="14" value="-0.25" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0398" id="134">
+ <traindata yvalue="1.0398" id="134">
    <xinput index="1" value="0.0989474" />
    <xinput index="2" value="-0.0508475" />
    <xinput index="3" value="-0.685265" />
@@ -2277,9 +2279,9 @@
    <xinput index="12" value="-0.128713" />
    <xinput index="13" value="0.194245" />
    <xinput index="14" value="-0.464286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0435" id="135">
+ <traindata yvalue="1.0435" id="135">
    <xinput index="1" value="0.0273684" />
    <xinput index="2" value="-0.355932" />
    <xinput index="3" value="-0.593297" />
@@ -2294,9 +2296,9 @@
    <xinput index="12" value="-0.0891089" />
    <xinput index="13" value="0.266187" />
    <xinput index="14" value="-0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0374" id="136">
+ <traindata yvalue="1.0374" id="136">
    <xinput index="1" value="0.141053" />
    <xinput index="2" value="-0.254237" />
    <xinput index="3" value="-0.448191" />
@@ -2311,9 +2313,9 @@
    <xinput index="12" value="-0.39604" />
    <xinput index="13" value="0.122302" />
    <xinput index="14" value="-0.357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0491" id="137">
+ <traindata yvalue="1.0491" id="137">
    <xinput index="1" value="-0.0821053" />
    <xinput index="2" value="-0.423729" />
    <xinput index="3" value="-0.605559" />
@@ -2328,9 +2330,9 @@
    <xinput index="12" value="-0.217822" />
    <xinput index="13" value="0.0503597" />
    <xinput index="14" value="-0.535714" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0325" id="138">
+ <traindata yvalue="1.0325" id="138">
    <xinput index="1" value="0.237895" />
    <xinput index="2" value="-0.288136" />
    <xinput index="3" value="-0.433885" />
@@ -2345,9 +2347,9 @@
    <xinput index="12" value="-0.0594059" />
    <xinput index="13" value="0.0647482" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0481" id="139">
+ <traindata yvalue="1.0481" id="139">
    <xinput index="1" value="-0.0568421" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.593297" />
@@ -2362,9 +2364,9 @@
    <xinput index="12" value="-0.316832" />
    <xinput index="13" value="-0.0791367" />
    <xinput index="14" value="-0.357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0522" id="140">
+ <traindata yvalue="1.0522" id="140">
    <xinput index="1" value="-0.141053" />
    <xinput index="2" value="-0.0847458" />
    <xinput index="3" value="-0.229512" />
@@ -2379,9 +2381,9 @@
    <xinput index="12" value="0.0594059" />
    <xinput index="13" value="0.266187" />
    <xinput index="14" value="0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0422" id="141">
+ <traindata yvalue="1.0422" id="141">
    <xinput index="1" value="0.0484211" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.52381" />
@@ -2396,9 +2398,9 @@
    <xinput index="12" value="-0.405941" />
    <xinput index="13" value="-0.00719424" />
    <xinput index="14" value="-0.714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0571" id="142">
+ <traindata yvalue="1.0571" id="142">
    <xinput index="1" value="-0.229474" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.552422" />
@@ -2413,9 +2415,9 @@
    <xinput index="12" value="-0.287129" />
    <xinput index="13" value="0.0791367" />
    <xinput index="14" value="-0.285714" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0459" id="143">
+ <traindata yvalue="1.0459" id="143">
    <xinput index="1" value="-0.0189474" />
    <xinput index="2" value="0.0169492" />
    <xinput index="3" value="-0.603515" />
@@ -2430,9 +2432,9 @@
    <xinput index="12" value="-0.326733" />
    <xinput index="13" value="-0.0647482" />
    <xinput index="14" value="-0.25" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0775" id="144">
+ <traindata yvalue="1.0775" id="144">
    <xinput index="1" value="-0.604211" />
    <xinput index="2" value="-0.966102" />
    <xinput index="3" value="-0.662784" />
@@ -2447,9 +2449,9 @@
    <xinput index="12" value="-0.435644" />
    <xinput index="13" value="-0.107914" />
    <xinput index="14" value="-0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0754" id="145">
+ <traindata yvalue="1.0754" id="145">
    <xinput index="1" value="-0.566316" />
    <xinput index="2" value="-0.966102" />
    <xinput index="3" value="-0.430615" />
@@ -2464,9 +2466,9 @@
    <xinput index="12" value="-0.306931" />
    <xinput index="13" value="0.251799" />
    <xinput index="14" value="-0.107143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0664" id="146">
+ <traindata yvalue="1.0664" id="146">
    <xinput index="1" value="-0.402105" />
    <xinput index="2" value="-0.932203" />
    <xinput index="3" value="-0.69344" />
@@ -2481,9 +2483,9 @@
    <xinput index="12" value="-0.138614" />
    <xinput index="13" value="0.0503597" />
    <xinput index="14" value="-0.464286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.055" id="147">
+ <traindata yvalue="1.055" id="147">
    <xinput index="1" value="-0.191579" />
    <xinput index="2" value="-0.932203" />
    <xinput index="3" value="-0.264255" />
@@ -2498,9 +2500,9 @@
    <xinput index="12" value="0.118812" />
    <xinput index="13" value="0.338129" />
    <xinput index="14" value="0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0322" id="148">
+ <traindata yvalue="1.0322" id="148">
    <xinput index="1" value="0.246316" />
    <xinput index="2" value="-0.898305" />
    <xinput index="3" value="-0.280605" />
@@ -2515,9 +2517,9 @@
    <xinput index="12" value="-0.158416" />
    <xinput index="13" value="0.251799" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0873" id="149">
+ <traindata yvalue="1.0873" id="149">
    <xinput index="1" value="-0.776842" />
    <xinput index="2" value="-0.898305" />
    <xinput index="3" value="-0.793583" />
@@ -2532,9 +2534,9 @@
    <xinput index="12" value="-0.90099" />
    <xinput index="13" value="-0.395683" />
    <xinput index="14" value="-0.607143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0416" id="150">
+ <traindata yvalue="1.0416" id="150">
    <xinput index="1" value="0.0610526" />
    <xinput index="2" value="-0.864407" />
    <xinput index="3" value="-0.145718" />
@@ -2549,9 +2551,9 @@
    <xinput index="12" value="0.108911" />
    <xinput index="13" value="0.352518" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0776" id="151">
+ <traindata yvalue="1.0776" id="151">
    <xinput index="1" value="-0.604211" />
    <xinput index="2" value="-0.864407" />
    <xinput index="3" value="-0.724096" />
@@ -2566,9 +2568,9 @@
    <xinput index="12" value="-0.326733" />
    <xinput index="13" value="0.151079" />
    <xinput index="14" value="-0.285714" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0542" id="152">
+ <traindata yvalue="1.0542" id="152">
    <xinput index="1" value="-0.174737" />
    <xinput index="2" value="-0.864407" />
    <xinput index="3" value="0.00756182" />
@@ -2583,9 +2585,9 @@
    <xinput index="12" value="0.356436" />
    <xinput index="13" value="0.841727" />
    <xinput index="14" value="0.357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0758" id="153">
+ <traindata yvalue="1.0758" id="153">
    <xinput index="1" value="-0.574737" />
    <xinput index="2" value="-0.830508" />
    <xinput index="3" value="-0.775189" />
@@ -2600,9 +2602,9 @@
    <xinput index="12" value="-0.70297" />
    <xinput index="13" value="-0.23741" />
    <xinput index="14" value="-0.428571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.061" id="154">
+ <traindata yvalue="1.061" id="154">
    <xinput index="1" value="-0.305263" />
    <xinput index="2" value="-0.830508" />
    <xinput index="3" value="-0.687308" />
@@ -2617,9 +2619,9 @@
    <xinput index="12" value="-0.425743" />
    <xinput index="13" value="0.0503597" />
    <xinput index="14" value="-0.25" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.051" id="155">
+ <traindata yvalue="1.051" id="155">
    <xinput index="1" value="-0.115789" />
    <xinput index="2" value="-0.830508" />
    <xinput index="3" value="-0.331698" />
@@ -2634,9 +2636,9 @@
    <xinput index="12" value="-0.118812" />
    <xinput index="13" value="0.179856" />
    <xinput index="14" value="0.285714" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0594" id="156">
+ <traindata yvalue="1.0594" id="156">
    <xinput index="1" value="-0.271579" />
    <xinput index="2" value="-0.79661" />
    <xinput index="3" value="-0.566728" />
@@ -2651,9 +2653,9 @@
    <xinput index="12" value="-0.267327" />
    <xinput index="13" value="-0.0359712" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0287" id="157">
+ <traindata yvalue="1.0287" id="157">
    <xinput index="1" value="0.313684" />
    <xinput index="2" value="-0.79661" />
    <xinput index="3" value="-0.286736" />
@@ -2668,9 +2670,9 @@
    <xinput index="12" value="0.029703" />
    <xinput index="13" value="0.395683" />
    <xinput index="14" value="0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0761" id="158">
+ <traindata yvalue="1.0761" id="158">
    <xinput index="1" value="-0.578947" />
    <xinput index="2" value="-0.79661" />
    <xinput index="3" value="-0.476804" />
@@ -2685,9 +2687,9 @@
    <xinput index="12" value="-0.326733" />
    <xinput index="13" value="0.00719424" />
    <xinput index="14" value="6.66134e-16" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0704" id="159">
+ <traindata yvalue="1.0704" id="159">
    <xinput index="1" value="-0.473684" />
    <xinput index="2" value="-0.728814" />
    <xinput index="3" value="-0.852851" />
@@ -2702,9 +2704,9 @@
    <xinput index="12" value="-0.782178" />
    <xinput index="13" value="1" />
    <xinput index="14" value="-0.607143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0477" id="160">
+ <traindata yvalue="1.0477" id="160">
    <xinput index="1" value="-0.0526316" />
    <xinput index="2" value="-0.694915" />
    <xinput index="3" value="-0.519722" />
@@ -2719,9 +2721,9 @@
    <xinput index="12" value="-0.475248" />
    <xinput index="13" value="0.0359712" />
    <xinput index="14" value="-0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0775" id="161">
+ <traindata yvalue="1.0775" id="161">
    <xinput index="1" value="-0.604211" />
    <xinput index="2" value="-0.694915" />
    <xinput index="3" value="-0.732271" />
@@ -2736,9 +2738,9 @@
    <xinput index="12" value="-0.782178" />
    <xinput index="13" value="-0.23741" />
    <xinput index="14" value="-0.75" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0653" id="162">
+ <traindata yvalue="1.0653" id="162">
    <xinput index="1" value="-0.385263" />
    <xinput index="2" value="-0.627119" />
    <xinput index="3" value="-0.366442" />
@@ -2753,9 +2755,9 @@
    <xinput index="12" value="-0.356436" />
    <xinput index="13" value="0.179856" />
    <xinput index="14" value="0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.069" id="163">
+ <traindata yvalue="1.069" id="163">
    <xinput index="1" value="-0.452632" />
    <xinput index="2" value="-0.627119" />
    <xinput index="3" value="-0.462497" />
@@ -2770,9 +2772,9 @@
    <xinput index="12" value="-0.138614" />
    <xinput index="13" value="0.381295" />
    <xinput index="14" value="0.392857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0644" id="164">
+ <traindata yvalue="1.0644" id="164">
    <xinput index="1" value="-0.364211" />
    <xinput index="2" value="-0.59322" />
    <xinput index="3" value="-0.824239" />
@@ -2787,9 +2789,9 @@
    <xinput index="12" value="-0.653465" />
    <xinput index="13" value="-0.251799" />
    <xinput index="14" value="-0.75" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.037" id="165">
+ <traindata yvalue="1.037" id="165">
    <xinput index="1" value="0.149474" />
    <xinput index="2" value="-0.59322" />
    <xinput index="3" value="-0.180462" />
@@ -2804,9 +2806,9 @@
    <xinput index="12" value="-0.0891089" />
    <xinput index="13" value="0.467626" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0549" id="166">
+ <traindata yvalue="1.0549" id="166">
    <xinput index="1" value="-0.191579" />
    <xinput index="2" value="-0.559322" />
    <xinput index="3" value="-0.194768" />
@@ -2821,9 +2823,9 @@
    <xinput index="12" value="0.148515" />
    <xinput index="13" value="0.827338" />
    <xinput index="14" value="0.285714" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0492" id="167">
+ <traindata yvalue="1.0492" id="167">
    <xinput index="1" value="-0.0821053" />
    <xinput index="2" value="-0.559322" />
    <xinput index="3" value="-0.609646" />
@@ -2838,9 +2840,9 @@
    <xinput index="12" value="-0.465347" />
    <xinput index="13" value="0.107914" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0525" id="168">
+ <traindata yvalue="1.0525" id="168">
    <xinput index="1" value="-0.145263" />
    <xinput index="2" value="-0.559322" />
    <xinput index="3" value="-0.131412" />
@@ -2855,9 +2857,9 @@
    <xinput index="12" value="0.227723" />
    <xinput index="13" value="0.741007" />
    <xinput index="14" value="0.428571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.018" id="169">
+ <traindata yvalue="1.018" id="169">
    <xinput index="1" value="0.444211" />
    <xinput index="2" value="-0.559322" />
    <xinput index="3" value="-0.1028" />
@@ -2872,9 +2874,9 @@
    <xinput index="12" value="0.118812" />
    <xinput index="13" value="0.553957" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.061" id="170">
+ <traindata yvalue="1.061" id="170">
    <xinput index="1" value="-0.305263" />
    <xinput index="2" value="-0.559322" />
    <xinput index="3" value="-0.556509" />
@@ -2889,9 +2891,9 @@
    <xinput index="12" value="-0.237624" />
    <xinput index="13" value="0.266187" />
    <xinput index="14" value="-0.428571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0926" id="171">
+ <traindata yvalue="1.0926" id="171">
    <xinput index="1" value="-0.873684" />
    <xinput index="2" value="-0.559322" />
    <xinput index="3" value="-0.724096" />
@@ -2906,9 +2908,9 @@
    <xinput index="12" value="-0.445545" />
    <xinput index="13" value="-0.0791367" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0983" id="172">
+ <traindata yvalue="1.0983" id="172">
    <xinput index="1" value="-0.970526" />
    <xinput index="2" value="-0.559322" />
    <xinput index="3" value="-0.940732" />
@@ -2923,9 +2925,9 @@
    <xinput index="12" value="-1" />
    <xinput index="13" value="-0.294964" />
    <xinput index="14" value="-0.607143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0521" id="173">
+ <traindata yvalue="1.0521" id="173">
    <xinput index="1" value="-0.136842" />
    <xinput index="2" value="-0.559322" />
    <xinput index="3" value="-0.519722" />
@@ -2940,9 +2942,9 @@
    <xinput index="12" value="-0.386139" />
    <xinput index="13" value="0.107914" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0603" id="174">
+ <traindata yvalue="1.0603" id="174">
    <xinput index="1" value="-0.288421" />
    <xinput index="2" value="-0.525424" />
    <xinput index="3" value="-0.527897" />
@@ -2957,9 +2959,9 @@
    <xinput index="12" value="-0.247525" />
    <xinput index="13" value="0.0647482" />
    <xinput index="14" value="-0.285714" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0414" id="175">
+ <traindata yvalue="1.0414" id="175">
    <xinput index="1" value="0.0652632" />
    <xinput index="2" value="-0.525424" />
    <xinput index="3" value="-0.115062" />
@@ -2974,9 +2976,9 @@
    <xinput index="12" value="0.049505" />
    <xinput index="13" value="-1" />
    <xinput index="14" value="0.535714" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0763" id="176">
+ <traindata yvalue="1.0763" id="176">
    <xinput index="1" value="-0.583158" />
    <xinput index="2" value="-0.491525" />
    <xinput index="3" value="-0.78132" />
@@ -2991,9 +2993,9 @@
    <xinput index="12" value="-0.386139" />
    <xinput index="13" value="-0.151079" />
    <xinput index="14" value="-0.607143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0689" id="177">
+ <traindata yvalue="1.0689" id="177">
    <xinput index="1" value="-0.448421" />
    <xinput index="2" value="-0.491525" />
    <xinput index="3" value="-0.734314" />
@@ -3008,9 +3010,9 @@
    <xinput index="12" value="-0.336634" />
    <xinput index="13" value="-0.194245" />
    <xinput index="14" value="-0.678571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0316" id="178">
+ <traindata yvalue="1.0316" id="178">
    <xinput index="1" value="0.258947" />
    <xinput index="2" value="-0.491525" />
    <xinput index="3" value="0.00347435" />
@@ -3025,9 +3027,9 @@
    <xinput index="12" value="-0.049505" />
    <xinput index="13" value="0.223022" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0477" id="179">
+ <traindata yvalue="1.0477" id="179">
    <xinput index="1" value="-0.0526316" />
    <xinput index="2" value="-0.457627" />
    <xinput index="3" value="-0.437973" />
@@ -3042,9 +3044,9 @@
    <xinput index="12" value="-0.00990099" />
    <xinput index="13" value="0.338129" />
    <xinput index="14" value="-0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0603" id="180">
+ <traindata yvalue="1.0603" id="180">
    <xinput index="1" value="-0.288421" />
    <xinput index="2" value="-0.423729" />
    <xinput index="3" value="-0.0496628" />
@@ -3059,9 +3061,9 @@
    <xinput index="12" value="0.415842" />
    <xinput index="13" value="0.654676" />
    <xinput index="14" value="0.464286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0387" id="181">
+ <traindata yvalue="1.0387" id="181">
    <xinput index="1" value="0.12" />
    <xinput index="2" value="-0.423729" />
    <xinput index="3" value="-0.176374" />
@@ -3076,9 +3078,9 @@
    <xinput index="12" value="0.0693069" />
    <xinput index="13" value="0.151079" />
    <xinput index="14" value="0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.1089" id="182">
+ <traindata yvalue="1.1089" id="182">
    <xinput index="1" value="-1" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-1" />
@@ -3093,9 +3095,9 @@
    <xinput index="12" value="-0.712871" />
    <xinput index="13" value="-0.482014" />
    <xinput index="14" value="-0.75" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0725" id="183">
+ <traindata yvalue="1.0725" id="183">
    <xinput index="1" value="-0.515789" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.777233" />
@@ -3110,9 +3112,9 @@
    <xinput index="12" value="-0.346535" />
    <xinput index="13" value="0.0503597" />
    <xinput index="14" value="-0.5" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0713" id="184">
+ <traindata yvalue="1.0713" id="184">
    <xinput index="1" value="-0.490526" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.666871" />
@@ -3127,9 +3129,9 @@
    <xinput index="12" value="-0.485149" />
    <xinput index="13" value="-0.223022" />
    <xinput index="14" value="-0.428571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0587" id="185">
+ <traindata yvalue="1.0587" id="185">
    <xinput index="1" value="-0.263158" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.574903" />
@@ -3144,9 +3146,9 @@
    <xinput index="12" value="-0.435644" />
    <xinput index="13" value="0.136691" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0794" id="186">
+ <traindata yvalue="1.0794" id="186">
    <xinput index="1" value="-0.637895" />
    <xinput index="2" value="-0.389831" />
    <xinput index="3" value="-0.599428" />
@@ -3161,9 +3163,9 @@
    <xinput index="12" value="-0.19802" />
    <xinput index="13" value="0.194245" />
    <xinput index="14" value="-0.142857" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0453" id="187">
+ <traindata yvalue="1.0453" id="187">
    <xinput index="1" value="-0.00631579" />
    <xinput index="2" value="-0.355932" />
    <xinput index="3" value="-0.0660127" />
@@ -3178,9 +3180,9 @@
    <xinput index="12" value="0.227723" />
    <xinput index="13" value="0.553957" />
    <xinput index="14" value="0.5" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0524" id="188">
+ <traindata yvalue="1.0524" id="188">
    <xinput index="1" value="-0.141053" />
    <xinput index="2" value="-0.355932" />
    <xinput index="3" value="-0.247905" />
@@ -3195,9 +3197,9 @@
    <xinput index="12" value="0.148515" />
    <xinput index="13" value="0.352518" />
    <xinput index="14" value="0.178571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.052" id="189">
+ <traindata yvalue="1.052" id="189">
    <xinput index="1" value="-0.136842" />
    <xinput index="2" value="-0.355932" />
    <xinput index="3" value="-0.315348" />
@@ -3212,9 +3214,9 @@
    <xinput index="12" value="0.168317" />
    <xinput index="13" value="0.640288" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0434" id="190">
+ <traindata yvalue="1.0434" id="190">
    <xinput index="1" value="0.0273684" />
    <xinput index="2" value="-0.355932" />
    <xinput index="3" value="-0.456366" />
@@ -3229,9 +3231,9 @@
    <xinput index="12" value="-0.148515" />
    <xinput index="13" value="0.179856" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0728" id="191">
+ <traindata yvalue="1.0728" id="191">
    <xinput index="1" value="-0.52" />
    <xinput index="2" value="-0.355932" />
    <xinput index="3" value="-0.717964" />
@@ -3246,9 +3248,9 @@
    <xinput index="12" value="-0.524752" />
    <xinput index="13" value="-0.0935252" />
    <xinput index="14" value="-0.25" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.014" id="192">
+ <traindata yvalue="1.014" id="192">
    <xinput index="1" value="0.604211" />
    <xinput index="2" value="-0.322034" />
    <xinput index="3" value="0.0279992" />
@@ -3263,9 +3265,9 @@
    <xinput index="12" value="0.217822" />
    <xinput index="13" value="0.467626" />
    <xinput index="14" value="0.464286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0624" id="193">
+ <traindata yvalue="1.0624" id="193">
    <xinput index="1" value="-0.330526" />
    <xinput index="2" value="-0.322034" />
    <xinput index="3" value="-0.386879" />
@@ -3280,9 +3282,9 @@
    <xinput index="12" value="-0.0891089" />
    <xinput index="13" value="0.309353" />
    <xinput index="14" value="0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0429" id="194">
+ <traindata yvalue="1.0429" id="194">
    <xinput index="1" value="0.04" />
    <xinput index="2" value="-0.322034" />
    <xinput index="3" value="-0.131412" />
@@ -3297,9 +3299,9 @@
    <xinput index="12" value="-0.118812" />
    <xinput index="13" value="0.280576" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.047" id="195">
+ <traindata yvalue="1.047" id="195">
    <xinput index="1" value="-0.04" />
    <xinput index="2" value="-0.322034" />
    <xinput index="3" value="-0.638259" />
@@ -3314,9 +3316,9 @@
    <xinput index="12" value="-0.316832" />
    <xinput index="13" value="-0.122302" />
    <xinput index="14" value="-0.535714" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0411" id="196">
+ <traindata yvalue="1.0411" id="196">
    <xinput index="1" value="0.0736842" />
    <xinput index="2" value="-0.322034" />
    <xinput index="3" value="-0.497241" />
@@ -3331,9 +3333,9 @@
    <xinput index="12" value="-0.19802" />
    <xinput index="13" value="0.266187" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0488" id="197">
+ <traindata yvalue="1.0488" id="197">
    <xinput index="1" value="-0.0736842" />
    <xinput index="2" value="-0.322034" />
    <xinput index="3" value="-0.691396" />
@@ -3348,9 +3350,9 @@
    <xinput index="12" value="-0.366337" />
    <xinput index="13" value="-0.0935252" />
    <xinput index="14" value="-0.428571" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0583" id="198">
+ <traindata yvalue="1.0583" id="198">
    <xinput index="1" value="-0.254737" />
    <xinput index="2" value="-0.322034" />
    <xinput index="3" value="-0.59534" />
@@ -3365,9 +3367,9 @@
    <xinput index="12" value="-0.405941" />
    <xinput index="13" value="-0.0215827" />
    <xinput index="14" value="-0.607143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0841" id="199">
+ <traindata yvalue="1.0841" id="199">
    <xinput index="1" value="-0.722105" />
    <xinput index="2" value="-0.322034" />
    <xinput index="3" value="-0.601471" />
@@ -3382,9 +3384,9 @@
    <xinput index="12" value="-0.425743" />
    <xinput index="13" value="0.294964" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0462" id="200">
+ <traindata yvalue="1.0462" id="200">
    <xinput index="1" value="-0.00631579" />
    <xinput index="2" value="-0.288136" />
    <xinput index="3" value="-0.572859" />
@@ -3399,9 +3401,9 @@
    <xinput index="12" value="-0.108911" />
    <xinput index="13" value="0.122302" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </traindata>
 
- <datapt yvalue="1.0709" id="201">
+ <testdata yvalue="1.0709" id="1">
    <xinput index="1" value="-0.486316" />
    <xinput index="2" value="-0.288136" />
    <xinput index="3" value="-0.511547" />
@@ -3416,9 +3418,9 @@
    <xinput index="12" value="-0.316832" />
    <xinput index="13" value="0.0647482" />
    <xinput index="14" value="6.66134e-16" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0484" id="202">
+ <testdata yvalue="1.0484" id="2">
    <xinput index="1" value="-0.0694737" />
    <xinput index="2" value="-0.288136" />
    <xinput index="3" value="-0.742489" />
@@ -3433,9 +3435,9 @@
    <xinput index="12" value="-0.544554" />
    <xinput index="13" value="-0.194245" />
    <xinput index="14" value="-0.428571" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.034" id="203">
+ <testdata yvalue="1.034" id="3">
    <xinput index="1" value="0.208421" />
    <xinput index="2" value="-0.288136" />
    <xinput index="3" value="-0.329655" />
@@ -3450,9 +3452,9 @@
    <xinput index="12" value="-0.277228" />
    <xinput index="13" value="0.136691" />
    <xinput index="14" value="0.0357143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0854" id="204">
+ <testdata yvalue="1.0854" id="4">
    <xinput index="1" value="-0.747368" />
    <xinput index="2" value="-0.254237" />
    <xinput index="3" value="-0.464541" />
@@ -3467,9 +3469,9 @@
    <xinput index="12" value="-0.19802" />
    <xinput index="13" value="0.179856" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0209" id="205">
+ <testdata yvalue="1.0209" id="5">
    <xinput index="1" value="0.465263" />
    <xinput index="2" value="-0.254237" />
    <xinput index="3" value="-0.145718" />
@@ -3484,9 +3486,9 @@
    <xinput index="12" value="-0.00990099" />
    <xinput index="13" value="0.395683" />
    <xinput index="14" value="-0.428571" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.061" id="206">
+ <testdata yvalue="1.061" id="6">
    <xinput index="1" value="-0.301053" />
    <xinput index="2" value="-0.254237" />
    <xinput index="3" value="-0.262211" />
@@ -3501,9 +3503,9 @@
    <xinput index="12" value="0.237624" />
    <xinput index="13" value="-0.697842" />
    <xinput index="14" value="0.285714" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.025" id="207">
+ <testdata yvalue="1.025" id="7">
    <xinput index="1" value="0.385263" />
    <xinput index="2" value="-0.254237" />
    <xinput index="3" value="-0.61169" />
@@ -3518,9 +3520,9 @@
    <xinput index="12" value="-0.178218" />
    <xinput index="13" value="0.223022" />
    <xinput index="14" value="-0.464286" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0254" id="208">
+ <testdata yvalue="1.0254" id="8">
    <xinput index="1" value="0.381053" />
    <xinput index="2" value="-0.152542" />
    <xinput index="3" value="-0.374617" />
@@ -3535,9 +3537,9 @@
    <xinput index="12" value="0.178218" />
    <xinput index="13" value="0.52518" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0771" id="209">
+ <testdata yvalue="1.0771" id="9">
    <xinput index="1" value="-0.595789" />
    <xinput index="2" value="-0.152542" />
    <xinput index="3" value="-0.656652" />
@@ -3552,9 +3554,9 @@
    <xinput index="12" value="-0.346535" />
    <xinput index="13" value="-0.0647482" />
    <xinput index="14" value="-0.321429" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0742" id="210">
+ <testdata yvalue="1.0742" id="10">
    <xinput index="1" value="-0.545263" />
    <xinput index="2" value="-0.152542" />
    <xinput index="3" value="-0.662784" />
@@ -3569,9 +3571,9 @@
    <xinput index="12" value="-0.584158" />
    <xinput index="13" value="-0.251799" />
    <xinput index="14" value="-0.357143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0829" id="211">
+ <testdata yvalue="1.0829" id="11">
    <xinput index="1" value="-0.701053" />
    <xinput index="2" value="-0.0847458" />
    <xinput index="3" value="-0.820151" />
@@ -3586,9 +3588,9 @@
    <xinput index="12" value="-0.39604" />
    <xinput index="13" value="0.122302" />
    <xinput index="14" value="-0.428571" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0373" id="212">
+ <testdata yvalue="1.0373" id="12">
    <xinput index="1" value="0.145263" />
    <xinput index="2" value="-0.0847458" />
    <xinput index="3" value="-0.200899" />
@@ -3603,9 +3605,9 @@
    <xinput index="12" value="0.188119" />
    <xinput index="13" value="0.438849" />
    <xinput index="14" value="0.107143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0543" id="213">
+ <testdata yvalue="1.0543" id="13">
    <xinput index="1" value="-0.178947" />
    <xinput index="2" value="-0.0847458" />
    <xinput index="3" value="-0.593297" />
@@ -3620,9 +3622,9 @@
    <xinput index="12" value="-0.534653" />
    <xinput index="13" value="-0.00719424" />
    <xinput index="14" value="6.66134e-16" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0561" id="214">
+ <testdata yvalue="1.0561" id="14">
    <xinput index="1" value="-0.212632" />
    <xinput index="2" value="-0.0508475" />
    <xinput index="3" value="-0.376661" />
@@ -3637,9 +3639,9 @@
    <xinput index="12" value="-0.217822" />
    <xinput index="13" value="0.294964" />
    <xinput index="14" value="0.142857" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0543" id="215">
+ <testdata yvalue="1.0543" id="15">
    <xinput index="1" value="-0.178947" />
    <xinput index="2" value="-0.0508475" />
    <xinput index="3" value="-0.556509" />
@@ -3654,9 +3656,9 @@
    <xinput index="12" value="-0.623762" />
    <xinput index="13" value="-0.179856" />
    <xinput index="14" value="-0.214286" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="0.995" id="216">
+ <testdata yvalue="0.995" id="16">
    <xinput index="1" value="1" />
    <xinput index="2" value="-0.0169492" />
    <xinput index="3" value="-0.178418" />
@@ -3671,9 +3673,9 @@
    <xinput index="12" value="-0.019802" />
    <xinput index="13" value="0.165468" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0678" id="217">
+ <testdata yvalue="1.0678" id="17">
    <xinput index="1" value="-0.427368" />
    <xinput index="2" value="-0.0169492" />
    <xinput index="3" value="-0.74862" />
@@ -3688,9 +3690,9 @@
    <xinput index="12" value="-0.356436" />
    <xinput index="13" value="-0.23741" />
    <xinput index="14" value="-0.285714" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0819" id="218">
+ <testdata yvalue="1.0819" id="18">
    <xinput index="1" value="-0.684211" />
    <xinput index="2" value="-0.0169492" />
    <xinput index="3" value="-0.705702" />
@@ -3705,9 +3707,9 @@
    <xinput index="12" value="-0.732673" />
    <xinput index="13" value="-0.294964" />
    <xinput index="14" value="6.66134e-16" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0433" id="219">
+ <testdata yvalue="1.0433" id="19">
    <xinput index="1" value="0.0315789" />
    <xinput index="2" value="0.0169492" />
    <xinput index="3" value="-0.339873" />
@@ -3722,9 +3724,9 @@
    <xinput index="12" value="0.0792079" />
    <xinput index="13" value="0.352518" />
    <xinput index="14" value="0.214286" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0646" id="220">
+ <testdata yvalue="1.0646" id="20">
    <xinput index="1" value="-0.368421" />
    <xinput index="2" value="0.0508475" />
    <xinput index="3" value="-0.705702" />
@@ -3739,9 +3741,9 @@
    <xinput index="12" value="-0.633663" />
    <xinput index="13" value="-0.323741" />
    <xinput index="14" value="-0.535714" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0706" id="221">
+ <testdata yvalue="1.0706" id="21">
    <xinput index="1" value="-0.477895" />
    <xinput index="2" value="0.0847458" />
    <xinput index="3" value="-0.715921" />
@@ -3756,9 +3758,9 @@
    <xinput index="12" value="-0.346535" />
    <xinput index="13" value="0.280576" />
    <xinput index="14" value="0.107143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0399" id="222">
+ <testdata yvalue="1.0399" id="22">
    <xinput index="1" value="0.0947368" />
    <xinput index="2" value="0.0847458" />
    <xinput index="3" value="-0.0884938" />
@@ -3773,9 +3775,9 @@
    <xinput index="12" value="0.346535" />
    <xinput index="13" value="0.582734" />
    <xinput index="14" value="0.357143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0726" id="223">
+ <testdata yvalue="1.0726" id="23">
    <xinput index="1" value="-0.515789" />
    <xinput index="2" value="0.0847458" />
    <xinput index="3" value="-0.646434" />
@@ -3790,9 +3792,9 @@
    <xinput index="12" value="-0.693069" />
    <xinput index="13" value="-0.136691" />
    <xinput index="14" value="-0.285714" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0874" id="224">
+ <testdata yvalue="1.0874" id="24">
    <xinput index="1" value="-0.781053" />
    <xinput index="2" value="0.118644" />
    <xinput index="3" value="-0.805845" />
@@ -3807,9 +3809,9 @@
    <xinput index="12" value="-0.544554" />
    <xinput index="13" value="-0.165468" />
    <xinput index="14" value="-0.571429" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.074" id="225">
+ <testdata yvalue="1.074" id="25">
    <xinput index="1" value="-0.541053" />
    <xinput index="2" value="0.118644" />
    <xinput index="3" value="-0.499285" />
@@ -3824,9 +3826,9 @@
    <xinput index="12" value="-0.0792079" />
    <xinput index="13" value="0.453237" />
    <xinput index="14" value="0.214286" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0703" id="226">
+ <testdata yvalue="1.0703" id="26">
    <xinput index="1" value="-0.473684" />
    <xinput index="2" value="0.118644" />
    <xinput index="3" value="-0.9346" />
@@ -3841,9 +3843,9 @@
    <xinput index="12" value="-0.950495" />
    <xinput index="13" value="-0.856115" />
    <xinput index="14" value="-1" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.065" id="227">
+ <testdata yvalue="1.065" id="27">
    <xinput index="1" value="-0.376842" />
    <xinput index="2" value="0.118644" />
    <xinput index="3" value="-0.583078" />
@@ -3858,9 +3860,9 @@
    <xinput index="12" value="-0.148515" />
    <xinput index="13" value="0.194245" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0418" id="228">
+ <testdata yvalue="1.0418" id="28">
    <xinput index="1" value="0.0610526" />
    <xinput index="2" value="0.118644" />
    <xinput index="3" value="-0.346004" />
@@ -3875,9 +3877,9 @@
    <xinput index="12" value="-0.168317" />
    <xinput index="13" value="0.294964" />
    <xinput index="14" value="-0.0714286" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0647" id="229">
+ <testdata yvalue="1.0647" id="29">
    <xinput index="1" value="-0.372632" />
    <xinput index="2" value="0.152542" />
    <xinput index="3" value="-0.542203" />
@@ -3892,9 +3894,9 @@
    <xinput index="12" value="-0.029703" />
    <xinput index="13" value="0.309353" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0601" id="230">
+ <testdata yvalue="1.0601" id="30">
    <xinput index="1" value="-0.284211" />
    <xinput index="2" value="0.152542" />
    <xinput index="3" value="-0.597384" />
@@ -3909,9 +3911,9 @@
    <xinput index="12" value="-0.247525" />
    <xinput index="13" value="0.251799" />
    <xinput index="14" value="0.142857" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0745" id="231">
+ <testdata yvalue="1.0745" id="31">
    <xinput index="1" value="-0.553684" />
    <xinput index="2" value="0.186441" />
    <xinput index="3" value="-0.760883" />
@@ -3926,9 +3928,9 @@
    <xinput index="12" value="-0.316832" />
    <xinput index="13" value="-0.0935252" />
    <xinput index="14" value="-0.607143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.062" id="232">
+ <testdata yvalue="1.062" id="32">
    <xinput index="1" value="-0.322105" />
    <xinput index="2" value="0.186441" />
    <xinput index="3" value="-0.478847" />
@@ -3943,9 +3945,9 @@
    <xinput index="12" value="-0.306931" />
    <xinput index="13" value="0.165468" />
    <xinput index="14" value="0.142857" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0636" id="233">
+ <testdata yvalue="1.0636" id="33">
    <xinput index="1" value="-0.351579" />
    <xinput index="2" value="0.220339" />
    <xinput index="3" value="-0.534028" />
@@ -3960,9 +3962,9 @@
    <xinput index="12" value="-0.39604" />
    <xinput index="13" value="0.23741" />
    <xinput index="14" value="-0.214286" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0384" id="234">
+ <testdata yvalue="1.0384" id="34">
    <xinput index="1" value="0.124211" />
    <xinput index="2" value="0.220339" />
    <xinput index="3" value="-0.646434" />
@@ -3977,9 +3979,9 @@
    <xinput index="12" value="-0.70297" />
    <xinput index="13" value="-0.266187" />
    <xinput index="14" value="-0.357143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0403" id="235">
+ <testdata yvalue="1.0403" id="35">
    <xinput index="1" value="0.0863158" />
    <xinput index="2" value="0.288136" />
    <xinput index="3" value="-0.679133" />
@@ -3994,9 +3996,9 @@
    <xinput index="12" value="-0.356436" />
    <xinput index="13" value="0.107914" />
    <xinput index="14" value="-0.107143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0563" id="236">
+ <testdata yvalue="1.0563" id="36">
    <xinput index="1" value="-0.216842" />
    <xinput index="2" value="0.355932" />
    <xinput index="3" value="-0.589209" />
@@ -4011,9 +4013,9 @@
    <xinput index="12" value="-0.455446" />
    <xinput index="13" value="-0.23741" />
    <xinput index="14" value="-0.107143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0424" id="237">
+ <testdata yvalue="1.0424" id="37">
    <xinput index="1" value="0.0442105" />
    <xinput index="2" value="0.355932" />
    <xinput index="3" value="-0.403229" />
@@ -4028,9 +4030,9 @@
    <xinput index="12" value="-0.227723" />
    <xinput index="13" value="0.0791367" />
    <xinput index="14" value="0.142857" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0372" id="238">
+ <testdata yvalue="1.0372" id="38">
    <xinput index="1" value="0.149474" />
    <xinput index="2" value="0.389831" />
    <xinput index="3" value="-0.177192" />
@@ -4045,9 +4047,9 @@
    <xinput index="12" value="0.019802" />
    <xinput index="13" value="0.23741" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0705" id="239">
+ <testdata yvalue="1.0705" id="39">
    <xinput index="1" value="-0.477895" />
    <xinput index="2" value="0.423729" />
    <xinput index="3" value="-0.699571" />
@@ -4062,9 +4064,9 @@
    <xinput index="12" value="-0.50495" />
    <xinput index="13" value="0.136691" />
    <xinput index="14" value="-0.107143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0316" id="240">
+ <testdata yvalue="1.0316" id="40">
    <xinput index="1" value="0.258947" />
    <xinput index="2" value="0.457627" />
    <xinput index="3" value="-0.417535" />
@@ -4079,9 +4081,9 @@
    <xinput index="12" value="0.0990099" />
    <xinput index="13" value="0.366906" />
    <xinput index="14" value="0.178571" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0599" id="241">
+ <testdata yvalue="1.0599" id="41">
    <xinput index="1" value="-0.284211" />
    <xinput index="2" value="0.457627" />
    <xinput index="3" value="-0.926426" />
@@ -4096,9 +4098,9 @@
    <xinput index="12" value="-0.633663" />
    <xinput index="13" value="-0.453237" />
    <xinput index="14" value="-0.75" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0207" id="242">
+ <testdata yvalue="1.0207" id="42">
    <xinput index="1" value="0.473684" />
    <xinput index="2" value="0.457627" />
    <xinput index="3" value="-0.133456" />
@@ -4113,9 +4115,9 @@
    <xinput index="12" value="-2.22045e-16" />
    <xinput index="13" value="0.309353" />
    <xinput index="14" value="0.285714" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0304" id="243">
+ <testdata yvalue="1.0304" id="43">
    <xinput index="1" value="0.28" />
    <xinput index="2" value="0.491525" />
    <xinput index="3" value="-0.0537503" />
@@ -4130,9 +4132,9 @@
    <xinput index="12" value="0.0693069" />
    <xinput index="13" value="0.395683" />
    <xinput index="14" value="0.321429" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0256" id="244">
+ <testdata yvalue="1.0256" id="44">
    <xinput index="1" value="0.372632" />
    <xinput index="2" value="0.525424" />
    <xinput index="3" value="-0.106887" />
@@ -4147,9 +4149,9 @@
    <xinput index="12" value="0.039604" />
    <xinput index="13" value="0.266187" />
    <xinput index="14" value="0.321429" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0334" id="245">
+ <testdata yvalue="1.0334" id="45">
    <xinput index="1" value="0.221053" />
    <xinput index="2" value="0.525424" />
    <xinput index="3" value="-0.33783" />
@@ -4164,9 +4166,9 @@
    <xinput index="12" value="-0.277228" />
    <xinput index="13" value="0.194245" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0641" id="246">
+ <testdata yvalue="1.0641" id="46">
    <xinput index="1" value="-0.36" />
    <xinput index="2" value="0.559322" />
    <xinput index="3" value="-0.697527" />
@@ -4181,9 +4183,9 @@
    <xinput index="12" value="-0.564356" />
    <xinput index="13" value="-0.0935252" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0308" id="247">
+ <testdata yvalue="1.0308" id="47">
    <xinput index="1" value="0.271579" />
    <xinput index="2" value="0.59322" />
    <xinput index="3" value="-0.20703" />
@@ -4198,9 +4200,9 @@
    <xinput index="12" value="0.257426" />
    <xinput index="13" value="0.669065" />
    <xinput index="14" value="0.0714286" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0736" id="248">
+ <testdata yvalue="1.0736" id="48">
    <xinput index="1" value="-0.536842" />
    <xinput index="2" value="0.627119" />
    <xinput index="3" value="-0.871245" />
@@ -4215,9 +4217,9 @@
    <xinput index="12" value="-0.920792" />
    <xinput index="13" value="-0.323741" />
    <xinput index="14" value="-0.0357143" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0236" id="249">
+ <testdata yvalue="1.0236" id="49">
    <xinput index="1" value="0.414737" />
    <xinput index="2" value="0.694915" />
    <xinput index="3" value="-0.325567" />
@@ -4232,9 +4234,9 @@
    <xinput index="12" value="0.029703" />
    <xinput index="13" value="0.0935252" />
    <xinput index="14" value="0.535714" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0328" id="250">
+ <testdata yvalue="1.0328" id="50">
    <xinput index="1" value="0.233684" />
    <xinput index="2" value="0.694915" />
    <xinput index="3" value="-0.44206" />
@@ -4249,9 +4251,9 @@
    <xinput index="12" value="-0.356436" />
    <xinput index="13" value="-0.107914" />
    <xinput index="14" value="-0.214286" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0399" id="251">
+ <testdata yvalue="1.0399" id="51">
    <xinput index="1" value="0.0947368" />
    <xinput index="2" value="0.694915" />
    <xinput index="3" value="-0.40936" />
@@ -4266,9 +4268,9 @@
    <xinput index="12" value="-0.435644" />
    <xinput index="13" value="0.208633" />
    <xinput index="14" value="0.428571" />
- </datapt>
+ </testdata>
 
- <datapt yvalue="1.0271" id="252">
+ <testdata yvalue="1.0271" id="52">
    <xinput index="1" value="0.343158" />
    <xinput index="2" value="0.762712" />
    <xinput index="3" value="-0.27243" />
@@ -4283,6 +4285,6 @@
    <xinput index="12" value="-0.118812" />
    <xinput index="13" value="0.294964" />
    <xinput index="14" value="0.821429" />
- </datapt>
+ </testdata>
 
 </data>
