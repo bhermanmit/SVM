@@ -1,22 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <string>
 #include "svm_fortran.hpp"
 
-char *trim(const char *str)
+void trim(std::string& s)
 {
-  char *out, *put;
-  out = const_cast<char *>(str);
-  put = const_cast<char *>(str);
-
-  for(; *str != '\0'; ++str)
-  {
-    if(*str != ' ')
-      *put++ = *str;
-  }
-  *put = '\0';
-
-  return out;
+    size_t p = s.find_first_not_of(" \t");
+    s.erase(0, p);
+ 
+    p = s.find_last_not_of(" \t");
+    if (std::string::npos != p)
+      s.erase(p+1);
 }
 
 double svmpredict(svm_model *model, int *xidx, double *xval, int n)
@@ -146,102 +140,104 @@ svm_parameter *svmparametercreate(svm_parameter *param)
 
 svm_parameter *svmparameterset(svm_parameter *param, const char *optstr, void *val)
 {
-    char *optionstr;
-    optionstr = trim(optstr);
 
-    if (strcmp(optionstr,"svm_type") == 0)
+    // Copy fortran string to C++ string and trim whitespace off
+    std :: string optionstr = optstr;
+    trim(optionstr);
+
+    if (optionstr == "svm_type")
     {
-        const char *valchar = static_cast<const char*>(val);
-        char *tempstr;
-        tempstr = trim(valchar);
-        if (strcmp(tempstr,"c_svc") == 0)
-            param -> svm_type = C_SVC;
-        else if (strcmp(tempstr,"nu_svc") == 0)
-            param -> svm_type = NU_SVC;
-        else if (strcmp(tempstr,"one_class") == 0)
-            param -> svm_type = ONE_CLASS;
-        else if (strcmp(tempstr, "epsilon_svr") == 0)
-            param -> svm_type = EPSILON_SVR;
-        else if (strcmp(tempstr, "nu_svr") == 0)
-            param -> svm_type = NU_SVR;
-        else
-            printf("SVM TYPE not recognized.\n");
+      const char *valchar = static_cast<const char*>(val);
+      std :: string tempstr = valchar; 
+      trim(tempstr);
+      if (tempstr == "c_svc")
+        param -> svm_type = C_SVC;
+      else if (tempstr == "nu_svc")
+        param -> svm_type = NU_SVC;
+      else if (tempstr == "one_class")
+        param -> svm_type = ONE_CLASS;
+      else if (tempstr == "epsilon_svr")
+        param -> svm_type = EPSILON_SVR;
+      else if (tempstr == "nu_svr")
+        param -> svm_type = NU_SVR;
+      else 
+        printf("SVM TYPE not recognized.\n");
     }
-    else if (strcmp(optionstr,"kernel_type") == 0)
+    else if (optionstr == "kernel_type")
     {
-        const char *valchar = static_cast<const char*>(val);
-        char *tempstr;
-        tempstr = trim(valchar);
-        if (strcmp(tempstr,"linear") == 0)
-            param -> kernel_type = LINEAR;
-        else if (strcmp(tempstr,"poly") == 0)
-            param -> kernel_type = POLY;
-        else if (strcmp(tempstr,"rbf") == 0)
-            param -> kernel_type = RBF;
-        else if (strcmp(tempstr,"sigmoid") == 0)
-            param -> kernel_type = SIGMOID;
-        else if (strcmp(tempstr,"precomputed") == 0)
-            param -> kernel_type = PRECOMPUTED;
-        else
-            printf("KERNEL TYPE not recognized.\n");
+      const char *valchar = static_cast<const char*>(val);
+      std :: string tempstr = valchar;
+      trim(tempstr);
+      if (tempstr == "linear")
+        param -> kernel_type = LINEAR;
+      else if (tempstr == "poly")
+        param -> kernel_type = POLY;
+      else if (tempstr == "rbf")
+        param -> kernel_type = RBF;
+      else if (tempstr == "sigmoid")
+        param -> kernel_type = SIGMOID;
+      else if (tempstr == "precomputed")
+        param -> kernel_type = PRECOMPUTED;
+      else
+        printf("KERNEL TYPE not recognized.\n");
     }
-    else if (strcmp(optionstr,"degree") == 0)
+    else if (optionstr == "degree")
     {
-        int *valint = static_cast<int *>(val);
-        param -> degree = *valint;
+      int *valint = static_cast<int *>(val);
+      param -> degree = *valint;
     }
-    else if (strcmp(optionstr,"gamma") == 0)
+    else if (optionstr == "gamma")
     {
-        double *valdoub = static_cast<double *>(val);
-        param -> gamma = *valdoub;
+      double *valdoub = static_cast<double *>(val);
+      param -> gamma = *valdoub;
     }
-    else if (strcmp(optionstr,"coef0") == 0)
+    else if (optionstr == "coef0")
     {
-        double *valdoub = static_cast<double *>(val);
-        param -> coef0 = *valdoub;
+      double *valdoub = static_cast<double *>(val);
+      param -> coef0 = *valdoub;
     }
-    else if (strcmp(optionstr,"cache_size") == 0)
+    else if (optionstr == "cache_size") 
     {
-        double *valdoub = static_cast<double *>(val);
-        param -> cache_size = *valdoub;
+      double *valdoub = static_cast<double *>(val);
+      param -> cache_size = *valdoub;
     }
-    else if (strcmp(optionstr,"eps") == 0)
+    else if (optionstr == "eps")
+    { 
+      double *valdoub = static_cast<double *>(val);
+      param -> eps = *valdoub;
+    }
+    else if (optionstr == "C")
     {
-        double *valdoub = static_cast<double *>(val);
-        param -> eps = *valdoub;
+      double *valdoub = static_cast<double *>(val);
+      param -> C = *valdoub;
     }
-    else if (strcmp(optionstr,"C") == 0)
+    else if (optionstr == "nr_weight")    
     {
-        double *valdoub = static_cast<double *>(val);
-        param -> C = *valdoub;
+      int *valint = static_cast<int *>(val);
+      param -> nr_weight = *valint;
     }
-    else if (strcmp(optionstr,"nr_weight") == 0)
+    else if (optionstr == "nu")
     {
-        int *valint = static_cast<int *>(val);
-        param -> nr_weight = *valint;
+      double *valdoub = static_cast<double *>(val);
+      param -> nu = *valdoub;
     }
-    else if (strcmp(optionstr,"nu") == 0)
+    else if (optionstr == "p")
     {
-        double *valdoub = static_cast<double *>(val);
-        param -> nu = *valdoub;
+      double *valdoub = static_cast<double *>(val);
+      param -> p = *valdoub;
     }
-    else if (strcmp(optionstr,"p") == 0)
+    else if (optionstr == "probability")
     {
-        double *valdoub = static_cast<double *>(val);
-        param -> p = *valdoub;
+      int *valint = static_cast<int *>(val);
+      param -> probability = *valint;
     }
-    else if (strcmp(optionstr,"probability") == 0)
+    else if (optionstr == "shrinking")
     {
-        int *valint = static_cast<int *>(val);
-        param -> probability = *valint;
+      int *valint = static_cast<int *>(val);
+      param -> shrinking = *valint;
     }
-    else if (strcmp(optionstr,"shrinking") == 0)
-    {
-        int *valint = static_cast<int *>(val);
-        param -> shrinking = *valint;
-    }
-    else
-        printf("Parameter option not recognized.\n");
+    else 
+      printf("Parameter option not recognized.\n");
 
     return param;
 } 
