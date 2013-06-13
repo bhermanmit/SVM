@@ -54,10 +54,91 @@ contains
     param = SvmParameterCreate(param)
     call SvmParameterPrint(param)
 
-    optstr = "gamma"
-    input = c_loc(gamma_)
-    param = SvmParameterSet(param, optstr, input)
+    ! Check SVM Type 
+    if (svm_type_ /= "") then
+      optstr = "svm_type"
+      input = c_loc(svm_type_)
+      param = SvmParameterSet(param, optstr, input)
+    end if
 
+    ! Check Kernel Type
+    if (kernel_type_ /= "") then
+      optstr = "kernel_type"
+      input = c_loc(kernel_type_)
+      param = SvmParameterSet(param, optstr, input)
+    end if
+
+    ! Check degree
+    if (degree_ /= DEFAULT_INT) then
+      optstr = "degree"
+      input = c_loc(degree_)
+      param = SvmParameterSet(param, optstr, input)
+    end if
+
+    ! Check gamma
+    if (gamma_ /= DEFAULT_REAL) then
+      optstr = "gamma"
+      input = c_loc(gamma_)
+      param = SvmParameterSet(param, optstr, input)
+    end if
+
+    ! Check coef0
+    if (coef0_ /= DEFAULT_REAL) then 
+      optstr = "coef0"
+      input = c_loc(coef0_)
+      param = SvmParameterSet(param, optstr, input)
+    end if
+
+    ! Check cache size
+    if (cache_size_ /= DEFAULT_REAL) then
+      optstr = "cache_size"
+      input = c_loc(cache_size_)
+      param = SvmParameterSet(param, optstr, input)
+    end if
+
+    ! Check eps
+    if (eps_ /= DEFAULT_REAL) then
+      optstr = "eps"
+      input = c_loc(eps_)
+      param = SvmParameterSet(param, optstr, input)
+    end if
+
+    ! Check C
+    if (C_ /= DEFAULT_REAL) then
+      optstr = "C"
+      input = c_loc(C_)
+      param = SvmParameterSet(param, optstr, input)
+    end if
+
+    ! Check Nu
+    if (nu_ /= DEFAULT_REAL) then
+      optstr = "nu"
+      input = c_loc(nu_)
+      param = SvmParameterSet(param, optstr, input)
+    end if
+
+    ! Check p
+    if (p_ /= DEFAULT_REAL) then
+      optstr = "p"
+      input = c_loc(p_)
+      param = SvmParameterSet(param, optstr, input)
+    end if
+
+    ! Check shrinking
+    if (shrinking_ /= DEFAULT_INT) then
+      optstr = "shrinking"
+      input = c_loc(shrinking_)
+      param = SvmParameterSet(param, optstr, input)
+    end if
+
+    ! Check probability
+    if (probability_ /= DEFAULT_INT) then
+      optstr = "probability"
+      input = c_loc(probability_)
+      param = SvmParameterSet(param, optstr, input)
+    end if
+
+    call SvmParameterPrint(param)
   end subroutine read_settings_xml
 
 

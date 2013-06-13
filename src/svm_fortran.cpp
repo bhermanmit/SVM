@@ -1,6 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "svm_fortran.hpp"
+
+char *trim(const char *str)
+{
+  char *out, *put;
+  out = const_cast<char *>(str);
+  put = const_cast<char *>(str);
+
+  for(; *str != '\0'; ++str)
+  {
+    if(*str != ' ')
+      *put++ = *str;
+  }
+  *put = '\0';
+
+  return out;
+}
 
 svm_model *svmtrain(svm_problem *prob, svm_parameter *param)
 {
@@ -104,16 +121,109 @@ svm_parameter *svmparametercreate(svm_parameter *param)
 
 svm_parameter *svmparameterset(svm_parameter *param, const char *optstr, void *val)
 {
-  double *valdoub = static_cast<double*>(val);
+    char *optionstr;
+    optionstr = trim(optstr);
 
-  printf("STRING IS: %s\n", optstr);
-  printf("VALUE IS: %f\n", *valdoub);
+    if (strcmp(optionstr,"svm_type") == 0)
+    {
+        const char *valchar = static_cast<const char*>(val);
+        char *tempstr;
+        tempstr = trim(valchar);
+        if (strcmp(tempstr,"c_svc") == 0)
+            param -> svm_type = C_SVC;
+        else if (strcmp(tempstr,"nu_svc") == 0)
+            param -> svm_type = NU_SVC;
+        else if (strcmp(tempstr,"one_class") == 0)
+            param -> svm_type = ONE_CLASS;
+        else if (strcmp(tempstr, "epsilon_svr") == 0)
+            param -> svm_type = EPSILON_SVR;
+        else if (strcmp(tempstr, "nu_svr") == 0)
+            param -> svm_type = NU_SVR;
+        else
+            printf("SVM TYPE not recognized.\n");
+    }
+    else if (strcmp(optionstr,"kernel_type") == 0)
+    {
+        const char *valchar = static_cast<const char*>(val);
+        char *tempstr;
+        tempstr = trim(valchar);
+        if (strcmp(tempstr,"linear") == 0)
+            param -> kernel_type = LINEAR;
+        else if (strcmp(tempstr,"poly") == 0)
+            param -> kernel_type = POLY;
+        else if (strcmp(tempstr,"rbf") == 0)
+            param -> kernel_type = RBF;
+        else if (strcmp(tempstr,"sigmoid") == 0)
+            param -> kernel_type = SIGMOID;
+        else if (strcmp(tempstr,"precomputed") == 0)
+            param -> kernel_type = PRECOMPUTED;
+        else
+            printf("KERNEL TYPE not recognized.\n");
+    }
+    else if (strcmp(optionstr,"degree") == 0)
+    {
+        int *valint = static_cast<int *>(val);
+        param -> degree = *valint;
+    }
+    else if (strcmp(optionstr,"gamma") == 0)
+    {
+        double *valdoub = static_cast<double *>(val);
+        param -> gamma = *valdoub;
+    }
+    else if (strcmp(optionstr,"coef0") == 0)
+    {
+        double *valdoub = static_cast<double *>(val);
+        param -> coef0 = *valdoub;
+    }
+    else if (strcmp(optionstr,"cache_size") == 0)
+    {
+        double *valdoub = static_cast<double *>(val);
+        param -> cache_size = *valdoub;
+    }
+    else if (strcmp(optionstr,"eps") == 0)
+    {
+        double *valdoub = static_cast<double *>(val);
+        param -> eps = *valdoub;
+    }
+    else if (strcmp(optionstr,"C") == 0)
+    {
+        double *valdoub = static_cast<double *>(val);
+        param -> C = *valdoub;
+    }
+    else if (strcmp(optionstr,"nr_weight") == 0)
+    {
+        int *valint = static_cast<int *>(val);
+        param -> nr_weight = *valint;
+    }
+    else if (strcmp(optionstr,"nu") == 0)
+    {
+        double *valdoub = static_cast<double *>(val);
+        param -> nu = *valdoub;
+    }
+    else if (strcmp(optionstr,"p") == 0)
+    {
+        double *valdoub = static_cast<double *>(val);
+        param -> p = *valdoub;
+    }
+    else if (strcmp(optionstr,"probability") == 0)
+    {
+        int *valint = static_cast<int *>(val);
+        param -> probability = *valint;
+    }
+    else if (strcmp(optionstr,"shrinking") == 0)
+    {
+        int *valint = static_cast<int *>(val);
+        param -> shrinking = *valint;
+    }
+    else
+        printf("Parameter option not recognized.\n");
 
-  return param;
+    return param;
 } 
 
 void svmparameterprint(svm_parameter *param)
 {
+    // Print out all parameter options
     printf("SVM TYPE: %d\n", param -> svm_type);
     printf("KERNEL TYPE: %d\n", param -> kernel_type);
     printf("DEGREE: %d\n", param -> degree);
