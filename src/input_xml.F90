@@ -6,7 +6,8 @@ module input_xml
   use output,  only: write_message
 
   implicit none
-  save
+
+  logical :: calc_gamma = .false.
 
 contains
 
@@ -17,8 +18,14 @@ contains
 
   subroutine read_input_xml()
 
+    ! read in settings input file
     call read_settings_xml()
+
+    ! read in data input file
     call read_data_xml()
+
+    ! print out parameter list
+    call SvmParameterPrint(param)
 
   end subroutine read_input_xml
 
@@ -52,7 +59,6 @@ contains
 
     ! Create a parameter object
     param = SvmParameterCreate(param)
-    call SvmParameterPrint(param)
 
     ! Check SVM Type 
     if (svm_type_ /= "") then
@@ -80,6 +86,8 @@ contains
       optstr = "gamma"
       input = c_loc(gamma_)
       param = SvmParameterSet(param, optstr, input)
+    else
+      calc_gamma = .true.
     end if
 
     ! Check coef0
@@ -138,7 +146,6 @@ contains
       param = SvmParameterSet(param, optstr, input)
     end if
 
-    call SvmParameterPrint(param)
   end subroutine read_settings_xml
 
 
@@ -155,9 +162,13 @@ contains
     integer :: n_train
     integer :: n_test
     integer :: n_features
+    integer :: n_features_max
     integer :: i
     integer, allocatable :: index_vec(:)
     real(8), allocatable :: value_vec(:)
+    real(8) :: temp_real
+    character(len=25) :: temp_char
+    type(c_ptr) :: cptr
 
     ! Display output message
     message = "Reading data XML file..."
@@ -177,11 +188,15 @@ contains
     ! Get data sizes
     n_train = size(traindata_)
     n_test = size(testdata_)
-    n_features = max_features_
+    n_features_max = max_features_
+    if (n_features_max == 0) then
+      message = "Maximum number of features is 0"
+      call fatal_error()
+    end if 
 
     ! Allocate data
-    allocate(index_vec(n_features))
-    allocate(value_vec(n_features))
+    allocate(index_vec(n_features_max))
+    allocate(value_vec(n_features_max))
 
     ! Create the problem
     prob = SvmProblemCreate(prob, n_train)
@@ -202,9 +217,16 @@ contains
 
     end do
 
+    ! Check to see if gamma needs to be calculated
+    if (calc_gamma) then
+      temp_real = ONE/dble(n_features_max)
+      cptr = c_loc(temp_real)
+      temp_char = "gamma"
+      param = SvmParameterSet(param, temp_char, cptr)
+    end if
+
     ! Check problem
     call SvmDataFinalize(prob, param)
-    model = SvmTrain(prob, param)
 
     ! Deallocate
     deallocate(index_vec)

@@ -32,7 +32,7 @@ LIBSVM   = yes
 MPI_DIR   = /opt/petsc/petsc-3.3-p3/externalpackages/mpich2-1.4.1p1
 HDF5_DIR  = /opt/hdf5/1.8.9-$(COMPILER)
 PETSC_DIR = /opt/petsc/3.3-$(COMPILER)
-LIBSVM_DIR = /home/bherman/libsvm
+LIBSVM_DIR = /home/bherman/Documents/Files/libsvm
 
 #===============================================================================
 # Add git SHA-1 hash
