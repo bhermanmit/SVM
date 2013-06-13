@@ -21,6 +21,7 @@ with open(filename, 'r') as fh:
 traindataList = []
 testdataList = []
 dataList = traindataList
+max_features = 0
 n_pts = 0
 for line in lines:
   if n_pts == n_train:
@@ -30,14 +31,19 @@ for line in lines:
   dataList.append({'yval':float(sline[0]),'id':n_pts+1})
   dataList[n_pts].update({'xinputs':[]})
   del sline[0]
+  n_features = 0
   for inputset in sline:
     aset = inputset.split(':')
     dataList[n_pts]['xinputs'].append({'idx':aset[0],'val':aset[1]})
+    n_features += 1 
   n_pts += 1
+  if n_features > max_features:
+    max_features = n_features
 
 outStr = """<?xml version="1.0" encoding="UTF-8"?>\n"""
 outStr += "<data>\n"
 outStr += "\n"
+outStr += " <max_features> {0} </max_features>\n\n".format(max_features)
 
 for data in traindataList:
   xinputs = ""
