@@ -39,7 +39,7 @@ contains
     ! Create svm problem object in C++
     prob = SvmProblemCreate(prob, n_train)
 
-    ! Loop around train data and set to problem
+    ! Loop around train data and add to C++ problem structure
     do i = 1, n_train
 
       ! Copy data
@@ -75,7 +75,32 @@ contains
     integer :: i
     integer, allocatable :: index_vec(:)
     real(8), allocatable :: value_vec(:)
-    type(c_ptr) :: f_ptr
+    real(8) :: y_predict
+
+    ! Allocate temp vectors
+    allocate(index_vec(n_features_max))
+    allocate(value_vec(n_features_max))
+
+    ! Loop around train data and set to problem
+    do i = 1, n_test
+
+      ! Copy data
+      index_vec(1:test_data % datapt(i) % n) = test_data % datapt(i) % &
+                                                x(:) % idx
+      value_vec(1:test_data % datapt(i) % n) = test_data % datapt(i) % &
+                                                x(:) % val 
+
+      ! Predict y value
+      y_predict = SvmPredict(model, index_vec, value_vec, &
+                             test_data % datapt(i) % n)
+
+      print *, test_data % datapt(i) % y, y_predict
+
+    end do
+
+    ! Deallocate temp vectors
+    deallocate(index_vec)
+    deallocate(value_vec)
 
   end subroutine data_predict
 

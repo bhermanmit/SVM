@@ -19,6 +19,31 @@ char *trim(const char *str)
   return out;
 }
 
+double svmpredict(svm_model *model, int *xidx, double *xval, int n)
+{
+    // Define a svm_node to copy data to
+    svm_node *node = new svm_node[n+1];
+
+    // Loop around each input and copy over
+    for (int i = 0; i < n; i++)
+    {
+      node[i].index = xidx[i];
+      node[i].value = xval[i];
+    }
+
+     // Set -1 index for termination
+     node[n].index = -1;
+     node[n].value =  0;
+
+     // Predict y value
+     double y_predict = svm_predict(model, node);
+
+     // Free memory from node
+     delete[] node;
+
+     return y_predict;
+}
+
 svm_model *svmtrain(svm_problem *prob, svm_parameter *param)
 {
     svm_model *model = new svm_model;

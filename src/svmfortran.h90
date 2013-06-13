@@ -8,6 +8,15 @@
 
 interface
 
+  function SvmPredict(model, xidx, xval, n) bind (c)
+    use iso_c_binding
+    real(c_double) :: SvmPredict
+    SvmModel, value :: model
+    integer(c_int) :: xidx(*)
+    real(c_double) :: xval(*)
+    integer(c_int), value :: n
+  end function SvmPredict
+
   function SvmTrain(prob, param) bind (c)
     use iso_c_binding
     SvmModel :: SvmTrain

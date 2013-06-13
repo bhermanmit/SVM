@@ -3,6 +3,7 @@
 
 extern "C"
 {
+    double svmpredict(svm_model *model, int *xidx, double *xval, int n);
     svm_model *svmtrain(svm_problem *prob, svm_parameter *param);
     void svmdatafinalize(svm_problem *prob, svm_parameter *param);
     svm_problem *svmproblemcreate(svm_problem *prob, int n);
