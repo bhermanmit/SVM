@@ -24,6 +24,12 @@ interface
     SvmParameter, value :: param
   end function SvmTrain
 
+  function SvmModelDestroy(model) bind (c)
+    use iso_c_binding
+    SvmModel :: SvmModelDestroy
+    SvmModel, value :: model
+  end function SvmModelDestroy
+
   subroutine SvmDataFinalize(prob, param) bind(c)
     use iso_c_binding
     SvmProblem, value :: prob
@@ -36,6 +42,12 @@ interface
     SvmProblem, value :: prob
     integer(c_int), value :: n
   end function SvmProblemCreate
+
+  function SvmProblemDestroy(prob) bind (c)
+    use iso_c_binding
+    SvmProblem :: SvmProblemDestroy
+    SvmProblem, value :: prob
+  end function SvmProblemDestroy
 
   function SvmProblemAddData(prob, y, yidx, xidx, xval, n) bind (c)
     use iso_c_binding
@@ -59,6 +71,12 @@ interface
     SvmParameter :: SvmParameterCreate
     SvmParameter, value :: param
   end function SvmParameterCreate
+
+  function SvmParameterDestroy(param) bind(c)
+    use iso_c_binding
+    SvmParameter :: SvmParameterDestroy
+    SvmParameter, value :: param
+  end function SvmParameterDestroy
 
   function SvmParameterSet(param, optstr, val) bind(c)
     use iso_c_binding

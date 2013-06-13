@@ -46,6 +46,28 @@ contains
 
   subroutine free_memory()
 
+    integer :: i
+
+    ! free training data
+    do i = 1, n_train
+      call deallocate_data(train_data % datapt(i))
+    end do
+    call deallocate_problem(train_data)
+
+    ! free test data
+    do i = 1, n_test
+      call deallocate_data(test_data % datapt(i))
+    end do
+    call deallocate_problem(test_data)
+
+    ! free svm parameter C++ object
+    param = SvmParameterDestroy(param)
+
+    ! free svm problem C++ object
+    prob = SvmProblemDestroy(prob)
+
+    ! free svm model C++ object
+    model = SvmModelDestroy(model)
  
   end subroutine free_memory
 

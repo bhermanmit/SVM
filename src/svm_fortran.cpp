@@ -45,6 +45,25 @@ svm_model *svmtrain(svm_problem *prob, svm_parameter *param)
     return model;
 }
 
+svm_model *svmmodeldestroy(svm_model *model)
+{
+    delete[] model -> rho;
+    delete[] model -> probA;
+    delete[] model -> probB;
+    delete[] model -> sv_indices;
+    delete[] model -> label;
+    delete[] model -> nSV;
+    for (int i = 0; i < model -> l; i++)
+    {
+        delete[] model -> sv_coef[i];
+        delete[] model -> SV[i];
+    }
+    delete model -> sv_coef;
+    delete model -> SV;
+
+    return model;
+}
+
 void svmdatafinalize(svm_problem *prob, svm_parameter *param)
 {
     const char *error_msg;
@@ -71,6 +90,15 @@ svm_problem *svmproblemcreate(svm_problem *prob, int n)
     return prob;
 }
 
+svm_problem *svmproblemdestroy(svm_problem * prob)
+{
+    delete[] prob -> y;
+    for (int i = 0; i < prob -> l; i++)
+       delete[] prob -> x[i];
+    delete[] prob -> x;    
+
+    return prob;
+}
 
 svm_problem *svmproblemadddata(svm_problem *prob, double y, int yidx, int *xidx, double *xval, int n)
 {
@@ -135,6 +163,12 @@ svm_parameter *svmparametercreate(svm_parameter *param)
     param -> weight_label = NULL;
     param -> weight = NULL;
 
+    return param;
+}
+
+svm_parameter *svmparameterdestroy(svm_parameter *param)
+{
+    delete param;
     return param;
 }
 
