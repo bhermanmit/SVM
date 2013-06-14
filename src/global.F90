@@ -61,13 +61,18 @@ contains
     call deallocate_problem(test_data)
 
     ! free svm parameter C++ object
-    param = SvmParameterDestroy(param)
+    call SvmParameterDestroy(param)
 
     ! free svm problem C++ object
-    prob = SvmProblemDestroy(prob)
+    call SvmProblemDestroy(prob)
 
     ! free svm model C++ object
-    model = SvmModelDestroy(model)
+    call SvmModelDestroy(model)
+
+    ! set pointers to null
+    model = C_NULL_PTR
+    prob = C_NULL_PTR
+    model = C_NULL_PTR
  
   end subroutine free_memory
 

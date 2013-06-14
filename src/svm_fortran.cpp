@@ -45,11 +45,9 @@ svm_model *svmtrain(svm_problem *prob, svm_parameter *param)
     return model;
 }
 
-svm_model *svmmodeldestroy(svm_model *model)
+void svmmodeldestroy(svm_model *model)
 {
     svm_free_and_destroy_model(&model);
-
-    return model;
 }
 
 void svmdatafinalize(svm_problem *prob, svm_parameter *param)
@@ -78,15 +76,13 @@ svm_problem *svmproblemcreate(int n)
     return prob;
 }
 
-svm_problem *svmproblemdestroy(svm_problem * prob)
+void svmproblemdestroy(svm_problem * prob)
 {
     delete[] prob -> y;
     for (int i = 0; i < prob -> l; i++)
        delete[] prob -> x[i];
     delete[] prob -> x;    
     delete prob;
-
-    return prob;
 }
 
 svm_problem *svmproblemadddata(svm_problem *prob, double y, int yidx, int *xidx, double *xval, int n)
@@ -155,12 +151,10 @@ svm_parameter *svmparametercreate()
     return param;
 }
 
-svm_parameter *svmparameterdestroy(svm_parameter *param)
+void svmparameterdestroy(svm_parameter *param)
 {
     svm_destroy_param(param);
     delete param;
-
-    return param;
 }
 
 svm_parameter *svmparameterset(svm_parameter *param, const char *optstr, void *val)

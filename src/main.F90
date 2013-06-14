@@ -1,7 +1,6 @@
 program main
 
   use finalize,       only: finalize_run
-  use global
   use initialize,     only: initialize_run
   use svm,            only: run_svm
 
