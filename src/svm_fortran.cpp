@@ -40,26 +40,14 @@ double svmpredict(svm_model *model, int *xidx, double *xval, int n)
 
 svm_model *svmtrain(svm_problem *prob, svm_parameter *param)
 {
-    svm_model *model = new svm_model;
+    svm_model *model;
     model = svm_train(prob, param);
     return model;
 }
 
 svm_model *svmmodeldestroy(svm_model *model)
 {
-    delete[] model -> rho;
-    delete[] model -> probA;
-    delete[] model -> probB;
-    delete[] model -> sv_indices;
-    delete[] model -> label;
-    delete[] model -> nSV;
-    for (int i = 0; i < model -> l; i++)
-    {
-        delete[] model -> sv_coef[i];
-        delete[] model -> SV[i];
-    }
-    delete model -> sv_coef;
-    delete model -> SV;
+    svm_free_and_destroy_model(&model);
 
     return model;
 }
@@ -96,6 +84,7 @@ svm_problem *svmproblemdestroy(svm_problem * prob)
     for (int i = 0; i < prob -> l; i++)
        delete[] prob -> x[i];
     delete[] prob -> x;    
+    delete prob;
 
     return prob;
 }
@@ -168,7 +157,9 @@ svm_parameter *svmparametercreate(svm_parameter *param)
 
 svm_parameter *svmparameterdestroy(svm_parameter *param)
 {
+    svm_destroy_param(param);
     delete param;
+
     return param;
 }
 
