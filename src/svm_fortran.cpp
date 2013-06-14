@@ -65,10 +65,10 @@ void svmdatafinalize(svm_problem *prob, svm_parameter *param)
     }
 }
 
-svm_problem *svmproblemcreate(svm_problem *prob, int n)
+svm_problem *svmproblemcreate(int n)
 {
     // Allocate a pointer of svm_problem type
-    prob = new svm_problem;
+    svm_problem *prob = new svm_problem;
 
     // Set and allocate data in problem
     prob -> l = n; // copies n over to problem
@@ -130,10 +130,10 @@ void svmproblemprintdata(svm_problem *prob, int i)
     }
 }
 
-svm_parameter *svmparametercreate(svm_parameter *param)
+svm_parameter *svmparametercreate()
 {
     // Allocate a svm_parameter
-    param = new svm_parameter;
+    svm_parameter *param = new svm_parameter;
 
     // Setup default values
     param -> svm_type = C_SVC;

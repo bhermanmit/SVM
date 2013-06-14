@@ -42,7 +42,7 @@ contains
     allocate(value_vec(n_features_max))
 
     ! Create svm problem object in C++
-    prob = SvmProblemCreate(prob, n_train)
+    prob = SvmProblemCreate(n_train)
 
     ! Loop around train data and add to C++ problem structure
     do i = 1, n_train

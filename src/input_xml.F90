@@ -60,7 +60,7 @@ contains
     call read_xml_file_settings_t(filename)
 
     ! Create a parameter object
-    param = SvmParameterCreate(param)
+    param = SvmParameterCreate()
 
     ! Check SVM Type 
     if (svm_type_ /= "") then

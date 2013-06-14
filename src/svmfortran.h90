@@ -36,10 +36,9 @@ interface
     SvmParameter, value :: param
   end subroutine SvmDataFinalize
 
-  function SvmProblemCreate(prob, n) bind (c)
+  function SvmProblemCreate(n) bind (c)
     use iso_c_binding
     SvmProblem :: SvmProblemCreate
-    SvmProblem, value :: prob
     integer(c_int), value :: n
   end function SvmProblemCreate
 
@@ -66,10 +65,9 @@ interface
     integer(c_int), value     :: i
   end subroutine SvmProblemPrintData
 
-  function SvmParameterCreate(param) bind(c)
+  function SvmParameterCreate() bind(c)
     use iso_c_binding
     SvmParameter :: SvmParameterCreate
-    SvmParameter, value :: param
   end function SvmParameterCreate
 
   function SvmParameterDestroy(param) bind(c)
