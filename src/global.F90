@@ -37,6 +37,9 @@ module global
   real(8) :: r2
   real(8) :: acc
 
+  ! Scale problem
+  logical :: scale_values = .false.
+
 contains
 
 !===============================================================================

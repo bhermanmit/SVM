@@ -10,10 +10,11 @@
   <variable name="coef0_"       tag="coef0"       type="double"  default="999."           />
   <variable name="C_"           tag="C"           type="double"  default="999."           />
   <variable name="nu_"          tag="nu"          type="double"  default="999."           />
-  <variable name="p_"            tag="p"           type="double"  default="999."           />
+  <variable name="p_"            tag="p"          type="double"  default="999."           />
   <variable name="cache_size_"  tag="cache_size"  type="double"  default="999."           />
   <variable name="eps_"         tag="eps"         type="double"  default="999."           />
   <variable name="shrinking_"   tag="shrinking"   type="integer" default="999"            />
   <variable name="probability_" tag="probability" type="integer" default="999"            />
+  <variable name="scale_"       tag="scale"       type="word"    length="25" default="''" />
 
 </template>

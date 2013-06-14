@@ -16,6 +16,12 @@ contains
 
   subroutine run_svm()
 
+    ! scale values
+    if (scale_values) then
+      call header("SCALING DATA", level=2)
+      call scale_data()
+    end if
+
     ! train data
     call header("TRAINING MACHINE", level=1)
     call data_train()
@@ -26,6 +32,80 @@ contains
     call data_predict()
 
   end subroutine run_svm
+
+!===============================================================================
+! SCALE_DATA
+!===============================================================================
+
+  subroutine scale_data()
+
+    integer :: i
+    integer :: j
+    integer :: idx
+    real(8) :: val
+    real(8), allocatable :: max_values(:)
+
+    ! Allocate temporary vector for maximum values
+    allocate(max_values(n_features_max))
+    max_values = ZERO
+
+    ! Loop around training data to find scaling factors
+    do i = 1, n_train
+
+      ! Loop around input vector
+      do j = 1, train_data % datapt(i) % n
+
+        ! Copy values over
+        idx = train_data % datapt(i) % x(j) % idx
+        val = abs(train_data % datapt(i) % x(j) % val)
+
+        ! Check against maximum values
+        if (val > max_values(idx)) max_values(idx) = val
+
+      end do
+
+    end do
+
+    ! Scale training data
+    do i = 1, n_train
+
+      ! Loop around input vector
+      do j = 1, train_data % datapt(i) % n
+
+        ! Copy values over 
+        idx = train_data % datapt(i) % x(j) % idx
+        val = max_values(idx) 
+
+        ! Scale
+        train_data % datapt(i) % x(j) % val = &
+        train_data % datapt(i) % x(j) % val / val
+
+      end do
+
+    end do
+
+    ! Scale test data
+    do i = 1, n_test
+
+      ! Loop around input vector
+      do j = 1, test_data % datapt(i) % n
+
+        ! Copy values over 
+        idx = test_data % datapt(i) % x(j) % idx
+        val = max_values(idx) 
+
+        ! Scale
+        test_data % datapt(i) % x(j) % val = &
+        test_data % datapt(i) % x(j) % val / val
+
+      end do
+
+    end do
+print *, 'SCALINGING VALUES:', max_values
+    ! Deallocate temporary vector
+    deallocate(max_values)
+
+  end subroutine scale_data
 
 !===============================================================================
 ! DATA_TRAIN 

@@ -59,6 +59,9 @@ contains
     ! Parse settings.xml file
     call read_xml_file_settings_t(filename)
 
+    ! Check for scaling
+    if (trim(scale_) == "true") scale_values = .true.
+
     ! Create a parameter object
     param = SvmParameterCreate()
 
