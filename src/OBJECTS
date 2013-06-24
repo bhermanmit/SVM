@@ -9,5 +9,4 @@ main.o \
 output.o \
 string.o \
 svm.o \
-svm_fortran.o \
 svm_header.o
