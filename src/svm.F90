@@ -215,7 +215,7 @@ print *, 'SCALINGING VALUES:', max_values
         else ! regression
 
           ! Collect errors
-          error = error + (y_predict - y_test)**2
+          error = error + ((y_predict - y_test)/y_test)**2
           sump = sump + y_predict
           sumt = sumt + y_test
           sumpp = sumpp + y_predict**2
@@ -227,8 +227,8 @@ print *, 'SCALINGING VALUES:', max_values
       else
 
         ! Just print y value
-        call print_prediction(i, y_predict)
-
+!       call print_prediction(i, y_predict)
+       write(17, *) test_data % datapt(i) % x(1) % val, y_predict
       end if
  
     end do
@@ -240,7 +240,7 @@ print *, 'SCALINGING VALUES:', max_values
       acc = dble(correct)/dble(total) * 100._8
 
     else ! regression
-
+      if (total > 0) then
       ! Calculate mean squared error
       mse = error/dble(total)
 
@@ -250,7 +250,11 @@ print *, 'SCALINGING VALUES:', max_values
       ! Calculate squared correlation coefficient
       r2 = ((dble(total)*sumpt - sump*sumt)*(dble(total)*sumpt - sump*sumt)) / &
            ((dble(total)*sumpp - sump*sump)*(dble(total)*sumtt - sumt*sumt))
-
+      else
+        mse = DEFAULT_REAL
+        rmsp = DEFAULT_REAL
+        r2 = DEFAULT_REAL
+      end if 
     end if
 
     ! Deallocate temp vectors
