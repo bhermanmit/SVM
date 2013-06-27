@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+
+  <svm_type> epsilon_svr </svm_type>
+  <p> 1.e-8 </p>
+  <eps> 1e-10 </eps>
+  <C> 100.0 </C>
+  <gamma> 0.25 </gamma>
+
+</settings>
